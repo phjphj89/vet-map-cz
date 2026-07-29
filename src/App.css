@@ -23,6 +23,13 @@
   width: 100%;
 }
 
+/* Leaflet's own stylesheet sets a hardcoded Arial/Helvetica font on
+   the map container (including popups) - override it to match the
+   rest of the site. */
+.leaflet-container {
+  font-family: var(--font-body) !important;
+}
+
 /* Below ~900px (tablet/phone width), stack the map above the list
    instead of side-by-side - there isn't room for a 1/3-width map to
    stay usable on a narrow screen. */

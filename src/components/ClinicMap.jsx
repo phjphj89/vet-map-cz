@@ -63,6 +63,16 @@ function getPinIcon(clinic) {
   return PIN_ICONS.standard;
 }
 
+// Scrolls the matching clinic card into view when its map pin is
+// clicked. If the card isn't currently on the page (e.g. hidden by
+// the kraj filter), this simply does nothing.
+function scrollToClinicCard(clinicId) {
+  const cardElement = document.getElementById(`clinic-${clinicId}`);
+  if (cardElement) {
+    cardElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
 // Roughly the center of the Czech Republic, used as the map's starting view.
 const CZECH_REPUBLIC_CENTER = [49.8, 15.5];
 const DEFAULT_ZOOM = 7;
@@ -83,7 +93,12 @@ export function ClinicMap({ clinics }) {
       />
 
       {clinics.map((clinic) => (
-        <Marker key={clinic.id} position={[clinic.lat, clinic.lng]} icon={getPinIcon(clinic)}>
+        <Marker
+          key={clinic.id}
+          position={[clinic.lat, clinic.lng]}
+          icon={getPinIcon(clinic)}
+          eventHandlers={{ click: () => scrollToClinicCard(clinic.id) }}
+        >
           <Popup>
             <strong>{clinic.name}</strong>
             <br />

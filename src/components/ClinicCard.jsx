@@ -19,7 +19,7 @@ export function ClinicCard({ clinic }) {
   const hasExpandableContent = notes || emergency || clinic.recommended_vet;
 
   return (
-    <div className="clinic-card">
+    <div className="clinic-card" id={`clinic-${clinic.id}`}>
       <div className="clinic-card-header">
         <h3>{clinic.name}</h3>
         <div className="badge-row">
