@@ -28,6 +28,7 @@ export const translations = {
     menuContactText: "Found a mistake, or know of a rabbit-friendly clinic that should be listed? Get in touch:",
     lastUpdatedLabel: "Data last updated",
     dataAccuracyNote: "Clinic details (hours, contact info) may change. Please confirm directly with the clinic before visiting, especially for emergencies.",
+    bloodDonorButton: "Find blood donor - Kapka pro ušáčka",
   },
   cs: {
     siteTitle: "Veterináři pro králíky – Česká republika",
@@ -54,6 +55,7 @@ export const translations = {
     menuContactText: "Našli jste chybu, nebo víte o klinice přátelské ke králíkům, která by zde měla být uvedena? Ozvěte se:",
     lastUpdatedLabel: "Data naposledy aktualizována",
     dataAccuracyNote: "Údaje o klinikách (otevírací doba, kontakty) se mohou měnit. Před návštěvou si je prosím ověřte přímo u kliniky, zejména v případě pohotovosti.",
+    bloodDonorButton: "Sehnat dárce krve - Kapka pro ušáčka",
   },
 };
 

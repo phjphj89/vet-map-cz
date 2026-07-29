@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import { ClinicCard } from "./ClinicCard";
+import { BloodDonorButton } from "./BloodDonorButton";
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -57,6 +58,7 @@ export function ClinicList({ clinics }) {
         <span className="result-count">
           {filteredClinics.length} {t.clinicsFound}
         </span>
+        <BloodDonorButton />
       </div>
 
       {filteredClinics.map((clinic) => (

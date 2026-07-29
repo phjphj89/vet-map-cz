@@ -11,15 +11,17 @@
   grid-template-columns: 1fr 2fr;
   gap: 24px;
   align-items: start;
+  margin-top: 16px;
 }
 
 .map-column {
   position: sticky;
-  top: 16px;
+  top: calc(var(--header-height) + 16px);
+  z-index: 10;
 }
 
 .map-container {
-  height: calc(100vh - 32px);
+  height: calc(100vh - var(--header-height) - 32px);
   width: 100%;
 }
 
@@ -55,8 +57,11 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 16px;
-  padding-bottom: 16px;
+  height: var(--header-height);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -181,7 +186,28 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin: 20px 0 12px;
+  margin: 0 0 12px;
+  padding: 16px 0;
+  position: sticky;
+  top: var(--header-height);
+  z-index: 20;
+  background: var(--color-bg);
+}
+
+.blood-donor-button {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #F6DEDB;
+  border: 2px solid #A83B32;
+  color: #7A2A22;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--font-body);
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .filter-row select {

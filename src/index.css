@@ -19,6 +19,7 @@
 
   --font-display: 'Fraunces', serif;
   --font-body: 'Nunito', sans-serif;
+  --header-height: 64px;
 }
 
 * {
