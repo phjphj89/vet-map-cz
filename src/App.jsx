@@ -2,6 +2,7 @@ import { useLanguage } from "./i18n/LanguageContext";
 import { ClinicMap } from "./components/ClinicMap";
 import { ClinicList } from "./components/ClinicList";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
+import { HamburgerMenu } from "./components/HamburgerMenu";
 import clinicsData from "./data/clinics.json";
 import "./App.css";
 
@@ -15,19 +16,22 @@ function App() {
           <RabbitEarsIcon />
           <h1>{t.siteTitle}</h1>
         </div>
-        <div className="language-toggle">
-          <button
-            className={language === "cs" ? "active" : ""}
-            onClick={() => setLanguage("cs")}
-          >
-            CS
-          </button>
-          <button
-            className={language === "en" ? "active" : ""}
-            onClick={() => setLanguage("en")}
-          >
-            EN
-          </button>
+        <div className="header-controls">
+          <div className="language-toggle">
+            <button
+              className={language === "cs" ? "active" : ""}
+              onClick={() => setLanguage("cs")}
+            >
+              CS
+            </button>
+            <button
+              className={language === "en" ? "active" : ""}
+              onClick={() => setLanguage("en")}
+            >
+              EN
+            </button>
+          </div>
+          <HamburgerMenu />
         </div>
       </header>
 

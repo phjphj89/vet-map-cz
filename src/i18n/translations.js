@@ -22,6 +22,12 @@ export const translations = {
     badgeWeekendEmergency: "Weekend emergency service",
     clinicsFound: "clinics found",
     closed: "Closed",
+    menuAboutTitle: "About this site",
+    menuAboutText: "This site helps people in the Czech Republic find a vet who treats rabbits. According to FEDIAF (the European Pet Food Industry Federation), small mammals - including rabbits - are the third most commonly kept pet in the Czech Republic, yet many veterinary clinics don't have a vet trained in their care. This is a curated list of clinics that do.",
+    menuContactTitle: "Contact",
+    menuContactText: "Found a mistake, or know of a rabbit-friendly clinic that should be listed? Get in touch:",
+    lastUpdatedLabel: "Data last updated",
+    dataAccuracyNote: "Clinic details (hours, contact info) may change. Please confirm directly with the clinic before visiting, especially for emergencies.",
   },
   cs: {
     siteTitle: "Veterináři pro králíky – Česká republika",
@@ -42,6 +48,12 @@ export const translations = {
     badgeWeekendEmergency: "Víkendová pohotovost",
     clinicsFound: "klinik nalezeno",
     closed: "Zavřeno",
+    menuAboutTitle: "O tomto webu",
+    menuAboutText: "Tento web pomáhá lidem v České republice najít veterináře, který léčí králíky. Podle FEDIAF (Evropské federace výrobců krmiv pro zvířata v zájmovém chovu) jsou malí savci - včetně králíků - třetím nejčastěji chovaným domácím mazlíčkem v České republice, přesto mnoho veterinárních klinik nemá veterináře vyškoleného v péči o ně. Toto je vybraný seznam klinik, které ano.",
+    menuContactTitle: "Kontakt",
+    menuContactText: "Našli jste chybu, nebo víte o klinice přátelské ke králíkům, která by zde měla být uvedena? Ozvěte se:",
+    lastUpdatedLabel: "Data naposledy aktualizována",
+    dataAccuracyNote: "Údaje o klinikách (otevírací doba, kontakty) se mohou měnit. Před návštěvou si je prosím ověřte přímo u kliniky, zejména v případě pohotovosti.",
   },
 };
 
