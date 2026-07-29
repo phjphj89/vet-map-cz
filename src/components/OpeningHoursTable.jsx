@@ -5,14 +5,42 @@ import { formatTimeRange } from "../utils/formatTime";
 export function OpeningHoursTable({ clinic }) {
   const { language, t } = useLanguage();
 
+  // Shown as an extra row whenever it's been filled in, regardless of
+  // whether the regular weekly hours parsed cleanly or not.
+  const holidayHours = clinic[`holiday_hours_${language}`];
+  const holidayRow = holidayHours ? (
+    <tr>
+      <td className="hours-day">{t.publicHolidays}</td>
+      <td className="hours-time">{holidayHours}</td>
+    </tr>
+  ) : null;
+
   if (!clinic.hours) {
-    return <p className="hours-fallback">{t.notAvailable}</p>;
+    return (
+      <>
+        <p className="hours-fallback">{t.notAvailable}</p>
+        {holidayRow && (
+          <table className="hours-table">
+            <tbody>{holidayRow}</tbody>
+          </table>
+        )}
+      </>
+    );
   }
 
   // Irregular format (caveats, multiple locations, etc.) - we didn't
   // parse this one, so show the original text rather than guess.
   if (!clinic.hours_parse_ok) {
-    return <p className="hours-fallback">{translateHours(clinic.hours, language)}</p>;
+    return (
+      <>
+        <p className="hours-fallback">{translateHours(clinic.hours, language)}</p>
+        {holidayRow && (
+          <table className="hours-table">
+            <tbody>{holidayRow}</tbody>
+          </table>
+        )}
+      </>
+    );
   }
 
   return (
@@ -30,6 +58,7 @@ export function OpeningHoursTable({ clinic }) {
             </tr>
           );
         })}
+        {holidayRow}
       </tbody>
     </table>
   );

@@ -48,7 +48,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 2,
@@ -97,7 +99,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 3,
@@ -147,7 +151,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 4,
@@ -203,7 +209,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 5,
@@ -253,7 +261,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 6,
@@ -303,7 +313,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 7,
@@ -332,7 +344,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 8,
@@ -385,7 +399,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 9,
@@ -433,7 +449,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 10,
@@ -482,7 +500,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 11,
@@ -538,7 +558,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 12,
@@ -589,7 +611,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 13,
@@ -618,7 +642,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 14,
@@ -668,7 +694,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 15,
@@ -697,7 +725,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 16,
@@ -745,7 +775,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 17,
@@ -798,7 +830,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 18,
@@ -846,7 +880,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 19,
@@ -894,7 +930,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 20,
@@ -944,7 +982,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 21,
@@ -973,7 +1013,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 22,
@@ -1018,7 +1060,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 23,
@@ -1066,7 +1110,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 24,
@@ -1109,7 +1155,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 25,
@@ -1160,7 +1208,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 26,
@@ -1189,7 +1239,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 27,
@@ -1237,7 +1289,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 28,
@@ -1282,7 +1336,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 29,
@@ -1333,7 +1389,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 30,
@@ -1386,7 +1444,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 31,
@@ -1415,7 +1475,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 32,
@@ -1444,7 +1506,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 33,
@@ -1500,7 +1564,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 34,
@@ -1548,7 +1614,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 35,
@@ -1593,7 +1661,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 36,
@@ -1644,7 +1714,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 37,
@@ -1689,7 +1761,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 38,
@@ -1739,7 +1813,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 39,
@@ -1792,7 +1868,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 40,
@@ -1842,7 +1920,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 41,
@@ -1887,7 +1967,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 42,
@@ -1940,7 +2022,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 43,
@@ -1993,7 +2077,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 44,
@@ -2046,7 +2132,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 45,
@@ -2091,7 +2179,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 46,
@@ -2120,7 +2210,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 47,
@@ -2176,7 +2268,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 48,
@@ -2205,7 +2299,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 49,
@@ -2234,7 +2330,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 50,
@@ -2283,7 +2381,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 51,
@@ -2328,7 +2428,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 52,
@@ -2357,7 +2459,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 53,
@@ -2386,7 +2490,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 54,
@@ -2437,7 +2543,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 55,
@@ -2482,7 +2590,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 56,
@@ -2527,7 +2637,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 57,
@@ -2583,7 +2695,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 58,
@@ -2628,7 +2742,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 59,
@@ -2676,7 +2792,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 60,
@@ -2727,7 +2845,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 61,
@@ -2772,7 +2892,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 62,
@@ -2801,7 +2923,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 63,
@@ -2830,7 +2954,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 64,
@@ -2875,7 +3001,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 65,
@@ -2923,7 +3051,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 66,
@@ -2952,7 +3082,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 67,
@@ -3003,7 +3135,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 68,
@@ -3032,7 +3166,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 69,
@@ -3080,7 +3216,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 70,
@@ -3132,7 +3270,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 71,
@@ -3182,7 +3322,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 72,
@@ -3235,7 +3377,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 73,
@@ -3264,7 +3408,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 74,
@@ -3293,7 +3439,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 75,
@@ -3342,7 +3490,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 76,
@@ -3396,7 +3546,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 77,
@@ -3448,7 +3600,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 78,
@@ -3477,7 +3631,9 @@
     "hours_by_day": {},
     "hours_parse_ok": false,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 79,
@@ -3529,7 +3685,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 80,
@@ -3580,7 +3738,9 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   },
   {
     "id": 81,
@@ -3632,6 +3792,8 @@
     },
     "hours_parse_ok": true,
     "facebook_url": "",
-    "instagram_url": ""
+    "instagram_url": "",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": ""
   }
 ]
