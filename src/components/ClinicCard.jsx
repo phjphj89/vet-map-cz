@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { OpeningHoursTable } from "./OpeningHoursTable";
+import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 
 export function ClinicCard({ clinic }) {
   const { language, t } = useLanguage();
@@ -85,6 +86,21 @@ export function ClinicCard({ clinic }) {
             </>
           )}
         </dl>
+      )}
+
+      {(clinic.facebook_url || clinic.instagram_url) && (
+        <div className="social-links">
+          {clinic.facebook_url && (
+            <a href={clinic.facebook_url} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <FacebookIcon />
+            </a>
+          )}
+          {clinic.instagram_url && (
+            <a href={clinic.instagram_url} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <InstagramIcon />
+            </a>
+          )}
+        </div>
       )}
     </div>
   );

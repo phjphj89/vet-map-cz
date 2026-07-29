@@ -243,6 +243,18 @@
   margin: 0;
 }
 
+.social-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  color: var(--color-text);
+}
+
+.social-links a {
+  color: inherit;
+  display: flex;
+}
+
 .expand-button {
   margin-top: 6px;
   background: none;

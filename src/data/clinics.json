@@ -46,7 +46,9 @@
         "9:00-11:30"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 2,
@@ -93,7 +95,9 @@
         "8-13"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 3,
@@ -141,7 +145,9 @@
         "13-20"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 4,
@@ -195,7 +201,9 @@
         "18-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 5,
@@ -243,7 +251,9 @@
         "14-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 6,
@@ -291,7 +301,9 @@
         "13-15"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 7,
@@ -318,7 +330,9 @@
     "emergency_en": "Mon-Fri 18-20 (800 Kč), Sat 10-20 (800 Kč), nights/Sun/holidays 1500 Kč",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 8,
@@ -369,7 +383,9 @@
         "17-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 9,
@@ -415,7 +431,9 @@
         "16-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 10,
@@ -462,7 +480,9 @@
         "13-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 11,
@@ -516,7 +536,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 12,
@@ -565,7 +587,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 13,
@@ -592,7 +616,9 @@
     "emergency_en": "Weekdays to 20h, weekends 8-18h",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 14,
@@ -640,7 +666,9 @@
         "13-16"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 15,
@@ -667,7 +695,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 16,
@@ -713,7 +743,9 @@
         "14-16"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 17,
@@ -764,7 +796,9 @@
         "10-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 18,
@@ -810,7 +844,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 19,
@@ -856,7 +892,9 @@
         "9-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 20,
@@ -904,7 +942,9 @@
         "13-15"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 21,
@@ -931,7 +971,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 22,
@@ -974,7 +1016,9 @@
         "8-20"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 23,
@@ -1020,7 +1064,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 24,
@@ -1061,7 +1107,9 @@
       ],
       "Thu": []
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 25,
@@ -1110,7 +1158,9 @@
         "13-17"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 26,
@@ -1137,7 +1187,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 27,
@@ -1183,7 +1235,9 @@
         "9-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 28,
@@ -1226,7 +1280,9 @@
         "9-21"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 29,
@@ -1275,7 +1331,9 @@
         "16-21"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 30,
@@ -1326,7 +1384,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 31,
@@ -1353,7 +1413,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 32,
@@ -1380,7 +1442,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 33,
@@ -1434,7 +1498,9 @@
         "18-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 34,
@@ -1480,7 +1546,9 @@
       "Sat": [],
       "Sun": []
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 35,
@@ -1523,7 +1591,9 @@
         "16:30-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 36,
@@ -1572,7 +1642,9 @@
         "9-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 37,
@@ -1615,7 +1687,9 @@
         "12-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 38,
@@ -1663,7 +1737,9 @@
         "13-17"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 39,
@@ -1714,7 +1790,9 @@
         "8-10"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 40,
@@ -1762,7 +1840,9 @@
         "16-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 41,
@@ -1805,7 +1885,9 @@
         "13-15"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 42,
@@ -1856,7 +1938,9 @@
         "9-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 43,
@@ -1907,7 +1991,9 @@
         "9-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 44,
@@ -1958,7 +2044,9 @@
         "8-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 45,
@@ -2001,7 +2089,9 @@
         "9-17"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 46,
@@ -2028,7 +2118,9 @@
     "emergency_en": "Weekend contact via email/Facebook only, no weekend office hours",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 47,
@@ -2082,7 +2174,9 @@
         "18-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 48,
@@ -2109,7 +2203,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 49,
@@ -2136,7 +2232,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 50,
@@ -2183,7 +2281,9 @@
       "Sat": [],
       "Sun": []
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 51,
@@ -2226,7 +2326,9 @@
         "8-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 52,
@@ -2253,7 +2355,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 53,
@@ -2280,7 +2384,9 @@
     "emergency_en": "Surcharge, non-stop",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 54,
@@ -2329,7 +2435,9 @@
         "10-16"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 55,
@@ -2372,7 +2480,9 @@
         "8-20"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 56,
@@ -2415,7 +2525,9 @@
         "9-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 57,
@@ -2469,7 +2581,9 @@
         "14-19"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 58,
@@ -2512,7 +2626,9 @@
         "8-21"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 59,
@@ -2558,7 +2674,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 60,
@@ -2607,7 +2725,9 @@
         "8-20"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 61,
@@ -2650,7 +2770,9 @@
         "8-19:30"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 62,
@@ -2677,7 +2799,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 63,
@@ -2704,7 +2828,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 64,
@@ -2747,7 +2873,9 @@
         "8-21"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 65,
@@ -2793,7 +2921,9 @@
         "9-12:30"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 66,
@@ -2820,7 +2950,9 @@
     "emergency_en": "Since 7 Feb 2026, moved to Veterina Sokolníky, Trousilova 1064, Praha 8, tel. 736 535 652",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 67,
@@ -2869,7 +3001,9 @@
         "9-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 68,
@@ -2896,7 +3030,9 @@
     "emergency_en": "Outside hours on 777 662 061",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 69,
@@ -2942,7 +3078,9 @@
         "8-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 70,
@@ -2992,7 +3130,9 @@
       "Sat": [],
       "Sun": []
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 71,
@@ -3040,7 +3180,9 @@
         "13:30-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 72,
@@ -3091,7 +3233,9 @@
         "8-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 73,
@@ -3118,7 +3262,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 74,
@@ -3145,7 +3291,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 75,
@@ -3192,7 +3340,9 @@
       ],
       "Sun": []
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 76,
@@ -3244,7 +3394,9 @@
         "15-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 77,
@@ -3294,7 +3446,9 @@
         "16-18"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 78,
@@ -3321,7 +3475,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "hours_by_day": {},
-    "hours_parse_ok": false
+    "hours_parse_ok": false,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 79,
@@ -3371,7 +3527,9 @@
         "9-11"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 80,
@@ -3420,7 +3578,9 @@
         "8-16"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   },
   {
     "id": 81,
@@ -3470,6 +3630,8 @@
         "10-12"
       ]
     },
-    "hours_parse_ok": true
+    "hours_parse_ok": true,
+    "facebook_url": "",
+    "instagram_url": ""
   }
 ]
