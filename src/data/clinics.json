@@ -130,19 +130,19 @@
     "hours_by_day": {
       "Mon": [
         "8-12",
-        "16-20"
+        "13-20"
       ],
       "Tue": [
         "8-12",
-        "15-18"
+        "13-18"
       ],
       "Wed": [
         "8-12",
-        "16-18"
+        "13-18"
       ],
       "Thu": [
         "8-12",
-        "16-18"
+        "13-18"
       ],
       "Fri": [
         "8-12",
@@ -153,7 +153,7 @@
     "facebook_url": "",
     "instagram_url": "",
     "holiday_hours_en": "",
-    "holiday_hours_cs": ""
+    "holiday_hours_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
   },
   {
     "id": 4,
