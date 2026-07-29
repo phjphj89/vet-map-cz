@@ -105,7 +105,7 @@
   },
   {
     "id": 3,
-    "name": "ExoCare (Brno-Medlánky)",
+    "name": "ExoCare (Brno)",
     "region": "Brno",
     "address": "Hrázka 668/7, 621 00 Brno-Medlánky",
     "lat": 49.2437215,
@@ -2185,7 +2185,7 @@
   },
   {
     "id": 46,
-    "name": "Mirivet (Vratimov, near Ostrava)",
+    "name": "Mirivet (Vratimov)",
     "region": "Ostrava",
     "address": "Radniční náměstí 824/2, 739 32 Vratimov",
     "lat": 49.7702989,
@@ -2216,7 +2216,7 @@
   },
   {
     "id": 47,
-    "name": "Veterinární klinika MVDr. Vítězslav Raška (Ostrava-Mariánské Hory)",
+    "name": "Veterinární klinika MVDr. Vítězslav Raška (Ostrava)",
     "region": "Ostrava",
     "address": "Hynaisova 12, 709 00 Ostrava-Mariánské Hory",
     "lat": 49.8293621,
@@ -2305,7 +2305,7 @@
   },
   {
     "id": 49,
-    "name": "Veterinární ordinace Vltava (Ostrava-Poruba)",
+    "name": "Veterinární ordinace Vltava (Ostrava)",
     "region": "Ostrava",
     "address": "Rušná 1716/2, 708 00 Ostrava-Poruba",
     "lat": 49.8476923,
