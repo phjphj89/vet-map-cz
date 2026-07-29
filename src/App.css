@@ -1,0 +1,262 @@
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* --- Overall page layout: map (left) + filter/list (right) --- */
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.map-column {
+  position: sticky;
+  top: 16px;
+}
+
+.map-container {
+  height: calc(100vh - 32px);
+  width: 100%;
+}
+
+/* Below ~900px (tablet/phone width), stack the map above the list
+   instead of side-by-side - there isn't room for a 1/3-width map to
+   stay usable on a narrow screen. */
+@media (max-width: 900px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .map-column {
+    position: static;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+}
+
+/* --- Header --- */
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.app-header h1 {
+  font-size: 22px;
+}
+
+.language-toggle button {
+  padding: 6px 14px;
+  border: 1px solid var(--color-accent);
+  background: var(--color-card-bg);
+  color: var(--color-accent);
+  cursor: pointer;
+  font-weight: 700;
+  font-family: var(--font-body);
+}
+
+.language-toggle button:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.language-toggle button:last-child {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+.language-toggle button.active {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+}
+
+/* --- Filter row --- */
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0 12px;
+}
+
+.filter-row select {
+  padding: 6px 10px;
+  font-size: 15px;
+  font-family: var(--font-body);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-card-bg);
+  color: var(--color-text);
+}
+
+.result-count {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+/* --- Clinic cards --- */
+
+.clinic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.clinic-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.clinic-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.clinic-card-header h3 {
+  font-size: 21px;
+}
+
+.clinic-address {
+  color: var(--color-text-muted);
+  margin: 4px 0 12px;
+}
+
+.badge-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.badge-top-pick {
+  background: var(--color-badge-top-pick-bg);
+  color: var(--color-badge-top-pick-text);
+}
+
+.badge-emergency {
+  background: var(--color-badge-247-bg);
+  color: var(--color-badge-247-text);
+}
+
+.badge-weekend {
+  background: var(--color-badge-weekend-bg);
+  color: var(--color-badge-weekend-text);
+}
+
+/* Label/value pairs, laid out as a compact two-column grid. */
+.clinic-facts {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  row-gap: 6px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.clinic-facts dt {
+  color: var(--color-text-muted);
+}
+
+.clinic-facts dd {
+  margin: 0;
+}
+
+/* --- Two-column card body: summary facts (left) + hours table (right) --- */
+
+.clinic-card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 4px;
+}
+
+/* Stack into one column on narrow (phone-width) screens. */
+@media (max-width: 600px) {
+  .clinic-card-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.clinic-hours-label {
+  color: var(--color-text-muted);
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.hours-table {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+}
+
+.hours-table td {
+  padding: 2px 0;
+  vertical-align: top;
+}
+
+.hours-day {
+  color: var(--color-text-muted);
+  padding-right: 12px;
+  white-space: nowrap;
+}
+
+.hours-time {
+  font-weight: normal;
+}
+
+.hours-closed {
+  color: var(--color-text-muted);
+}
+
+.hours-fallback {
+  font-size: 14px;
+  margin: 0;
+}
+
+.expand-button {
+  margin-top: 6px;
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  font-family: var(--font-body);
+}
+
+.expanded-facts {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+}
