@@ -158,8 +158,8 @@
     "instagram_url": "",
     "holiday_hours_en": "",
     "holiday_hours_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)",
-    "google_rating": null,
-    "google_review_count": null
+    "google_rating": 4.9,
+    "google_review_count": 54
   },
   {
     "id": 4,
@@ -3411,8 +3411,8 @@
     "instagram_url": "",
     "holiday_hours_en": "",
     "holiday_hours_cs": "",
-    "google_rating": 4.9,
-    "google_review_count": 54
+    "google_rating": 4.5,
+    "google_review_count": 81
   },
   {
     "id": 71,
