@@ -316,7 +316,7 @@
 
 .clinic-card {
   background: var(--color-card-bg);
-  border: 1px solid var(--color-border);
+  border: 1px solid var(--color-card-border);
   border-radius: 10px;
   padding: 16px;
   box-shadow: var(--shadow-card);
@@ -332,10 +332,11 @@
 
 .clinic-card-header h3 {
   font-size: 21px;
+  color: var(--color-clinic-name);
 }
 
 .clinic-address {
-  color: var(--color-text-muted);
+  color: var(--color-clinic-address);
   margin: 4px 0 12px;
 }
 
@@ -358,7 +359,7 @@
   gap: 4px;
   font-size: 13px;
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--color-rating-muted);
 }
 
 .clinic-rating-star {
@@ -367,14 +368,14 @@
 }
 
 .clinic-rating-count {
-  color: var(--color-text-muted);
+  color: var(--color-rating-muted);
   font-weight: 400;
 }
 
 .clinic-distance {
   font-weight: 700;
   font-size: 14px;
-  color: var(--color-text);
+  color: var(--color-distance-value);
 }
 
 .location-prompt {
@@ -457,6 +458,14 @@
   margin: 0;
 }
 
+.clinic-facts a {
+  color: var(--color-link-default);
+}
+
+.clinic-facts a:hover {
+  color: var(--color-link-hover);
+}
+
 /* --- Two-column card body: summary facts (left) + hours table (right) --- */
 
 .clinic-card-body {
@@ -474,7 +483,7 @@
 }
 
 .clinic-hours-label {
-  color: var(--color-text-muted);
+  color: var(--color-hours-text);
   font-size: 14px;
   margin-bottom: 4px;
 }
@@ -491,22 +500,24 @@
 }
 
 .hours-day {
-  color: var(--color-text-muted);
+  color: var(--color-hours-text);
   padding-right: 12px;
   white-space: nowrap;
 }
 
 .hours-time {
   font-weight: normal;
+  color: var(--color-hours-text);
 }
 
 .hours-closed {
-  color: var(--color-text-muted);
+  color: var(--color-hours-text);
 }
 
 .hours-fallback {
   font-size: 14px;
   margin: 0;
+  color: var(--color-hours-text);
 }
 
 .social-links {

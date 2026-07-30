@@ -17,6 +17,16 @@
   --color-badge-weekend-bg: #E9D9CE;
   --color-badge-weekend-text: #6B4636;
 
+  /* Clinic card specific colors */
+  --color-clinic-name: #2C2C26;
+  --color-clinic-address: #7A7A70;
+  --color-rating-muted: #8A8A80;
+  --color-distance-value: #3D4A3A;
+  --color-link-default: #8A5A3A;
+  --color-link-hover: #C96B4A;
+  --color-hours-text: #A0A096;
+  --color-card-border: rgba(0, 0, 0, 0.08);
+
   --font-display: 'Nunito', sans-serif;
   --font-body: 'Nunito', sans-serif;
   --header-height: 64px;
