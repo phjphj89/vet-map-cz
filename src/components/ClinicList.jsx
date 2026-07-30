@@ -4,7 +4,7 @@ import { ClinicCard } from "./ClinicCard";
 import { BloodDonorButton } from "./BloodDonorButton";
 import { ViewModeToggle } from "./ViewModeToggle";
 import { calculateDistanceKm } from "../utils/distance";
-import { isOpenOnWeekends } from "../utils/clinicChecks";
+import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -39,7 +39,7 @@ function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEme
   if (!show247 && !showOpenWeekends && !showWeekendEmergency && !showHospitalization) return true;
   const passes247 = show247 && clinic.is_24_7 === true;
   const passesOpenWeekends = showOpenWeekends && isOpenOnWeekends(clinic);
-  const passesWeekendEmergency = showWeekendEmergency && clinic.has_weekend_emergency === true;
+  const passesWeekendEmergency = showWeekendEmergency && hasWeekendEmergencyNote(clinic);
   const passesHospitalization = showHospitalization && clinic.hospitalization === true;
   return passes247 || passesOpenWeekends || passesWeekendEmergency || passesHospitalization;
 }

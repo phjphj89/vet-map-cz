@@ -2,6 +2,7 @@ import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { WEEKDAY_ORDER } from "../i18n/translations";
+import { hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 // A custom map pin: a compact circular badge with a short pointed
 // tail (matching the reference design), outlined with a cream border
@@ -62,7 +63,7 @@ function closesLateOnAnyDay(clinic) {
 
 function getPinIcon(clinic) {
   if (clinic.is_24_7) return PIN_ICONS.always;
-  if (clinic.has_weekend_emergency || closesLateOnAnyDay(clinic)) return PIN_ICONS.extended;
+  if (hasWeekendEmergencyNote(clinic) || closesLateOnAnyDay(clinic)) return PIN_ICONS.extended;
   return PIN_ICONS.standard;
 }
 
