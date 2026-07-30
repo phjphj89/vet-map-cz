@@ -1,13 +1,16 @@
+import { useState } from "react";
 import { useLanguage } from "./i18n/LanguageContext";
 import { ClinicMap } from "./components/ClinicMap";
 import { ClinicList } from "./components/ClinicList";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
+import { ViewModeToggle } from "./components/ViewModeToggle";
 import clinicsData from "./data/clinics.json";
 import "./App.css";
 
 function App() {
   const { language, setLanguage, t } = useLanguage();
+  const [viewMode, setViewMode] = useState("list"); // "list" | "map"
 
   return (
     <div className="app">
@@ -35,14 +38,23 @@ function App() {
         </div>
       </header>
 
-      <div className="main-layout">
-        <div className="map-column">
+      {viewMode === "list" ? (
+        <div className="main-layout">
+          <div className="map-column">
+            <ClinicMap clinics={clinicsData} />
+          </div>
+          <div className="list-column">
+            <ClinicList clinics={clinicsData} viewMode={viewMode} setViewMode={setViewMode} />
+          </div>
+        </div>
+      ) : (
+        <div className="map-only-layout">
           <ClinicMap clinics={clinicsData} />
+          <div className="map-floating-toggle">
+            <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
+          </div>
         </div>
-        <div className="list-column">
-          <ClinicList clinics={clinicsData} />
-        </div>
-      </div>
+      )}
     </div>
   );
 }

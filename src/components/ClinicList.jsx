@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import { ClinicCard } from "./ClinicCard";
 import { BloodDonorButton } from "./BloodDonorButton";
+import { ViewModeToggle } from "./ViewModeToggle";
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -29,7 +30,7 @@ function matchesRegion(clinic, region) {
   return clinic.kraj === region && !clinic.is_brno && !clinic.is_ostrava;
 }
 
-export function ClinicList({ clinics }) {
+export function ClinicList({ clinics, viewMode, setViewMode }) {
   const { t } = useLanguage();
   const [selectedRegion, setSelectedRegion] = useState("all");
 
@@ -58,7 +59,10 @@ export function ClinicList({ clinics }) {
         <span className="result-count">
           {filteredClinics.length} {t.clinicsFound}
         </span>
-        <BloodDonorButton />
+        <div className="filter-row-actions">
+          <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
+          <BloodDonorButton />
+        </div>
       </div>
 
       {filteredClinics.map((clinic) => (

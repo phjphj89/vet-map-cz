@@ -30,6 +30,8 @@ export const translations = {
     lastUpdatedLabel: "Data last updated",
     dataAccuracyNote: "Clinic details (hours, contact info) may change. Please confirm directly with the clinic before visiting, especially for emergencies.",
     bloodDonorButton: "Find blood donor - Kapka pro ušáčka",
+    viewList: "List",
+    viewMap: "Map",
   },
   cs: {
     siteTitle: "Veterináři pro králíky – Česká republika",
@@ -58,6 +60,8 @@ export const translations = {
     lastUpdatedLabel: "Data naposledy aktualizována",
     dataAccuracyNote: "Údaje o klinikách (otevírací doba, kontakty) se mohou měnit. Před návštěvou si je prosím ověřte přímo u kliniky, zejména v případě pohotovosti.",
     bloodDonorButton: "Sehnat dárce krve - Kapka pro ušáčka",
+    viewList: "Seznam",
+    viewMap: "Mapa",
   },
 };
 
