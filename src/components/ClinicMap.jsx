@@ -77,8 +77,13 @@ function scrollToClinicCard(clinicId) {
 const CZECH_REPUBLIC_CENTER = [49.8, 15.5];
 const DEFAULT_ZOOM = 7;
 
-export function ClinicMap({ clinics }) {
+export function ClinicMap({ clinics, onMarkerClick }) {
   const { t } = useLanguage();
+
+  // In list view, clicking a pin scrolls to that clinic's card.
+  // In map-only view, App.jsx passes a different handler that opens
+  // the full clinic card as an overlay panel instead.
+  const handleMarkerClick = onMarkerClick || ((clinic) => scrollToClinicCard(clinic.id));
 
   return (
     <MapContainer
@@ -97,7 +102,7 @@ export function ClinicMap({ clinics }) {
           key={clinic.id}
           position={[clinic.lat, clinic.lng]}
           icon={getPinIcon(clinic)}
-          eventHandlers={{ click: () => scrollToClinicCard(clinic.id) }}
+          eventHandlers={{ click: () => handleMarkerClick(clinic) }}
         >
           <Popup>
             <strong>{clinic.name}</strong>

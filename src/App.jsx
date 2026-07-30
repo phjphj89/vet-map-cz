@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLanguage } from "./i18n/LanguageContext";
 import { ClinicMap } from "./components/ClinicMap";
 import { ClinicList } from "./components/ClinicList";
+import { ClinicCard } from "./components/ClinicCard";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { ViewModeToggle } from "./components/ViewModeToggle";
@@ -11,6 +12,8 @@ import "./App.css";
 function App() {
   const { language, setLanguage, t } = useLanguage();
   const [viewMode, setViewMode] = useState("list"); // "list" | "map"
+  const [selectedClinicId, setSelectedClinicId] = useState(null);
+  const selectedClinic = clinicsData.find((c) => c.id === selectedClinicId);
 
   return (
     <div className="app">
@@ -49,10 +52,25 @@ function App() {
         </div>
       ) : (
         <div className="map-only-layout">
-          <ClinicMap clinics={clinicsData} />
+          <ClinicMap
+            clinics={clinicsData}
+            onMarkerClick={(clinic) => setSelectedClinicId(clinic.id)}
+          />
           <div className="map-floating-toggle">
             <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
           </div>
+          {selectedClinic && (
+            <div className="map-clinic-panel">
+              <button
+                className="map-clinic-panel-close"
+                onClick={() => setSelectedClinicId(null)}
+                aria-label="Close"
+              >
+                ×
+              </button>
+              <ClinicCard clinic={selectedClinic} />
+            </div>
+          )}
         </div>
       )}
     </div>
