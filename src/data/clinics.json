@@ -102,7 +102,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 2,
@@ -207,7 +207,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 3,
@@ -417,7 +417,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 5,
@@ -522,7 +522,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 6,
@@ -627,7 +627,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 7,
@@ -837,7 +837,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 9,
@@ -942,7 +942,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 10,
@@ -1047,7 +1047,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 11,
@@ -1152,7 +1152,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 12,
@@ -1257,7 +1257,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 13,
@@ -1467,7 +1467,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 15,
@@ -1595,7 +1595,7 @@
     "is_24_7": null,
     "has_weekend_emergency": null,
     "notes_en": "Well-equipped, very good vet; small mammals get mostly basic treatment; another clinic in Světlá nad Sázavou",
-    "notes_cs": "",
+    "notes_cs": "Dobře vybavená klinika, velmi dobrý veterinář; pouze základní ošetření pro drobné savce; druhá klinika ve Světlé nad Sázavou",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "https://www.facebook.com/people/ANIVET-sro/100077529310157/",
@@ -1782,7 +1782,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 18,
@@ -1887,7 +1887,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 19,
@@ -1992,7 +1992,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 20,
@@ -2097,7 +2097,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 21,
@@ -2307,7 +2307,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 23,
@@ -2412,7 +2412,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 24,
@@ -2517,7 +2517,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 25,
@@ -2622,7 +2622,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 26,
@@ -2832,7 +2832,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 28,
@@ -2937,7 +2937,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 29,
@@ -3042,7 +3042,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 30,
@@ -3147,7 +3147,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 31,
@@ -3462,7 +3462,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 34,
@@ -3567,7 +3567,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 35,
@@ -3672,7 +3672,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 36,
@@ -3777,7 +3777,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 37,
@@ -3882,7 +3882,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 38,
@@ -3987,7 +3987,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 39,
@@ -4092,7 +4092,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 40,
@@ -4197,7 +4197,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 41,
@@ -4407,7 +4407,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 43,
@@ -4512,7 +4512,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 44,
@@ -4617,7 +4617,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 45,
@@ -4722,7 +4722,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 46,
@@ -4932,7 +4932,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 48,
@@ -5247,7 +5247,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 51,
@@ -5352,7 +5352,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 52,
@@ -5667,7 +5667,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 55,
@@ -5772,7 +5772,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 56,
@@ -5877,7 +5877,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 57,
@@ -5982,7 +5982,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 58,
@@ -6087,7 +6087,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 59,
@@ -6192,7 +6192,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 60,
@@ -6297,7 +6297,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 61,
@@ -6402,7 +6402,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 62,
@@ -6717,7 +6717,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 65,
@@ -6822,7 +6822,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 66,
@@ -7032,7 +7032,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 68,
@@ -7242,7 +7242,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 70,
@@ -7347,7 +7347,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 71,
@@ -7452,7 +7452,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 72,
@@ -7557,7 +7557,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 73,
@@ -7872,7 +7872,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 76,
@@ -7977,7 +7977,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 77,
@@ -8082,7 +8082,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 78,
@@ -8292,7 +8292,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 80,
@@ -8397,7 +8397,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   },
   {
     "id": 81,
@@ -8502,6 +8502,6 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true
   }
 ]
