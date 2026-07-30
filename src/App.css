@@ -305,6 +305,12 @@
   border-color: var(--color-badge-weekend-emergency-text);
 }
 
+.filter-hospitalization.active {
+  background: var(--color-badge-hospitalization-bg);
+  color: var(--color-badge-hospitalization-text);
+  border-color: var(--color-badge-hospitalization-text);
+}
+
 .filter-row-actions {
   margin-left: auto;
   display: flex;

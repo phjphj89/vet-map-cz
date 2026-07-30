@@ -18,6 +18,8 @@
   --color-badge-weekend-text: #6B4636;
   --color-badge-weekend-emergency-bg: #E8DCE3;
   --color-badge-weekend-emergency-text: #6B3D52;
+  --color-badge-hospitalization-bg: #DCE8DD;
+  --color-badge-hospitalization-text: #2C4530;
 
   /* Clinic card specific colors */
   --color-clinic-name: #2C2C26;
