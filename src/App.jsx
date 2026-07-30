@@ -6,7 +6,6 @@ import { ClinicCard } from "./components/ClinicCard";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { ViewModeToggle } from "./components/ViewModeToggle";
-import { LocationPrompt } from "./components/LocationPrompt";
 import { useUserLocation } from "./hooks/useUserLocation";
 import { calculateDistanceKm } from "./utils/distance";
 import clinicsData from "./data/clinics.json";
@@ -51,22 +50,19 @@ function App() {
       </header>
 
       {viewMode === "list" ? (
-        <>
-          <LocationPrompt status={locationStatus} onRequestLocation={requestLocation} />
-          <div className="main-layout">
-            <div className="map-column">
-              <ClinicMap clinics={clinicsData} />
-            </div>
-            <div className="list-column">
-              <ClinicList
-                clinics={clinicsData}
-                viewMode={viewMode}
-                setViewMode={setViewMode}
-                userLocation={userLocation}
-              />
-            </div>
+        <div className="main-layout">
+          <div className="map-column">
+            <ClinicMap clinics={clinicsData} />
           </div>
-        </>
+          <div className="list-column">
+            <ClinicList
+              clinics={clinicsData}
+              viewMode={viewMode}
+              setViewMode={setViewMode}
+              userLocation={userLocation}
+            />
+          </div>
+        </div>
       ) : (
         <div className="map-only-layout">
           <ClinicMap
