@@ -51,8 +51,8 @@
     "instagram_url": "",
     "holiday_hours_en": "",
     "holiday_hours_cs": "",
-    "google_rating": null,
-    "google_review_count": null
+    "google_rating": 4.5,
+    "google_review_count": 423
   },
   {
     "id": 2,
@@ -100,12 +100,12 @@
       ]
     },
     "hours_parse_ok": true,
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/veterinarniklinakabrno/",
     "instagram_url": "",
     "holiday_hours_en": "",
     "holiday_hours_cs": "",
-    "google_rating": null,
-    "google_review_count": null
+    "google_rating": 4.5,
+    "google_review_count": 440
   },
   {
     "id": 3,
@@ -154,12 +154,12 @@
       ]
     },
     "hours_parse_ok": true,
-    "facebook_url": "",
-    "instagram_url": "",
+    "facebook_url": "https://www.facebook.com/p/ExoCare-MVDr-Krist%C3%BDna-Pouzar-Pokrupov%C3%A1-61560008890013/",
+    "instagram_url": "https://www.instagram.com/exocare.brno",
     "holiday_hours_en": "",
     "holiday_hours_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)",
-    "google_rating": null,
-    "google_review_count": null
+    "google_rating": 4.9,
+    "google_review_count": 54
   },
   {
     "id": 4,

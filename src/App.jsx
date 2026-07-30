@@ -6,17 +6,24 @@ import { ClinicCard } from "./components/ClinicCard";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { ViewModeToggle } from "./components/ViewModeToggle";
-import { useUserLocation } from "./hooks/useUserLocation";
 import { calculateDistanceKm } from "./utils/distance";
 import clinicsData from "./data/clinics.json";
 import "./App.css";
+
+// TEMPORARY: a fixed reference point (Prague), used to preview the
+// distance feature before the real "Allow location" flow is
+// reintroduced somewhere in the UI. Swap this back to the
+// useUserLocation() hook's real coords once that's ready - the rest
+// of the distance/sorting code doesn't need to change either way,
+// since it just expects a {lat, lng} object.
+const TEMPORARY_FIXED_LOCATION = { lat: 50.0834140, lng: 14.4348084 };
 
 function App() {
   const { language, setLanguage, t } = useLanguage();
   const [viewMode, setViewMode] = useState("list"); // "list" | "map"
   const [selectedClinicId, setSelectedClinicId] = useState(null);
   const selectedClinic = clinicsData.find((c) => c.id === selectedClinicId);
-  const { status: locationStatus, coords: userLocation, requestLocation } = useUserLocation();
+  const userLocation = TEMPORARY_FIXED_LOCATION;
 
   const selectedClinicDistanceKm =
     selectedClinic && userLocation
