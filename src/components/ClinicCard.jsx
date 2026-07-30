@@ -42,7 +42,7 @@ export function ClinicCard({ clinic, distanceKm }) {
             </div>
           )}
           {distanceKm != null && (
-            <div className="clinic-distance">{Number(distanceKm).toFixed(1)} km</div>
+            <div className="clinic-distance">{Math.round(Number(distanceKm))} km</div>
           )}
         </div>
       </div>
