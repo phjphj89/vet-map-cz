@@ -1,6 +1,7 @@
 import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { WEEKDAY_ORDER } from "../i18n/translations";
 
 // A custom map pin: a compact circular badge with a short pointed
 // tail (matching the reference design), outlined with a cream border
@@ -50,14 +51,13 @@ const PIN_ICONS = {
 const LATE_EVENING_CUTOFF_HOUR = 19;
 
 function closesLateOnAnyDay(clinic) {
-  if (!clinic.hours_parse_ok || !clinic.hours_by_day) return false;
-  return Object.values(clinic.hours_by_day).some((ranges) =>
-    ranges.some((range) => {
-      const closingTime = range.split("-")[1];
-      const closingHour = parseInt(closingTime.split(":")[0], 10);
-      return closingHour >= LATE_EVENING_CUTOFF_HOUR;
-    })
-  );
+  if (clinic.hours_needs_review || !clinic.weekly_hours) return false;
+  const regularDays = WEEKDAY_ORDER.map((day) => clinic.weekly_hours[day]).filter(Boolean);
+  return regularDays.some((entry) => {
+    if (entry.closed) return false;
+    const closingTimes = [entry.end1, entry.end2].filter(Boolean);
+    return closingTimes.some((time) => parseInt(time.split(":")[0], 10) >= LATE_EVENING_CUTOFF_HOUR);
+  });
 }
 
 function getPinIcon(clinic) {

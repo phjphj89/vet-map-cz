@@ -621,6 +621,11 @@
   color: var(--color-hours-text);
 }
 
+.hours-note {
+  font-style: italic;
+  opacity: 0.85;
+}
+
 .hours-closed {
   color: var(--color-hours-text);
 }
