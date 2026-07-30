@@ -1,7 +1,6 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useLanguage } from "../i18n/LanguageContext";
 
 // A custom map pin: a compact circular badge with a short pointed
 // tail (matching the reference design), outlined with a cream border
@@ -102,7 +101,6 @@ const CZECH_REPUBLIC_CENTER = [49.8, 15.5];
 const DEFAULT_ZOOM = 7;
 
 export function ClinicMap({ clinics, onMarkerClick }) {
-  const { t } = useLanguage();
 
   // In list view, clicking a pin scrolls to that clinic's card.
   // In map-only view, App.jsx passes a different handler that opens
@@ -127,15 +125,7 @@ export function ClinicMap({ clinics, onMarkerClick }) {
           position={[clinic.lat, clinic.lng]}
           icon={getPinIcon(clinic)}
           eventHandlers={{ click: () => handleMarkerClick(clinic) }}
-        >
-          <Popup>
-            <strong>{clinic.name}</strong>
-            <br />
-            {clinic.address}
-            <br />
-            {clinic.phone || t.notAvailable}
-          </Popup>
-        </Marker>
+        />
       ))}
     </MapContainer>
   );

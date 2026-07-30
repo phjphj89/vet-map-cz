@@ -67,6 +67,13 @@
   cursor: pointer;
 }
 
+/* Extra clearance so the badges/rating/distance column (right-aligned
+   within the card) doesn't sit underneath the floating close button -
+   scoped to this context only, doesn't affect normal list cards. */
+.map-clinic-panel .clinic-card-header {
+  padding-right: 40px;
+}
+
 /* Leaflet's own stylesheet sets a hardcoded Arial/Helvetica font on
    the map container (including popups) - override it to match the
    rest of the site. */
