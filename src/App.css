@@ -461,10 +461,17 @@
 
 .clinic-facts a {
   color: var(--color-link-default);
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .clinic-facts a:hover {
   color: var(--color-link-hover);
+}
+
+.clinic-phone {
+  color: var(--color-link-default);
+  font-weight: 700;
 }
 
 /* --- Two-column card body: summary facts (left) + hours table (right) --- */
