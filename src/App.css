@@ -262,7 +262,7 @@
   margin: 0 0 12px;
   padding: 16px 0;
   position: sticky;
-  top: var(--header-height);
+  top: calc(var(--header-height) + 16px);
   z-index: 20;
   background: var(--color-bg);
 }

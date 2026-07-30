@@ -70,11 +70,31 @@ function getPinIcon(clinic) {
 // Scrolls the matching clinic card into view when its map pin is
 // clicked. If the card isn't currently on the page (e.g. hidden by
 // the kraj filter), this simply does nothing.
+//
+// The header is fixed and the filter row is sticky, both sitting on
+// top of the scrolled content - a plain scrollIntoView() would align
+// the card's top edge with the very top of the viewport, hiding it
+// behind them. Instead, this measures their ACTUAL rendered height
+// (not a guessed pixel value) and scrolls just past both. On mobile,
+// where header/filter-row scroll away normally (not fixed/sticky),
+// their computed position is "static", so no extra offset is added.
 function scrollToClinicCard(clinicId) {
   const cardElement = document.getElementById(`clinic-${clinicId}`);
-  if (cardElement) {
-    cardElement.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (!cardElement) return;
+
+  const header = document.querySelector(".app-header");
+  const filterRow = document.querySelector(".filter-row");
+
+  let offset = 16; // small breathing margin
+  if (header && getComputedStyle(header).position === "fixed") {
+    offset += header.offsetHeight;
   }
+  if (filterRow && getComputedStyle(filterRow).position === "sticky") {
+    offset += filterRow.offsetHeight;
+  }
+
+  const cardTop = cardElement.getBoundingClientRect().top + window.scrollY;
+  window.scrollTo({ top: cardTop - offset, behavior: "smooth" });
 }
 
 // Roughly the center of the Czech Republic, used as the map's starting view.
