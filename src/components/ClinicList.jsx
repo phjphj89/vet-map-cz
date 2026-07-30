@@ -100,7 +100,7 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
             {t.badgeOpenWeekends}
           </button>
           <button
-            className={`special-filter-button filter-247 ${showWeekendEmergency ? "active" : ""}`}
+            className={`special-filter-button filter-weekend-emergency ${showWeekendEmergency ? "active" : ""}`}
             onClick={() => setShowWeekendEmergency(!showWeekendEmergency)}
           >
             {t.badgeWeekendEmergencyOnly}

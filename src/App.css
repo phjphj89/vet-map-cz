@@ -278,34 +278,31 @@
   align-items: center;
   padding: 6px 12px;
   border-radius: 999px;
-  border: 2px solid transparent;
+  border: 2px solid var(--color-card-border);
   font-weight: 700;
   font-size: 13px;
   font-family: var(--font-body);
   cursor: pointer;
-  opacity: 0.55;
-}
-
-.special-filter-button.active {
-  opacity: 1;
-}
-
-.filter-247 {
-  background: var(--color-badge-247-bg);
-  color: var(--color-badge-247-text);
+  background: var(--color-bg);
+  color: var(--color-hours-text);
 }
 
 .filter-247.active {
+  background: var(--color-badge-247-bg);
+  color: var(--color-badge-247-text);
   border-color: var(--color-badge-247-text);
 }
 
-.filter-weekend {
+.filter-weekend.active {
   background: var(--color-badge-weekend-bg);
   color: var(--color-badge-weekend-text);
+  border-color: var(--color-badge-weekend-text);
 }
 
-.filter-weekend.active {
-  border-color: var(--color-badge-weekend-text);
+.filter-weekend-emergency.active {
+  background: var(--color-badge-weekend-emergency-bg);
+  color: var(--color-badge-weekend-emergency-text);
+  border-color: var(--color-badge-weekend-emergency-text);
 }
 
 .filter-row-actions {
@@ -510,6 +507,11 @@
 .badge-weekend {
   background: var(--color-badge-weekend-bg);
   color: var(--color-badge-weekend-text);
+}
+
+.badge-weekend-emergency {
+  background: var(--color-badge-weekend-emergency-bg);
+  color: var(--color-badge-weekend-emergency-text);
 }
 
 /* Label/value pairs, laid out as a compact two-column grid. */

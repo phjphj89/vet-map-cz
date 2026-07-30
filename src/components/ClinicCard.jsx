@@ -26,7 +26,7 @@ export function ClinicCard({ clinic, distanceKm }) {
             ) : isOpenOnWeekends(clinic) ? (
               <Badge text={t.badgeOpenWeekends} variant="weekend" />
             ) : clinic.has_weekend_emergency === true ? (
-              <Badge text={t.badgeWeekendEmergencyOnly} variant="emergency" />
+              <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" />
             ) : null}
           </div>
           {clinic.google_rating != null && (
