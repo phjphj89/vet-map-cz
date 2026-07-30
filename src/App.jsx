@@ -6,6 +6,9 @@ import { ClinicCard } from "./components/ClinicCard";
 import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { ViewModeToggle } from "./components/ViewModeToggle";
+import { LocationPrompt } from "./components/LocationPrompt";
+import { useUserLocation } from "./hooks/useUserLocation";
+import { calculateDistanceKm } from "./utils/distance";
 import clinicsData from "./data/clinics.json";
 import "./App.css";
 
@@ -14,6 +17,12 @@ function App() {
   const [viewMode, setViewMode] = useState("list"); // "list" | "map"
   const [selectedClinicId, setSelectedClinicId] = useState(null);
   const selectedClinic = clinicsData.find((c) => c.id === selectedClinicId);
+  const { status: locationStatus, coords: userLocation, requestLocation } = useUserLocation();
+
+  const selectedClinicDistanceKm =
+    selectedClinic && userLocation
+      ? calculateDistanceKm(userLocation.lat, userLocation.lng, selectedClinic.lat, selectedClinic.lng)
+      : null;
 
   return (
     <div className="app">
@@ -42,14 +51,22 @@ function App() {
       </header>
 
       {viewMode === "list" ? (
-        <div className="main-layout">
-          <div className="map-column">
-            <ClinicMap clinics={clinicsData} />
+        <>
+          <LocationPrompt status={locationStatus} onRequestLocation={requestLocation} />
+          <div className="main-layout">
+            <div className="map-column">
+              <ClinicMap clinics={clinicsData} />
+            </div>
+            <div className="list-column">
+              <ClinicList
+                clinics={clinicsData}
+                viewMode={viewMode}
+                setViewMode={setViewMode}
+                userLocation={userLocation}
+              />
+            </div>
           </div>
-          <div className="list-column">
-            <ClinicList clinics={clinicsData} viewMode={viewMode} setViewMode={setViewMode} />
-          </div>
-        </div>
+        </>
       ) : (
         <div className="map-only-layout">
           <ClinicMap
@@ -68,7 +85,7 @@ function App() {
               >
                 ×
               </button>
-              <ClinicCard clinic={selectedClinic} />
+              <ClinicCard clinic={selectedClinic} distanceKm={selectedClinicDistanceKm} />
             </div>
           )}
         </div>

@@ -12,12 +12,12 @@
 
   --color-badge-top-pick-bg: #F3E6C6;
   --color-badge-top-pick-text: #6E4E12;
-  --color-badge-247-bg: #DCE8DD;
-  --color-badge-247-text: #2C4530;
+  --color-badge-247-bg: #F6DEDB;
+  --color-badge-247-text: #7A2A22;
   --color-badge-weekend-bg: #E9D9CE;
   --color-badge-weekend-text: #6B4636;
 
-  --font-display: 'Fraunces', serif;
+  --font-display: 'Nunito', sans-serif;
   --font-body: 'Nunito', sans-serif;
   --header-height: 64px;
   --shadow-card: 0 12px 35px rgba(31, 51, 37, 0.08);

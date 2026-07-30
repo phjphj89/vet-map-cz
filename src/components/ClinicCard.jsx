@@ -2,8 +2,9 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
+import { StarIcon } from "./StarIcon";
 
-export function ClinicCard({ clinic }) {
+export function ClinicCard({ clinic, distanceKm }) {
   const { language, t } = useLanguage();
 
   // Pick the field for the current language, e.g. notes_cs vs notes_en.
@@ -14,11 +15,25 @@ export function ClinicCard({ clinic }) {
     <div className="clinic-card" id={`clinic-${clinic.id}`}>
       <div className="clinic-card-header">
         <h3>{clinic.name}</h3>
-        <div className="badge-row">
-          {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
-          {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" />}
-          {clinic.is_24_7 !== true && clinic.has_weekend_emergency === true && (
-            <Badge text={t.badgeWeekendEmergency} variant="weekend" />
+        <div className="clinic-header-right">
+          <div className="badge-row">
+            {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
+            {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" />}
+            {clinic.is_24_7 !== true && clinic.has_weekend_emergency === true && (
+              <Badge text={t.badgeWeekendEmergency} variant="weekend" />
+            )}
+          </div>
+          {clinic.google_rating != null && (
+            <div className="clinic-rating">
+              <span className="clinic-rating-star"><StarIcon /></span>
+              {clinic.google_rating.toFixed(1)}
+              {clinic.google_review_count != null && (
+                <span className="clinic-rating-count">({clinic.google_review_count})</span>
+              )}
+            </div>
+          )}
+          {distanceKm != null && (
+            <div className="clinic-distance">{distanceKm.toFixed(1)} km</div>
           )}
         </div>
       </div>

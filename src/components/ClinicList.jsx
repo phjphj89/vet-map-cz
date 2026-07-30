@@ -3,6 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { ClinicCard } from "./ClinicCard";
 import { BloodDonorButton } from "./BloodDonorButton";
 import { ViewModeToggle } from "./ViewModeToggle";
+import { calculateDistanceKm } from "../utils/distance";
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -30,16 +31,26 @@ function matchesRegion(clinic, region) {
   return clinic.kraj === region && !clinic.is_brno && !clinic.is_ostrava;
 }
 
-export function ClinicList({ clinics, viewMode, setViewMode }) {
+export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
   const { t } = useLanguage();
   const [selectedRegion, setSelectedRegion] = useState("all");
 
   const regionOptions = useMemo(() => buildRegionOptions(clinics), [clinics]);
 
-  const filteredClinics = useMemo(
-    () => clinics.filter((clinic) => matchesRegion(clinic, selectedRegion)),
-    [clinics, selectedRegion]
-  );
+  const filteredClinics = useMemo(() => {
+    const filtered = clinics.filter((clinic) => matchesRegion(clinic, selectedRegion));
+
+    if (!userLocation) return filtered;
+
+    // With a known location, sort nearest-first. Distance is computed
+    // here (not stored on the clinic) since it depends on where the
+    // visitor currently is, not on the clinic itself.
+    return [...filtered].sort((a, b) => {
+      const distanceA = calculateDistanceKm(userLocation.lat, userLocation.lng, a.lat, a.lng);
+      const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
+      return distanceA - distanceB;
+    });
+  }, [clinics, selectedRegion, userLocation]);
 
   return (
     <div className="clinic-list">
@@ -66,7 +77,15 @@ export function ClinicList({ clinics, viewMode, setViewMode }) {
       </div>
 
       {filteredClinics.map((clinic) => (
-        <ClinicCard key={clinic.id} clinic={clinic} />
+        <ClinicCard
+          key={clinic.id}
+          clinic={clinic}
+          distanceKm={
+            userLocation
+              ? calculateDistanceKm(userLocation.lat, userLocation.lng, clinic.lat, clinic.lng)
+              : null
+          }
+        />
       ))}
     </div>
   );

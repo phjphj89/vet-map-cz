@@ -30,6 +30,10 @@ export const translations = {
     bloodDonorButton: "Find blood donor - Kapka pro ušáčka",
     viewList: "List",
     viewMap: "Map",
+    locationPromptText: "Enable location to see the distance to each clinic and sort by nearest. Your location is used only in your browser - it is never sent to us or stored anywhere.",
+    locationButton: "Use my location",
+    locationDenied: "Location access was denied. You can enable it in your browser's site settings to see distances.",
+    locationUnsupported: "Your browser doesn't support location services.",
   },
   cs: {
     siteTitle: "Veterináři pro králíky – Česká republika",
@@ -58,6 +62,10 @@ export const translations = {
     bloodDonorButton: "Sehnat dárce krve - Kapka pro ušáčka",
     viewList: "Seznam",
     viewMap: "Mapa",
+    locationPromptText: "Povolte polohu a uvidíte vzdálenost ke každé klinice a řazení podle nejbližší. Vaše poloha se použije pouze ve vašem prohlížeči - nikdy nám se neodesílá ani se nikde neukládá.",
+    locationButton: "Použít mou polohu",
+    locationDenied: "Přístup k poloze byl odepřen. Můžete jej povolit v nastavení prohlížeče a zobrazit vzdálenosti.",
+    locationUnsupported: "Váš prohlížeč nepodporuje zjišťování polohy.",
   },
 };
 

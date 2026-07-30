@@ -339,10 +339,81 @@
   margin: 4px 0 12px;
 }
 
+.clinic-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
 .badge-row {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+}
+
+.clinic-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.clinic-rating-star {
+  display: flex;
+  color: #C99A44;
+}
+
+.clinic-rating-count {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.clinic-distance {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.location-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-card);
+}
+
+.location-prompt p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.location-prompt button {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.location-prompt button:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 
 .badge {

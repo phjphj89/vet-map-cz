@@ -3,19 +3,25 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useLanguage } from "../i18n/LanguageContext";
 
-// A custom map pin: the classic pin/teardrop shape, outlined with a
-// cream border (same color as the rabbit silhouette), with a centered
-// rabbit head+ears mark inside - matching the mark used next to the
-// site title. Built as raw SVG (a "div icon") rather than an image
-// file, so it stays crisp at any zoom level. The fill color varies by
+// A custom map pin: a compact circular badge with a short pointed
+// tail (matching the reference design), outlined with a cream border
+// (same color as the rabbit silhouette), with a centered rabbit
+// head+ears mark inside - matching the mark used next to the site
+// title. Built as raw SVG (a "div icon") rather than an image file,
+// so it stays crisp at any zoom level. The fill color varies by
 // category (see PIN_COLORS below), so this is a function rather than
-// a fixed string. The viewBox has a small margin around the pin shape
-// so the border stroke isn't clipped at the edges.
+// a fixed string.
+//
+// Shape technique: the tail is a triangle whose two base corners sit
+// INSIDE the circle (not on its edge), so the circle's opaque fill
+// completely covers the hidden part of the triangle when drawn on
+// top - only the protruding tip shows, giving a clean, seamless
+// balloon-with-tail silhouette without any visible seam.
 function buildPinSvg(fillColor) {
   return `
-    <svg width="36" height="46" viewBox="-2 -2 36 46" xmlns="http://www.w3.org/2000/svg">
-      <path d="M16 0C7.163 0 0 7.163 0 16c0 11.5 16 26 16 26s16-14.5 16-26C32 7.163 24.837 0 16 0z"
-            fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
+    <svg width="36" height="40" viewBox="-2 -2 36 40" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="11,26 21,26 16,36" fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="16" cy="15" r="14" fill="${fillColor}" stroke="#F7FAF8" stroke-width="2"/>
       <g transform="translate(3 5)">
         <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#F7FAF8"/>
         <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#F7FAF8"/>
@@ -29,9 +35,9 @@ function buildPinIcon(fillColor) {
   return L.divIcon({
     html: buildPinSvg(fillColor),
     className: "rabbit-pin-icon", // replaces Leaflet's default icon styling (no box/border)
-    iconSize: [36, 46],
-    iconAnchor: [18, 44], // the pin's pointed tip marks the exact location
-    popupAnchor: [0, -40],
+    iconSize: [36, 40],
+    iconAnchor: [18, 38], // the pin's pointed tip marks the exact location
+    popupAnchor: [0, -34],
   });
 }
 
