@@ -15,11 +15,11 @@ function buildPinSvg(fillColor) {
   return `
     <svg width="36" height="46" viewBox="-2 -2 36 46" xmlns="http://www.w3.org/2000/svg">
       <path d="M16 0C7.163 0 0 7.163 0 16c0 11.5 16 26 16 26s16-14.5 16-26C32 7.163 24.837 0 16 0z"
-            fill="${fillColor}" stroke="#FCFCFA" stroke-width="2" stroke-linejoin="round"/>
+            fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
       <g transform="translate(3 5)">
-        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#FCFCFA"/>
-        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#FCFCFA"/>
-        <circle cx="13" cy="15.5" r="5.6" fill="#FCFCFA"/>
+        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#F7FAF8"/>
+        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#F7FAF8"/>
+        <circle cx="13" cy="15.5" r="5.6" fill="#F7FAF8"/>
       </g>
     </svg>
   `;

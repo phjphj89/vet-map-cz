@@ -2,13 +2,13 @@
    To adjust the palette later, change values here rather than hunting
    through individual component styles. */
 :root {
-  --color-bg: #FCFCFA;           /* page background: white/off-white */
-  --color-card-bg: #F1F6EE;      /* card background: very light sage */
+  --color-bg: #F7FAF8;           /* page background: slight off-white */
+  --color-card-bg: #FFFFFF;      /* card background: white */
   --color-border: #3F5A44;       /* darker green borders */
   --color-text: #1F3325;         /* primary text: dark green */
   --color-text-muted: #5C7A61;   /* secondary/muted text: muted green */
   --color-accent: #3F5A44;       /* primary accent: buttons, links, active states */
-  --color-accent-text: #FCFCFA;  /* text placed on top of the accent color */
+  --color-accent-text: #F7FAF8;  /* text placed on top of the accent color */
 
   --color-badge-top-pick-bg: #F3E6C6;
   --color-badge-top-pick-text: #6E4E12;
@@ -20,6 +20,7 @@
   --font-display: 'Fraunces', serif;
   --font-body: 'Nunito', sans-serif;
   --header-height: 64px;
+  --shadow-card: 0 12px 35px rgba(31, 51, 37, 0.08);
 }
 
 * {

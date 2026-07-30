@@ -1,7 +1,7 @@
 .app {
   max-width: 100%;
   margin: 0 auto;
-  padding: 16px 32px;
+  padding: calc(var(--header-height) + 16px) 32px 16px;
 }
 
 /* --- Overall page layout: map (left) + filter/list (right) --- */
@@ -11,7 +11,6 @@
   grid-template-columns: 1fr 2fr;
   gap: 24px;
   align-items: start;
-  margin-top: 16px;
 }
 
 .map-column {
@@ -58,9 +57,12 @@
   flex-wrap: wrap;
   gap: 12px;
   height: var(--header-height);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 30;
+  padding: 0 32px;
   background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
@@ -238,6 +240,7 @@
   border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 16px;
+  box-shadow: var(--shadow-card);
 }
 
 .clinic-card-header {
