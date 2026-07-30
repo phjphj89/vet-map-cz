@@ -631,7 +631,7 @@
   },
   {
     "id": 7,
-    "name": "BUDvet Trojická (České Budějovice)",
+    "name": "BUDvet - U Trojice (České Budějovice)",
     "region": "České Budějovice",
     "address": "U trojice 511/8a, 370 04 České Budějovice (2nd location: J. R. Schustera, Rožnov)",
     "lat": 48.9872127,
@@ -649,90 +649,90 @@
     "is_ostrava": false,
     "is_24_7": false,
     "has_weekend_emergency": true,
-    "notes_en": "Mixed reviews for MVDr. Turková, per site. Booking recommended.",
+    "notes_en": "Mixed reviews for MVDr. Turková, Booking recommended",
     "notes_cs": "",
-    "emergency_en": "Mon-Fri 18-20 (800 Kč), Sat 10-20 (800 Kč), nights/Sun/holidays 1500 Kč",
-    "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "emergency_en": "Overnight emergencies 20:00 - 8:00",
+    "emergency_cs": "Noční pohotovost 20:00 - 8:00",
+    "facebook_url": "https://cs-cz.facebook.com/BUDvet.ordinace",
+    "instagram_url": "https://www.instagram.com/budvet_veterina/",
+    "google_rating": 4.8,
+    "google_review_count": 357,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "10:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "18:00 - 20:00 emergencies",
+        "note_cs": "18:00 - 20:00 pohotovost"
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "10:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "18:00 - 20:00 emergencies",
+        "note_cs": "18:00 - 20:00 pohotovost"
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "16:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "18:00 - 20:00 emergencies",
+        "note_cs": "18:00 - 20:00 pohotovost"
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "10:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "18:00 - 20:00 emergencies",
+        "note_cs": "18:00 - 20:00 pohotovost"
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "16:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "18:00 - 20:00 emergencies",
+        "note_cs": "18:00 - 20:00 pohotovost"
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "10:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pohotovost"
       },
       "Sun": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pohotovost"
       },
       "Holiday": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Emergencies only"
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 8,
@@ -1594,20 +1594,20 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Well-equipped, very good vet; small mammals get mostly basic treatment",
+    "notes_en": "Well-equipped, very good vet; small mammals get mostly basic treatment; another clinic in Světlá nad Sázavou",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/people/ANIVET-sro/100077529310157/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 5,
+    "google_review_count": 82,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "7:30",
-        "end1": "9",
+        "start1": "07:30",
+        "end1": "09:00",
         "start2": "16:30",
         "end2": "18:30",
         "note_en": "",
@@ -1617,15 +1617,15 @@
         "closed": false,
         "start1": "14",
         "end1": "16",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "start2": "14:00",
+        "end2": "16:00",
+        "note_en": "Booked appointments before noon only",
+        "note_cs": "Dopoledne pouze objednaní"
       },
       "Wed": {
         "closed": false,
-        "start1": "7:30",
-        "end1": "9",
+        "start1": "07:30",
+        "end1": "09:00",
         "start2": "16:30",
         "end2": "18:30",
         "note_en": "",
@@ -1637,13 +1637,13 @@
         "end1": "16",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Booked appointments before noon only",
+        "note_cs": "Dopoledne pouze objednaní"
       },
       "Fri": {
         "closed": false,
-        "start1": "7:30",
-        "end1": "9",
+        "start1": "07:30",
+        "end1": "09:00",
         "start2": "16:30",
         "end2": "18:30",
         "note_en": "",
@@ -3274,69 +3274,69 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Small-mammal medicine & surgery, general dog/cat medicine, small-mammal dentistry",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/animalhelpveterinakyjov",
+    "instagram_url": "https://www.instagram.com/animal_help_veterina_kyjov/",
+    "google_rating": 4.6,
+    "google_review_count": 62,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "15:00",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "1st Saturday of every month 9:00 - 11:00",
+        "note_cs": "1. sobota v měsíci 9:00 - 11:00"
       },
       "Sun": {
         "closed": true,
@@ -3357,7 +3357,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 33,
