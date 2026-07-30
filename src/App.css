@@ -33,7 +33,7 @@
 .map-floating-toggle {
   position: absolute;
   top: 16px;
-  left: 16px;
+  right: 16px;
   z-index: 1001;
   border-radius: 6px;
   box-shadow: var(--shadow-card);
@@ -41,11 +41,10 @@
 
 .map-clinic-panel {
   position: absolute;
-  top: 16px;
+  left: 16px;
   right: 16px;
-  width: 380px;
-  max-width: calc(100% - 32px);
-  max-height: calc(100% - 32px);
+  bottom: 16px;
+  max-height: 50%;
   overflow-y: auto;
   z-index: 1001;
 }
