@@ -267,6 +267,47 @@
   background: var(--color-bg);
 }
 
+.special-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.special-filter-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  opacity: 0.55;
+}
+
+.special-filter-button.active {
+  opacity: 1;
+}
+
+.filter-247 {
+  background: var(--color-badge-247-bg);
+  color: var(--color-badge-247-text);
+}
+
+.filter-247.active {
+  border-color: var(--color-badge-247-text);
+}
+
+.filter-weekend {
+  background: var(--color-badge-weekend-bg);
+  color: var(--color-badge-weekend-text);
+}
+
+.filter-weekend.active {
+  border-color: var(--color-badge-weekend-text);
+}
+
 .filter-row-actions {
   margin-left: auto;
   display: flex;

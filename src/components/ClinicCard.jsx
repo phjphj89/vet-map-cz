@@ -3,6 +3,7 @@ import { Badge } from "./Badge";
 import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
+import { isOpenOnWeekends } from "../utils/clinicChecks";
 
 export function ClinicCard({ clinic, distanceKm }) {
   const { language, t } = useLanguage();
@@ -18,10 +19,15 @@ export function ClinicCard({ clinic, distanceKm }) {
         <div className="clinic-header-right">
           <div className="badge-row">
             {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
-            {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" />}
-            {clinic.is_24_7 !== true && clinic.has_weekend_emergency === true && (
-              <Badge text={t.badgeWeekendEmergency} variant="weekend" />
-            )}
+            {clinic.is_24_7 === true ? (
+              <Badge text={t.badge247} variant="emergency" />
+            ) : isOpenOnWeekends(clinic) && clinic.has_weekend_emergency === true ? (
+              <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" />
+            ) : isOpenOnWeekends(clinic) ? (
+              <Badge text={t.badgeOpenWeekends} variant="weekend" />
+            ) : clinic.has_weekend_emergency === true ? (
+              <Badge text={t.badgeWeekendEmergencyOnly} variant="emergency" />
+            ) : null}
           </div>
           {clinic.google_rating != null && (
             <div className="clinic-rating">

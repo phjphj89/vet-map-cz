@@ -4,6 +4,7 @@ import { ClinicCard } from "./ClinicCard";
 import { BloodDonorButton } from "./BloodDonorButton";
 import { ViewModeToggle } from "./ViewModeToggle";
 import { calculateDistanceKm } from "../utils/distance";
+import { isOpenOnWeekends } from "../utils/clinicChecks";
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -31,14 +32,32 @@ function matchesRegion(clinic, region) {
   return clinic.kraj === region && !clinic.is_brno && !clinic.is_ostrava;
 }
 
+// If none of the special filters are checked, every clinic passes
+// (no restriction). Otherwise a clinic passes if it matches AT LEAST
+// ONE checked filter (broadens results, standard checkbox behavior).
+function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency) {
+  if (!show247 && !showOpenWeekends && !showWeekendEmergency) return true;
+  const passes247 = show247 && clinic.is_24_7 === true;
+  const passesOpenWeekends = showOpenWeekends && isOpenOnWeekends(clinic);
+  const passesWeekendEmergency = showWeekendEmergency && clinic.has_weekend_emergency === true;
+  return passes247 || passesOpenWeekends || passesWeekendEmergency;
+}
+
 export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
   const { t } = useLanguage();
   const [selectedRegion, setSelectedRegion] = useState("all");
+  const [show247, setShow247] = useState(false);
+  const [showOpenWeekends, setShowOpenWeekends] = useState(false);
+  const [showWeekendEmergency, setShowWeekendEmergency] = useState(false);
 
   const regionOptions = useMemo(() => buildRegionOptions(clinics), [clinics]);
 
   const filteredClinics = useMemo(() => {
-    const filtered = clinics.filter((clinic) => matchesRegion(clinic, selectedRegion));
+    const filtered = clinics.filter(
+      (clinic) =>
+        matchesRegion(clinic, selectedRegion) &&
+        matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency)
+    );
 
     if (!userLocation) return filtered;
 
@@ -50,7 +69,7 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
       const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
       return distanceA - distanceB;
     });
-  }, [clinics, selectedRegion, userLocation]);
+  }, [clinics, selectedRegion, show247, showOpenWeekends, showWeekendEmergency, userLocation]);
 
   return (
     <div className="clinic-list">
@@ -67,6 +86,26 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
             </option>
           ))}
         </select>
+        <div className="special-filters">
+          <button
+            className={`special-filter-button filter-247 ${show247 ? "active" : ""}`}
+            onClick={() => setShow247(!show247)}
+          >
+            {t.badge247}
+          </button>
+          <button
+            className={`special-filter-button filter-weekend ${showOpenWeekends ? "active" : ""}`}
+            onClick={() => setShowOpenWeekends(!showOpenWeekends)}
+          >
+            {t.badgeOpenWeekends}
+          </button>
+          <button
+            className={`special-filter-button filter-247 ${showWeekendEmergency ? "active" : ""}`}
+            onClick={() => setShowWeekendEmergency(!showWeekendEmergency)}
+          >
+            {t.badgeWeekendEmergencyOnly}
+          </button>
+        </div>
         <span className="result-count">
           {filteredClinics.length} {t.clinicsFound}
         </span>
