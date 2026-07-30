@@ -91,6 +91,28 @@
   }
 }
 
+/* On phone-width screens, the title and the CS/EN+hamburger controls
+   don't fit on one line and wrap onto a second row. The header's
+   height needs to grow to match, or the wrapped row overflows past
+   the fixed height and the border-bottom ends up cutting through it
+   instead of sitting below it. Since every other measurement (page
+   padding, sticky offsets, map height) is calculated FROM
+   --header-height, overriding just this one variable fixes all of
+   them at once. */
+@media (max-width: 600px) {
+  :root {
+    --header-height: 104px;
+  }
+
+  .app-header {
+    padding: 10px 16px;
+  }
+
+  .app-header h1 {
+    font-size: 18px;
+  }
+}
+
 /* --- Header --- */
 
 .app-header {
