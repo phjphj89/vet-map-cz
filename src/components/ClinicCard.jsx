@@ -26,14 +26,14 @@ export function ClinicCard({ clinic, distanceKm }) {
           {clinic.google_rating != null && (
             <div className="clinic-rating">
               <span className="clinic-rating-star"><StarIcon /></span>
-              {clinic.google_rating.toFixed(1)}
+              {Number(clinic.google_rating).toFixed(1)}
               {clinic.google_review_count != null && (
                 <span className="clinic-rating-count">({clinic.google_review_count})</span>
               )}
             </div>
           )}
           {distanceKm != null && (
-            <div className="clinic-distance">{distanceKm.toFixed(1)} km</div>
+            <div className="clinic-distance">{Number(distanceKm).toFixed(1)} km</div>
           )}
         </div>
       </div>
