@@ -134,8 +134,8 @@
   right: 0;
   z-index: 30;
   padding: 0 32px;
-  background: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-accent);
+  box-shadow: var(--shadow-card);
 }
 
 .app-title {
@@ -144,8 +144,23 @@
   gap: 10px;
 }
 
-.app-header h1 {
-  font-size: 22px;
+.app-title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-accent-text);
+  line-height: 1.15;
+}
+
+.app-tagline {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(247, 250, 248, 0.75);
+  line-height: 1.2;
 }
 
 .header-controls {
@@ -260,11 +275,14 @@
   gap: 10px;
   flex-wrap: wrap;
   margin: 0 0 12px;
-  padding: 16px 0;
+  padding: 16px 20px;
   position: sticky;
   top: calc(var(--header-height) + 16px);
   z-index: 20;
-  background: var(--color-bg);
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  box-shadow: var(--shadow-card);
 }
 
 .special-filters {

@@ -4,7 +4,7 @@
 
 export const translations = {
   en: {
-    siteTitle: "Rabbit-Friendly Vets - Czech Republic",
+    siteTagline: "Rabbit-friendly vets in the Czech Republic",
     allRegions: "All regions",
     filterByRegion: "Filter by region",
     address: "Address",
@@ -39,7 +39,7 @@ export const translations = {
     locationUnsupported: "Your browser doesn't support location services.",
   },
   cs: {
-    siteTitle: "Veterináři pro králíky – Česká republika",
+    siteTagline: "Veteriny s odborníky na králíky a jiné drobné savce v ČR",
     allRegions: "Všechny kraje",
     filterByRegion: "Filtrovat podle kraje",
     address: "Adresa",

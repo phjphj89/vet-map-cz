@@ -34,8 +34,11 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="app-title">
-          <RabbitEarsIcon />
-          <h1>{t.siteTitle}</h1>
+          <RabbitEarsIcon color="var(--color-accent-text)" />
+          <div className="app-title-text">
+            <h1>HopVet</h1>
+            <p className="app-tagline">{t.siteTagline}</p>
+          </div>
         </div>
         <div className="header-controls">
           <div className="language-toggle">
