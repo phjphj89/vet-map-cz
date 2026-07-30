@@ -639,7 +639,7 @@
     "phone": "Trojická: 735 172 517, Rožnov: 775 662 484",
     "website": "http://www.budvet.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Anna Hundáková (on maternity leave), covered by MVDr. Pavlína Turková",
+    "recommended_vet": "MVDr. Anna Hundáková (na mateřské), zastupuje MVDr. Pavlína Turková",
     "hours": "Trojická: Mon,Tue,Thu 10-18, Wed,Fri 8-16; Rožnov: Mon-Fri 8-18, Sat 8-10",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMZc69StOc0cRb9cX4Yv6wKQ",
     "district": "České Budějovice",
@@ -649,8 +649,8 @@
     "is_ostrava": false,
     "is_24_7": false,
     "has_weekend_emergency": true,
-    "notes_en": "Mixed reviews for MVDr. Turková, Booking recommended",
-    "notes_cs": "",
+    "notes_en": "Mixed reviews for MVDr. Turková",
+    "notes_cs": "Smíšené recenze na MVDr. Turkovou",
     "emergency_en": "Overnight emergencies 20:00 - 8:00",
     "emergency_cs": "Noční pohotovost 20:00 - 8:00",
     "facebook_url": "https://cs-cz.facebook.com/BUDvet.ordinace",
@@ -729,7 +729,7 @@
         "start2": "",
         "end2": "",
         "note_en": "Emergencies only",
-        "note_cs": "Emergencies only"
+        "note_cs": "Pohotovost"
       }
     },
     "hours_needs_review": false
