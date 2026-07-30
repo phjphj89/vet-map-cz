@@ -23,37 +23,86 @@
     "notes_cs": "",
     "emergency_en": "Outside hours for extra fee",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9:00-18:30"
-      ],
-      "Tue": [
-        "9:00-18:30"
-      ],
-      "Wed": [
-        "9:00-18:30"
-      ],
-      "Thu": [
-        "9:00-18:30"
-      ],
-      "Fri": [
-        "9:00-18:30"
-      ],
-      "Sat": [
-        "9:00-11:30"
-      ],
-      "Sun": [
-        "9:00-11:30"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 4.5,
     "google_review_count": 423,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "18:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "18:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "18:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "18:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "18:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "11:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9:00",
+        "end1": "11:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 2,
@@ -79,35 +128,86 @@
     "notes_cs": "",
     "emergency_en": "Refer to Hošek clinic, Gellnerova 8, Brno, non-stop tel. 603 103 377",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11:30",
-        "12:30-18"
-      ],
-      "Tue": [
-        "9-11:30",
-        "12:30-18"
-      ],
-      "Wed": [
-        "8-11:30",
-        "12:30-19"
-      ],
-      "Thu": [
-        "8-11:30",
-        "12:30-19"
-      ],
-      "Fri": [
-        "8-13"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "https://www.facebook.com/veterinarniklinakabrno/",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 4.5,
     "google_review_count": 440,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "12:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "12:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11:30",
+        "start2": "12:30",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11:30",
+        "start2": "12:30",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "13",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 3,
@@ -128,41 +228,91 @@
     "is_brno": true,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "13-20"
-      ],
-      "Tue": [
-        "8-12",
-        "13-18"
-      ],
-      "Wed": [
-        "8-12",
-        "13-18"
-      ],
-      "Thu": [
-        "8-12",
-        "13-18"
-      ],
-      "Fri": [
-        "8-12",
-        "13-20"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "https://www.facebook.com/p/ExoCare-MVDr-Krist%C3%BDna-Pouzar-Pokrupov%C3%A1-61560008890013/",
     "instagram_url": "https://www.instagram.com/exocare.brno",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)",
     "google_rating": 4.9,
     "google_review_count": 54,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "20:00",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "20:00",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 4,
@@ -188,42 +338,86 @@
     "notes_cs": "",
     "emergency_en": "Treatment outside hours possible by phone arrangement",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "14-18"
-      ],
-      "Tue": [
-        "8-12",
-        "14-18"
-      ],
-      "Wed": [
-        "8-12",
-        "14-18"
-      ],
-      "Thu": [
-        "8-12",
-        "14-18"
-      ],
-      "Fri": [
-        "8-12",
-        "14-18"
-      ],
-      "Sat": [
-        "8-9"
-      ],
-      "Sun": [
-        "18-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "9",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "18",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 5,
@@ -249,36 +443,86 @@
     "notes_cs": "",
     "emergency_en": "Non-stop on same number; also handles overflow emergencies for Jekl & Hauptman clinic",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-10",
-        "14-18"
-      ],
-      "Tue": [
-        "8-10",
-        "14-18"
-      ],
-      "Wed": [
-        "8-10",
-        "14-18"
-      ],
-      "Thu": [
-        "8-10",
-        "14-18"
-      ],
-      "Fri": [
-        "8-10",
-        "14-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 6,
@@ -304,36 +548,86 @@
     "notes_cs": "",
     "emergency_en": "Weekends/holidays, tel. 731 878 484",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "13-15"
-      ],
-      "Tue": [
-        "8-12",
-        "13-15"
-      ],
-      "Wed": [
-        "8-12",
-        "13-15"
-      ],
-      "Thu": [
-        "8-12",
-        "13-15"
-      ],
-      "Fri": [
-        "8-12",
-        "13-15"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 7,
@@ -359,15 +653,86 @@
     "notes_cs": "",
     "emergency_en": "Mon-Fri 18-20 (800 Kč), Sat 10-20 (800 Kč), nights/Sun/holidays 1500 Kč",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 8,
@@ -393,39 +758,86 @@
     "notes_cs": "",
     "emergency_en": "By phone arrangement only, 605 866 733, acute/life-threatening cases only, surcharge 2000 Kč + 50%",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ],
-      "Sat": [
-        "9-13",
-        "17-19"
-      ],
-      "Sun": [
-        "9-13",
-        "17-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "17",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "17",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 9,
@@ -451,34 +863,86 @@
     "notes_cs": "",
     "emergency_en": "Weekend/holiday emergency by mobile",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11",
-        "15-18"
-      ],
-      "Wed": [
-        "9-11",
-        "15-18"
-      ],
-      "Fri": [
-        "9-11",
-        "15-18"
-      ],
-      "Tue": [
-        "16-18"
-      ],
-      "Thu": [
-        "16-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "16",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "16",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 10,
@@ -504,35 +968,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11",
-        "14:30-17"
-      ],
-      "Tue": [
-        "9-11",
-        "14:30-17"
-      ],
-      "Thu": [
-        "9-11",
-        "14:30-17"
-      ],
-      "Fri": [
-        "9-11",
-        "14:30-17"
-      ],
-      "Wed": [
-        "13-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "14:30",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "14:30",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "13",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "14:30",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "14:30",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 11,
@@ -558,42 +1073,86 @@
     "notes_cs": "",
     "emergency_en": "18-22 (weekends/holidays 12-22), regular clients only",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-11",
-        "13-18"
-      ],
-      "Tue": [
-        "8-11",
-        "13-18"
-      ],
-      "Wed": [
-        "8-11",
-        "13-18"
-      ],
-      "Thu": [
-        "8-11",
-        "13-18"
-      ],
-      "Fri": [
-        "8-11",
-        "13-18"
-      ],
-      "Sat": [
-        "8-12"
-      ],
-      "Sun": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 12,
@@ -619,37 +1178,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-18"
-      ],
-      "Tue": [
-        "9-18"
-      ],
-      "Wed": [
-        "9-18"
-      ],
-      "Thu": [
-        "9-18"
-      ],
-      "Fri": [
-        "9-18"
-      ],
-      "Sat": [
-        "9-11"
-      ],
-      "Sun": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 13,
@@ -675,15 +1283,86 @@
     "notes_cs": "",
     "emergency_en": "Weekdays to 20h, weekends 8-18h",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 14,
@@ -709,36 +1388,86 @@
     "notes_cs": "",
     "emergency_en": "Mobile 602 813 370 / 606 836 709",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8:30-12",
-        "15-18"
-      ],
-      "Tue": [
-        "8:30-12",
-        "15-18"
-      ],
-      "Thu": [
-        "8:30-12",
-        "15-18"
-      ],
-      "Fri": [
-        "8:30-12",
-        "15-18"
-      ],
-      "Wed": [
-        "8:30-11",
-        "13-16"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "11",
+        "start2": "13",
+        "end2": "16",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 15,
@@ -764,15 +1493,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 16,
@@ -798,34 +1598,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "7:30-9",
-        "16:30-18:30"
-      ],
-      "Wed": [
-        "7:30-9",
-        "16:30-18:30"
-      ],
-      "Fri": [
-        "7:30-9",
-        "16:30-18:30"
-      ],
-      "Tue": [
-        "14-16"
-      ],
-      "Thu": [
-        "14-16"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "9",
+        "start2": "16:30",
+        "end2": "18:30",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "14",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "9",
+        "start2": "16:30",
+        "end2": "18:30",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "14",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "9",
+        "start2": "16:30",
+        "end2": "18:30",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 17,
@@ -851,39 +1703,86 @@
     "notes_cs": "",
     "emergency_en": "NONSTOP, phone arrangement required",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12",
-        "15-18"
-      ],
-      "Tue": [
-        "9-12",
-        "15-18"
-      ],
-      "Wed": [
-        "9-12",
-        "15-18"
-      ],
-      "Thu": [
-        "9-12",
-        "15-18"
-      ],
-      "Fri": [
-        "9-12",
-        "15-18"
-      ],
-      "Sat": [
-        "10-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "10",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 18,
@@ -909,34 +1808,86 @@
     "notes_cs": "",
     "emergency_en": "Outside hours, same number, vet on-site 24/7, call ahead",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8:30-17"
-      ],
-      "Tue": [
-        "8:30-17"
-      ],
-      "Wed": [
-        "8:30-17"
-      ],
-      "Thu": [
-        "8:30-17"
-      ],
-      "Fri": [
-        "8:30-17"
-      ],
-      "Sat": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 19,
@@ -962,34 +1913,86 @@
     "notes_cs": "",
     "emergency_en": "Surcharge, same number",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-20"
-      ],
-      "Tue": [
-        "9-20"
-      ],
-      "Wed": [
-        "9-20"
-      ],
-      "Thu": [
-        "9-20"
-      ],
-      "Fri": [
-        "9-20"
-      ],
-      "Sat": [
-        "9-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 20,
@@ -1015,36 +2018,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "14-17"
-      ],
-      "Wed": [
-        "8-12",
-        "14-17"
-      ],
-      "Fri": [
-        "8-12",
-        "14-17"
-      ],
-      "Tue": [
-        "8-12",
-        "13-15"
-      ],
-      "Thu": [
-        "8-12",
-        "13-15"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "14",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 21,
@@ -1070,15 +2123,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 22,
@@ -1104,31 +2228,86 @@
     "notes_cs": "",
     "emergency_en": "Non-stop, tel. 739 164 703, surcharge 1000 Kč",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 23,
@@ -1154,34 +2333,86 @@
     "notes_cs": "",
     "emergency_en": "Mon-Fri 18-24, Sat-Sun 9-24",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-18"
-      ],
-      "Tue": [
-        "8-18"
-      ],
-      "Wed": [
-        "8-18"
-      ],
-      "Thu": [
-        "8-18"
-      ],
-      "Fri": [
-        "8-18"
-      ],
-      "Sat": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 24,
@@ -1207,29 +2438,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12"
-      ],
-      "Tue": [
-        "9-12"
-      ],
-      "Wed": [
-        "16-19:30"
-      ],
-      "Fri": [
-        "16-19:30"
-      ],
-      "Thu": []
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "16",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "16",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 25,
@@ -1255,37 +2543,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-21"
-      ],
-      "Tue": [
-        "8-21"
-      ],
-      "Wed": [
-        "8-21"
-      ],
-      "Thu": [
-        "8-21"
-      ],
-      "Fri": [
-        "8-21"
-      ],
-      "Sat": [
-        "9-14"
-      ],
-      "Sun": [
-        "13-17"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "14",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "13",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 26,
@@ -1311,15 +2648,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 27,
@@ -1345,34 +2753,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-19"
-      ],
-      "Tue": [
-        "9-19"
-      ],
-      "Wed": [
-        "9-19"
-      ],
-      "Thu": [
-        "9-19"
-      ],
-      "Fri": [
-        "9-19"
-      ],
-      "Sun": [
-        "9-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 28,
@@ -1398,31 +2858,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-21"
-      ],
-      "Tue": [
-        "9-21"
-      ],
-      "Wed": [
-        "9-21"
-      ],
-      "Thu": [
-        "9-21"
-      ],
-      "Fri": [
-        "9-21"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 29,
@@ -1448,37 +2963,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "10-21"
-      ],
-      "Tue": [
-        "10-21"
-      ],
-      "Wed": [
-        "10-21"
-      ],
-      "Thu": [
-        "10-21"
-      ],
-      "Fri": [
-        "10-21"
-      ],
-      "Sat": [
-        "8-12"
-      ],
-      "Sun": [
-        "16-21"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "10",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "10",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "10",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "10",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "10",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "16",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 30,
@@ -1504,39 +3068,86 @@
     "notes_cs": "",
     "emergency_en": "See clinic website",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12",
-        "14:30-18"
-      ],
-      "Tue": [
-        "9-12",
-        "14:30-18"
-      ],
-      "Wed": [
-        "9-12",
-        "14:30-18"
-      ],
-      "Thu": [
-        "9-12",
-        "14:30-18"
-      ],
-      "Fri": [
-        "9-12",
-        "14:30-18"
-      ],
-      "Sat": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "14:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "14:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "14:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "14:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "14:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 31,
@@ -1562,15 +3173,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 32,
@@ -1596,15 +3278,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 33,
@@ -1630,42 +3383,86 @@
     "notes_cs": "",
     "emergency_en": "To 22h, tel. 736 175 107",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "13-20"
-      ],
-      "Tue": [
-        "8-12",
-        "13-20"
-      ],
-      "Wed": [
-        "8-12",
-        "13-20"
-      ],
-      "Thu": [
-        "8-12",
-        "13-20"
-      ],
-      "Fri": [
-        "8-12",
-        "13-20"
-      ],
-      "Sat": [
-        "9-12"
-      ],
-      "Sun": [
-        "18-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "18",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 34,
@@ -1691,34 +3488,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-11",
-        "15-18"
-      ],
-      "Tue": [
-        "15-18"
-      ],
-      "Wed": [
-        "15-18"
-      ],
-      "Thu": [
-        "8-11"
-      ],
-      "Fri": [
-        "8-11"
-      ],
-      "Sat": [],
-      "Sun": []
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "15",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "15",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 35,
@@ -1744,31 +3593,86 @@
     "notes_cs": "",
     "emergency_en": "Weekend/off-hours care at Most branch (J. Seiferta 2117): Mon-Fri 9-18, Sat 9-12, Sun 17-19",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12"
-      ],
-      "Wed": [
-        "9-12"
-      ],
-      "Thu": [
-        "9-12"
-      ],
-      "Fri": [
-        "9-12"
-      ],
-      "Tue": [
-        "16:30-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "16:30",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 36,
@@ -1794,37 +3698,86 @@
     "notes_cs": "",
     "emergency_en": "731 777 052",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-19"
-      ],
-      "Tue": [
-        "9-19"
-      ],
-      "Wed": [
-        "9-19"
-      ],
-      "Thu": [
-        "9-19"
-      ],
-      "Fri": [
-        "9-19"
-      ],
-      "Sat": [
-        "9-19"
-      ],
-      "Sun": [
-        "9-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 37,
@@ -1850,31 +3803,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-15"
-      ],
-      "Wed": [
-        "9-15"
-      ],
-      "Fri": [
-        "9-15"
-      ],
-      "Tue": [
-        "12-18"
-      ],
-      "Thu": [
-        "12-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "15",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "12",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "15",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "12",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "15",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 38,
@@ -1900,36 +3908,86 @@
     "notes_cs": "",
     "emergency_en": "603 349 062",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12",
-        "13-17"
-      ],
-      "Tue": [
-        "9-12",
-        "13-17"
-      ],
-      "Wed": [
-        "9-12",
-        "13-17"
-      ],
-      "Thu": [
-        "9-12",
-        "13-17"
-      ],
-      "Fri": [
-        "9-12",
-        "13-17"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 39,
@@ -1955,39 +4013,86 @@
     "notes_cs": "",
     "emergency_en": "Same hours; home visits possible; closed public holidays",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-11",
-        "13-18"
-      ],
-      "Tue": [
-        "8-11",
-        "13-18"
-      ],
-      "Wed": [
-        "8-11",
-        "13-18"
-      ],
-      "Thu": [
-        "8-11",
-        "13-18"
-      ],
-      "Fri": [
-        "8-11",
-        "13-18"
-      ],
-      "Sat": [
-        "8-10"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 40,
@@ -2013,36 +4118,86 @@
     "notes_cs": "",
     "emergency_en": "By phone arrangement, weekdays to 22h and weekends/holidays; priority to regular clients, fee applies",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "16-19"
-      ],
-      "Tue": [
-        "8-12",
-        "16-19"
-      ],
-      "Wed": [
-        "8-12",
-        "16-19"
-      ],
-      "Thu": [
-        "8-12",
-        "16-19"
-      ],
-      "Fri": [
-        "8-12",
-        "16-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "16",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "16",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "16",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "16",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "16",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 41,
@@ -2068,31 +4223,86 @@
     "notes_cs": "",
     "emergency_en": "No fixed line, but Nováková checks phone often on weekends. Backup: Dr. Galko's clinic Olomouc, then Vyškov (Dr. Hylák), or Dr. Tesař",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12",
-        "13-18"
-      ],
-      "Thu": [
-        "9-12",
-        "13-18"
-      ],
-      "Tue": [
-        "13-18"
-      ],
-      "Fri": [
-        "8-12",
-        "13-15"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "09:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "13",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "15",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 42,
@@ -2118,39 +4328,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-12",
-        "13-18"
-      ],
-      "Tue": [
-        "9-12",
-        "13-18"
-      ],
-      "Wed": [
-        "9-12",
-        "13-18"
-      ],
-      "Thu": [
-        "9-12",
-        "13-18"
-      ],
-      "Fri": [
-        "9-12",
-        "13-18"
-      ],
-      "Sat": [
-        "9-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 43,
@@ -2176,39 +4433,86 @@
     "notes_cs": "",
     "emergency_en": "Weekends only, by phone arrangement 8-20, surcharge 1000 Kč; no weekday after-hours emergency",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "7:30-12",
-        "13-18"
-      ],
-      "Tue": [
-        "7:30-12",
-        "13-18"
-      ],
-      "Wed": [
-        "7:30-12",
-        "13-18"
-      ],
-      "Thu": [
-        "7:30-12",
-        "13-18"
-      ],
-      "Fri": [
-        "7:30-12",
-        "13-18"
-      ],
-      "Sat": [
-        "9-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "7:30",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 44,
@@ -2234,39 +4538,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "13-18"
-      ],
-      "Tue": [
-        "8-12",
-        "13-18"
-      ],
-      "Wed": [
-        "8-12",
-        "13-18"
-      ],
-      "Thu": [
-        "8-12",
-        "13-18"
-      ],
-      "Fri": [
-        "8-12",
-        "13-18"
-      ],
-      "Sat": [
-        "8-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 45,
@@ -2292,31 +4643,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-17"
-      ],
-      "Tue": [
-        "9-17"
-      ],
-      "Wed": [
-        "9-17"
-      ],
-      "Thu": [
-        "9-17"
-      ],
-      "Fri": [
-        "9-17"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "17",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 46,
@@ -2342,15 +4748,86 @@
     "notes_cs": "",
     "emergency_en": "Weekend contact via email/Facebook only, no weekend office hours",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 47,
@@ -2376,42 +4853,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-11",
-        "14-19"
-      ],
-      "Tue": [
-        "8-11",
-        "14-19"
-      ],
-      "Wed": [
-        "8-11",
-        "14-19"
-      ],
-      "Thu": [
-        "8-11",
-        "14-19"
-      ],
-      "Fri": [
-        "8-11",
-        "14-19"
-      ],
-      "Sat": [
-        "8-9"
-      ],
-      "Sun": [
-        "18-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "9",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "18",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 48,
@@ -2437,15 +4958,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 49,
@@ -2471,15 +5063,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 50,
@@ -2505,35 +5168,86 @@
     "notes_cs": "",
     "emergency_en": "Outside hours via reservation system or phone",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11",
-        "15-17"
-      ],
-      "Tue": [
-        "9-11",
-        "15-17"
-      ],
-      "Thu": [
-        "9-11",
-        "15-17"
-      ],
-      "Fri": [
-        "9-11",
-        "15-17"
-      ],
-      "Wed": [],
-      "Sat": [],
-      "Sun": []
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "15",
+        "end2": "17",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 51,
@@ -2559,31 +5273,86 @@
     "notes_cs": "",
     "emergency_en": "8-13 weekends/holidays, surcharge 600 Kč",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-18"
-      ],
-      "Tue": [
-        "8-18"
-      ],
-      "Wed": [
-        "8-18"
-      ],
-      "Thu": [
-        "8-18"
-      ],
-      "Fri": [
-        "8-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 52,
@@ -2609,15 +5378,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 53,
@@ -2643,15 +5483,86 @@
     "notes_cs": "",
     "emergency_en": "Surcharge, non-stop",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 54,
@@ -2677,37 +5588,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-21"
-      ],
-      "Tue": [
-        "8-21"
-      ],
-      "Wed": [
-        "8-21"
-      ],
-      "Thu": [
-        "8-21"
-      ],
-      "Fri": [
-        "8-21"
-      ],
-      "Sat": [
-        "10-16"
-      ],
-      "Sun": [
-        "10-16"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "10",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "10",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 55,
@@ -2733,31 +5693,86 @@
     "notes_cs": "",
     "emergency_en": "Sat-Sun 9-17",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 56,
@@ -2783,31 +5798,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-18"
-      ],
-      "Tue": [
-        "9-18"
-      ],
-      "Wed": [
-        "12-20"
-      ],
-      "Thu": [
-        "9-18"
-      ],
-      "Fri": [
-        "9-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "12",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 57,
@@ -2833,42 +5903,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-12",
-        "13-20"
-      ],
-      "Tue": [
-        "8-12",
-        "13-20"
-      ],
-      "Wed": [
-        "8-12",
-        "13-20"
-      ],
-      "Thu": [
-        "8-12",
-        "13-20"
-      ],
-      "Fri": [
-        "8-12",
-        "13-20"
-      ],
-      "Sat": [
-        "9-14"
-      ],
-      "Sun": [
-        "14-19"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "14",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "14",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 58,
@@ -2894,31 +6008,86 @@
     "notes_cs": "",
     "emergency_en": "Evening 21-24 (1500 Kč), weekends 8-21 (1500 Kč), holidays 8-21 (1500 Kč), acute cases only",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-21"
-      ],
-      "Tue": [
-        "8-21"
-      ],
-      "Wed": [
-        "8-21"
-      ],
-      "Thu": [
-        "8-21"
-      ],
-      "Fri": [
-        "8-21"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 59,
@@ -2944,34 +6113,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-20"
-      ],
-      "Tue": [
-        "9-20"
-      ],
-      "Wed": [
-        "9-20"
-      ],
-      "Thu": [
-        "9-20"
-      ],
-      "Fri": [
-        "9-20"
-      ],
-      "Sat": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 60,
@@ -2997,37 +6218,86 @@
     "notes_cs": "",
     "emergency_en": "Weekend/holiday surcharge 500 Kč",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ],
-      "Sat": [
-        "8-20"
-      ],
-      "Sun": [
-        "8-20"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 61,
@@ -3053,31 +6323,86 @@
     "notes_cs": "",
     "emergency_en": "Weeknights 19:30-8 (1200-2000 Kč), weekends 800 Kč (excl. planned check-ups)",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-19:30"
-      ],
-      "Tue": [
-        "8-19:30"
-      ],
-      "Wed": [
-        "8-19:30"
-      ],
-      "Thu": [
-        "8-19:30"
-      ],
-      "Fri": [
-        "8-19:30"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 62,
@@ -3103,15 +6428,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 63,
@@ -3137,15 +6533,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 64,
@@ -3171,31 +6638,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-21"
-      ],
-      "Tue": [
-        "8-21"
-      ],
-      "Wed": [
-        "8-21"
-      ],
-      "Thu": [
-        "8-21"
-      ],
-      "Fri": [
-        "8-21"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 65,
@@ -3221,34 +6743,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "15-21"
-      ],
-      "Tue": [
-        "15-21"
-      ],
-      "Wed": [
-        "15-21"
-      ],
-      "Thu": [
-        "15-21"
-      ],
-      "Fri": [
-        "15-21"
-      ],
-      "Sat": [
-        "9-12:30"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "15",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "15",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "15",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "15",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "15",
+        "end1": "21",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 66,
@@ -3274,15 +6848,86 @@
     "notes_cs": "",
     "emergency_en": "Since 7 Feb 2026, moved to Veterina Sokolníky, Trousilova 1064, Praha 8, tel. 736 535 652",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 67,
@@ -3308,37 +6953,86 @@
     "notes_cs": "",
     "emergency_en": "Weekday after-19:30 surcharge 500 Kč; weekend surcharge 800 Kč (excl. check-ups)",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ],
-      "Sat": [
-        "9-12"
-      ],
-      "Sun": [
-        "9-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 68,
@@ -3364,15 +7058,86 @@
     "notes_cs": "",
     "emergency_en": "Outside hours on 777 662 061",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 69,
@@ -3398,34 +7163,86 @@
     "notes_cs": "",
     "emergency_en": "602 834 710",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-18"
-      ],
-      "Tue": [
-        "8-18"
-      ],
-      "Wed": [
-        "8-18"
-      ],
-      "Thu": [
-        "8-18"
-      ],
-      "Fri": [
-        "8-18"
-      ],
-      "Sat": [
-        "8-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 70,
@@ -3451,38 +7268,86 @@
     "notes_cs": "",
     "emergency_en": "Weekend emergency on same phone for acute cases, prior call required, may not be near clinic. Closed public holidays (phone emergency available).",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11",
-        "13-18"
-      ],
-      "Tue": [
-        "9-11",
-        "13-18"
-      ],
-      "Wed": [
-        "9-11",
-        "13-18"
-      ],
-      "Thu": [
-        "9-11",
-        "13-18"
-      ],
-      "Fri": [
-        "9-11",
-        "13-16"
-      ],
-      "Sat": [],
-      "Sun": []
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 4.9,
     "google_review_count": 54,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "13",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "13",
+        "end2": "16",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 71,
@@ -3508,36 +7373,86 @@
     "notes_cs": "",
     "emergency_en": "Weekends/holidays and home visits by arrangement",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8:30-13",
-        "13:30-18"
-      ],
-      "Tue": [
-        "8:30-13",
-        "13:30-18"
-      ],
-      "Wed": [
-        "8:30-13",
-        "13:30-18"
-      ],
-      "Thu": [
-        "8:30-13",
-        "13:30-18"
-      ],
-      "Fri": [
-        "8:30-13",
-        "13:30-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "13",
+        "start2": "13:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "13",
+        "start2": "13:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "13",
+        "start2": "13:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "13",
+        "start2": "13:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8:30",
+        "end1": "13",
+        "start2": "13:30",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 72,
@@ -3563,39 +7478,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-13",
-        "14-18"
-      ],
-      "Tue": [
-        "9-13",
-        "14-18"
-      ],
-      "Wed": [
-        "9-13",
-        "14-18"
-      ],
-      "Thu": [
-        "9-13",
-        "14-18"
-      ],
-      "Fri": [
-        "9-13",
-        "14-18"
-      ],
-      "Sat": [
-        "8-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "13",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 73,
@@ -3621,15 +7583,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 74,
@@ -3655,15 +7688,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 75,
@@ -3689,35 +7793,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-18"
-      ],
-      "Tue": [
-        "8-18"
-      ],
-      "Wed": [
-        "8-18"
-      ],
-      "Thu": [
-        "8-18"
-      ],
-      "Fri": [
-        "8-18"
-      ],
-      "Sat": [
-        "9-12"
-      ],
-      "Sun": []
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 76,
@@ -3743,40 +7898,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "7-9",
-        "14-19"
-      ],
-      "Tue": [
-        "7-9",
-        "14-19"
-      ],
-      "Wed": [
-        "7-9",
-        "14-19"
-      ],
-      "Thu": [
-        "7-9",
-        "14-19"
-      ],
-      "Fri": [
-        "7-9",
-        "14-19"
-      ],
-      "Sat": [],
-      "Sun": [
-        "15-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "7",
+        "end1": "9",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "7",
+        "end1": "9",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "7",
+        "end1": "9",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "7",
+        "end1": "9",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "7",
+        "end1": "9",
+        "start2": "14",
+        "end2": "19",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "15",
+        "end1": "18",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 77,
@@ -3802,38 +8003,86 @@
     "notes_cs": "",
     "emergency_en": "602 835 564 non-stop",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-19"
-      ],
-      "Tue": [
-        "8-19"
-      ],
-      "Wed": [
-        "8-19"
-      ],
-      "Thu": [
-        "8-19"
-      ],
-      "Fri": [
-        "8-19"
-      ],
-      "Sat": [
-        "8-11"
-      ],
-      "Sun": [
-        "8-10",
-        "16-18"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "19",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "8",
+        "end1": "10",
+        "start2": "16",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 78,
@@ -3859,15 +8108,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {},
-    "hours_parse_ok": false,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": true
   },
   {
     "id": 79,
@@ -3893,38 +8213,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-11",
-        "15-18"
-      ],
-      "Tue": [
-        "8-11",
-        "15-18"
-      ],
-      "Thu": [
-        "8-11",
-        "15-18"
-      ],
-      "Fri": [
-        "8-11",
-        "15-18"
-      ],
-      "Wed": [
-        "8-14"
-      ],
-      "Sat": [
-        "9-11"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "14",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "11",
+        "start2": "15",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 80,
@@ -3950,37 +8318,86 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "8-20"
-      ],
-      "Tue": [
-        "8-20"
-      ],
-      "Wed": [
-        "8-20"
-      ],
-      "Thu": [
-        "8-20"
-      ],
-      "Fri": [
-        "8-20"
-      ],
-      "Sat": [
-        "8-16"
-      ],
-      "Sun": [
-        "8-16"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "8",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "8",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "8",
+        "end1": "16",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   },
   {
     "id": 81,
@@ -4006,37 +8423,85 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "hours_by_day": {
-      "Mon": [
-        "9-11:30",
-        "14-18"
-      ],
-      "Tue": [
-        "9-11:30",
-        "14-18"
-      ],
-      "Thu": [
-        "9-11:30",
-        "14-18"
-      ],
-      "Fri": [
-        "9-11:30",
-        "14-18"
-      ],
-      "Wed": [
-        "15-20"
-      ],
-      "Sat": [
-        "10-12"
-      ]
-    },
-    "hours_parse_ok": true,
     "facebook_url": "",
     "instagram_url": "",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": null,
     "google_review_count": null,
-    "hospitalization": false
+    "hospitalization": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "15",
+        "end1": "20",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "9",
+        "end1": "11:30",
+        "start2": "14",
+        "end2": "18",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "10",
+        "end1": "12",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
   }
 ]
