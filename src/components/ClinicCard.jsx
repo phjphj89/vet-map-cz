@@ -44,13 +44,7 @@ export function ClinicCard({ clinic, distanceKm }) {
         <div className="clinic-left-column">
           <dl className="clinic-facts">
             <dt>{t.phone}</dt>
-            <dd>
-              {clinic.phone ? (
-                <a href={`tel:${clinic.phone}`}>{clinic.phone}</a>
-              ) : (
-                t.notAvailable
-              )}
-            </dd>
+            <dd>{clinic.phone || t.notAvailable}</dd>
 
             <dt>{t.website}</dt>
             <dd>
