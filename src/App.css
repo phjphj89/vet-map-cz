@@ -450,18 +450,6 @@
   display: flex;
 }
 
-.expand-button {
-  margin-top: 6px;
-  background: none;
-  border: none;
-  color: var(--color-accent);
-  font-weight: 700;
-  cursor: pointer;
-  padding: 0;
-  font-size: 14px;
-  font-family: var(--font-body);
-}
-
 .expanded-facts {
   margin-top: 14px;
   padding-top: 14px;
