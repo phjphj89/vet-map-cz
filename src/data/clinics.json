@@ -285,7 +285,7 @@
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
+        "closed": true,
         "start1": "",
         "end1": "",
         "start2": "",
@@ -294,7 +294,7 @@
         "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
       },
       "Sun": {
-        "closed": false,
+        "closed": true,
         "start1": "",
         "end1": "",
         "start2": "",
@@ -303,7 +303,7 @@
         "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
       },
       "Holiday": {
-        "closed": false,
+        "closed": true,
         "start1": "",
         "end1": "",
         "start2": "",
