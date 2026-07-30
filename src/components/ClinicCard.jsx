@@ -15,7 +15,10 @@ export function ClinicCard({ clinic, distanceKm }) {
   return (
     <div className="clinic-card" id={`clinic-${clinic.id}`}>
       <div className="clinic-card-header">
-        <h3>{clinic.name}</h3>
+        <div className="clinic-header-left">
+          <h3>{clinic.name}</h3>
+          <p className="clinic-address">{clinic.address}</p>
+        </div>
         <div className="clinic-header-right">
           <div className="badge-row">
             {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
@@ -43,8 +46,6 @@ export function ClinicCard({ clinic, distanceKm }) {
           )}
         </div>
       </div>
-
-      <p className="clinic-address">{clinic.address}</p>
 
       <div className="clinic-card-body">
         <div className="clinic-left-column">

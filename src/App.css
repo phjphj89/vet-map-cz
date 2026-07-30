@@ -610,6 +610,8 @@
 .social-links a {
   color: inherit;
   display: flex;
+  padding: 4px;
+  margin: -4px;
 }
 
 .expanded-facts {
