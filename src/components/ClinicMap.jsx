@@ -12,16 +12,14 @@ import { useLanguage } from "../i18n/LanguageContext";
 // category (see PIN_COLORS below), so this is a function rather than
 // a fixed string.
 //
-// Shape technique: the tail is a triangle whose two base corners sit
-// INSIDE the circle (not on its edge), so the circle's opaque fill
-// completely covers the hidden part of the triangle when drawn on
-// top - only the protruding tip shows, giving a clean, seamless
-// balloon-with-tail silhouette without any visible seam.
+// The whole balloon-with-tail shape is ONE continuous curve (not a
+// circle plus a separate triangle) - this avoids any risk of a
+// visible seam where two separate shapes would otherwise overlap.
 function buildPinSvg(fillColor) {
   return `
     <svg width="36" height="40" viewBox="-2 -2 36 40" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="11,26 21,26 16,36" fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
-      <circle cx="16" cy="15" r="14" fill="${fillColor}" stroke="#F7FAF8" stroke-width="2"/>
+      <path d="M16,2 C23.7,2 30,8.3 30,16 C30,23 24,29 16,36 C8,29 2,23 2,16 C2,8.3 8.3,2 16,2 Z"
+            fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
       <g transform="translate(3 5)">
         <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#F7FAF8"/>
         <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#F7FAF8"/>
