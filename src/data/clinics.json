@@ -8533,5 +8533,114 @@
       }
     },
     "hours_needs_review": true
+  },
+  {
+    "id": 82,
+    "name": "Veterinární klinika Erika (Praha 7)",
+    "region": "Praha",
+    "address": "Dělnická 12, 170 00 Praha 7-Holešovice",
+    "lat": 50.102826377614555,
+    "lng": 14.44669687431519,
+    "phone": "+420 284 821 784",
+    "website": "https://vet-klin-erika.cz/",
+    "top_pick": false,
+    "recommended_vet": "MVDr. Aneta Kasanová",
+    "hours": "",
+    "google_maps_url": "https://maps.app.goo.gl/f1LbHZ4nvnPGUPpp9",
+    "district": "Hlavní město Praha",
+    "kraj": "Hlavní město Praha",
+    "is_prague": true,
+    "is_brno": false,
+    "is_ostrava": false,
+    "is_24_7": true,
+    "has_weekend_emergency": true,
+    "notes_en": "",
+    "notes_cs": "",
+    "emergency_en": "Emergencies on weekdays 18:00 - 8:00; whole day on weekends and on public holidays",
+    "emergency_cs": "Pohotovost ve všední dny 18:00 - 8:00; o víkendech a svátcích pohotovost celý den",
+    "facebook_url": "https://www.facebook.com/vkerika",
+    "instagram_url": "",
+    "internal_contact_email": "info@vet-klin-erika.cz",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": "",
+    "google_rating": 4.3,
+    "google_review_count": 1552,
+    "hospitalization": true,
+    "english_communication": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      },
+      "Sun": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      }
+    },
+    "hours_needs_review": false
   }
 ]
