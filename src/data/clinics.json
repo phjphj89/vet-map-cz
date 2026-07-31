@@ -951,7 +951,7 @@
     "address": "Březiny 197, Objekt Libverdský Dvůr, 405 02 Děčín",
     "lat": 50.767957,
     "lng": 14.236128,
-    "phone": "+420 412 511 999 / 720 565 826",
+    "phone": "+420 412 511 999 / +420 720 565 826",
     "website": "http://www.cityvet.xyz/",
     "top_pick": false,
     "recommended_vet": "",
@@ -964,21 +964,21 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Booking system by phone/email",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/cityvet.decin",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 48,
+    "google_review_count": 234,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
         "start1": "9",
-        "end1": "11",
-        "start2": "14:30",
+        "end1": "15:30",
+        "start2": "",
         "end2": "17",
         "note_en": "",
         "note_cs": ""
@@ -986,8 +986,8 @@
       "Tue": {
         "closed": false,
         "start1": "9",
-        "end1": "11",
-        "start2": "14:30",
+        "end1": "15:30",
+        "start2": "",
         "end2": "17",
         "note_en": "",
         "note_cs": ""
@@ -995,7 +995,7 @@
       "Wed": {
         "closed": false,
         "start1": "13",
-        "end1": "18",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -1004,7 +1004,7 @@
       "Thu": {
         "closed": false,
         "start1": "9",
-        "end1": "11",
+        "end1": "15:30",
         "start2": "14:30",
         "end2": "17",
         "note_en": "",
@@ -1013,7 +1013,7 @@
       "Fri": {
         "closed": false,
         "start1": "9",
-        "end1": "11",
+        "end1": "15:30",
         "start2": "14:30",
         "end2": "17",
         "note_en": "",
@@ -1047,7 +1047,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 11,
