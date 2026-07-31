@@ -42,7 +42,7 @@
 }
 
 :root {
-  --color-bg: #FFFFFF;           /* page background: white */
+  --color-bg: #F7FAF8;           /* page background: slight off-white */
   --color-card-bg: #FFFFFF;      /* card background: white */
   --color-border: #3F5A44;       /* darker green borders */
   --color-text: #1F3325;         /* primary text: dark green */

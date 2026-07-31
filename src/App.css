@@ -546,6 +546,11 @@
   color: var(--color-badge-weekend-emergency-text);
 }
 
+.badge-hospitalization {
+  background: var(--color-badge-hospitalization-bg);
+  color: var(--color-badge-hospitalization-text);
+}
+
 /* Label/value pairs, laid out as a compact two-column grid. */
 .clinic-facts {
   display: grid;
