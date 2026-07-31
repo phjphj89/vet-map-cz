@@ -158,7 +158,8 @@
 
 .app-title-text h1 {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 700;
+  font-family: var(--font-accent);
   color: var(--color-accent-text);
   line-height: 1.15;
 }
@@ -431,6 +432,7 @@
 .clinic-card-header h3 {
   font-size: 19px;
   font-weight: 700;
+  font-family: var(--font-accent);
   color: var(--color-clinic-name);
 }
 

@@ -5584,7 +5584,7 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": true,
-    "notes_en": "Does female spaying",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
@@ -5654,8 +5654,8 @@
         "end1": "16",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergency surcharge for visits on weekends and public holidays",
+        "note_cs": "O víkendech a o svátcích platí pohotovostní příplatek"
       },
       "Holiday": {
         "closed": false,
@@ -5663,8 +5663,8 @@
         "end1": "16:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergency surcharge for visits on weekends and public holidays",
+        "note_cs": "O víkendech a o svátcích platí pohotovostní příplatek"
       }
     },
     "hours_needs_review": false
