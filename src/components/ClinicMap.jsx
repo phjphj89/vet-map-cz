@@ -20,11 +20,11 @@ function buildPinSvg(fillColor) {
   return `
     <svg width="36" height="40" viewBox="-2 -2 36 40" xmlns="http://www.w3.org/2000/svg">
       <path d="M16,2 C23.7,2 30,8.3 30,16 C30,23 24,29 16,36 C8,29 2,23 2,16 C2,8.3 8.3,2 16,2 Z"
-            fill="${fillColor}" stroke="#F7FAF8" stroke-width="2" stroke-linejoin="round"/>
+            fill="${fillColor}" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
       <g transform="translate(3 5)">
-        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#F7FAF8"/>
-        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#F7FAF8"/>
-        <circle cx="13" cy="15.5" r="5.6" fill="#F7FAF8"/>
+        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="#FFFFFF"/>
+        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="#FFFFFF"/>
+        <circle cx="13" cy="15.5" r="5.6" fill="#FFFFFF"/>
       </g>
     </svg>
   `;
@@ -42,7 +42,7 @@ function buildPinIcon(fillColor) {
 
 // Three pin colors, one per category. Built once (not on every render).
 const PIN_ICONS = {
-  standard: buildPinIcon("#3F5A44"),   // green - default
+  standard: buildPinIcon("#087A58"),   // green - default
   extended: buildPinIcon("#C97B4A"),   // terracotta - late evening or weekend emergency
   always: buildPinIcon("#A83B32"),     // red - open 24/7
 };
