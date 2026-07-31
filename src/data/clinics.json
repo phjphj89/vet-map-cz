@@ -6647,24 +6647,24 @@
     "phone": "+420 251 614 378",
     "website": "http://www.vets4pets.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Kateřina Sekyrová, MVDr. Andrea Mináriková",
+    "recommended_vet": "MVDr. Kateřina Sekyrová, MVDr. Andrea Mináriková, Ph.D.",
     "hours": "Mon-Fri 8-21",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCes12vGVC0cReVpvKxTkPcg",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Does female spaying. Well-equipped, higher price point.",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/people/Veterin%C3%A1rn%C3%AD-klinika-Na-H%C5%AFrce/100036310131153/#",
+    "instagram_url": "https://www.instagram.com/veterinarniklinikanahurce/",
+    "google_rating": 4.6,
+    "google_review_count": 703,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -6740,7 +6740,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "vets4pets@seznam.cz"
   },
   {
     "id": 65,
