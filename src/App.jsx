@@ -26,13 +26,13 @@ function App() {
                 className={language === "cs" ? "active" : ""}
                 onClick={() => setLanguage("cs")}
               >
-                CS
+                CZE
               </button>
               <button
                 className={language === "en" ? "active" : ""}
                 onClick={() => setLanguage("en")}
               >
-                EN
+                ENG
               </button>
             </div>
             <HamburgerMenu />

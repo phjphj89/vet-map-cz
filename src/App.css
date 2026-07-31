@@ -251,9 +251,16 @@
   font-weight: 700;
 }
 
+.language-toggle {
+  display: flex;
+  border: 1px solid var(--color-accent);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
 .language-toggle button {
   padding: 6px 14px;
-  border: 1px solid var(--color-accent);
+  border: none;
   background: var(--color-card-bg);
   color: var(--color-accent);
   cursor: pointer;
@@ -261,13 +268,8 @@
   font-family: var(--font-body);
 }
 
-.language-toggle button:first-child {
-  border-radius: 6px 0 0 6px;
-}
-
 .language-toggle button:last-child {
-  border-radius: 0 6px 6px 0;
-  border-left: none;
+  border-left: 1px solid var(--color-accent);
 }
 
 .language-toggle button.active {
@@ -599,10 +601,52 @@
   }
 }
 
+.clinic-hours-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
 .clinic-hours-label {
   color: var(--color-hours-text);
   font-size: 14px;
-  margin-bottom: 4px;
+}
+
+.live-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.live-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.live-status.status-open {
+  color: #2C7A3F;
+}
+.live-status.status-open .live-status-dot {
+  background: #2C7A3F;
+}
+
+.live-status.status-closed {
+  color: #A83B32;
+}
+.live-status.status-closed .live-status-dot {
+  background: #A83B32;
+}
+
+.live-status.status-emergency {
+  color: #6B3D9E;
+}
+.live-status.status-emergency .live-status-dot {
+  background: #6B3D9E;
 }
 
 .hours-table {

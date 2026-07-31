@@ -3,6 +3,7 @@ import { Badge } from "./Badge";
 import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
+import { LiveStatus } from "./LiveStatus";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 export function ClinicCard({ clinic, distanceKm }) {
@@ -75,11 +76,17 @@ export function ClinicCard({ clinic, distanceKm }) {
                 <dd>{clinic.recommended_vet}</dd>
               </>
             )}
+
+            <dt>{t.englishCommunication}</dt>
+            <dd>{clinic.english_communication ? t.yesLabel : t.noLabel}</dd>
           </dl>
         </div>
 
         <div className="clinic-hours-column">
-          <div className="clinic-hours-label">{t.hours}</div>
+          <div className="clinic-hours-label-row">
+            <span className="clinic-hours-label">{t.hours}</span>
+            <LiveStatus clinic={clinic} />
+          </div>
           <OpeningHoursTable clinic={clinic} />
         </div>
       </div>
