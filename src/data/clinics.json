@@ -312,7 +312,8 @@
         "note_cs": "Pohotovost pro akutní případy: 8:00 - 22:00 (na tel.)"
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@exocare.cz"
   },
   {
     "id": 4,
@@ -732,7 +733,8 @@
         "note_cs": "Pohotovost"
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@budvet.cz"
   },
   {
     "id": 8,
@@ -1047,7 +1049,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": " cityvet@email.cz"
   },
   {
     "id": 11,
@@ -1362,7 +1365,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "happyvet@seznam.cz"
   },
   {
     "id": 14,
@@ -1467,7 +1471,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@vet-vaculikovi.cz"
   },
   {
     "id": 15,
@@ -1677,7 +1682,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "zdenek.potocky@centrum.cz"
   },
   {
     "id": 17,
@@ -2727,7 +2733,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "martin.sobota@email.cz"
   },
   {
     "id": 27,
@@ -3357,7 +3364,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@animalhelp.cz"
   },
   {
     "id": 33,
@@ -3882,7 +3890,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "veterina-most@email.cz"
   },
   {
     "id": 38,
@@ -4197,7 +4206,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "tom.malina@tiscali.cz"
   },
   {
     "id": 41,
@@ -4302,7 +4312,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "agivetcz@gmail.com"
   },
   {
     "id": 42,
@@ -4407,7 +4418,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "tesarikova.jitka@seznam.cz"
   },
   {
     "id": 43,
@@ -4827,7 +4839,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@mirivet.cz"
   },
   {
     "id": 47,
@@ -5667,7 +5680,8 @@
         "note_cs": "O víkendech a o svátcích platí pohotovostní příplatek"
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "klinika@hvet.cz"
   },
   {
     "id": 55,
@@ -5772,7 +5786,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "metropolevet@gmail.com"
   },
   {
     "id": 56,
@@ -5877,7 +5892,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@minoravet.cz"
   },
   {
     "id": 57,
@@ -5982,7 +5998,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "info@nasveterinar.cz"
   },
   {
     "id": 58,
@@ -6087,7 +6104,8 @@
         "note_cs": "Za extra příplatek"
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "provoz@vetcentrum.cz"
   },
   {
     "id": 59,
@@ -7137,7 +7155,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "josef.pospisilik@seznam.cz"
   },
   {
     "id": 69,
@@ -7252,7 +7271,7 @@
     "lat": 49.4713954,
     "lng": 17.1069926,
     "phone": "+420 604 360 319",
-    "website": "http://www.veterina-prostejov.cz/",
+    "website": "https://veterina-prostejov.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Bc. Michaela Hejlková",
     "hours": "Mon-Thu 9-11,13-18; Fri 9-11,13-16; Sat-Sun closed",
@@ -7347,7 +7366,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": false,
+    "internal_contact_email": "m.hejlkova@seznam.cz"
   },
   {
     "id": 71,
