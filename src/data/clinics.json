@@ -2626,7 +2626,7 @@
   },
   {
     "id": 26,
-    "name": "MVDr. Martin Sobota (Karlovy Vary - Doubí)",
+    "name": "Veterinární ordinace - MVDr. Martin Sobota (Karlovy Vary)",
     "region": "Karlovy Vary",
     "address": "Jahodová 313/9a, 360 07 Karlovy Vary-Doubí",
     "lat": 50.2083822,
@@ -2650,52 +2650,52 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 576,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "12:30",
+        "end2": "16:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "12:30",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "12:30",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "12:30",
+        "end2": "16:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "12:30",
+        "end2": "15:00",
         "note_en": "",
         "note_cs": ""
       },
@@ -2727,7 +2727,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 27,
@@ -4101,8 +4101,8 @@
     "address": "Anenská 367, 742 42 Šenov u Nového Jičína",
     "lat": 49.59969,
     "lng": 18.0006541,
-    "phone": "+420 556 703 995 / 603 462 984",
-    "website": "",
+    "phone": "+420 556 703 995 / +420 603 462 984",
+    "website": "http://www.veterina-anenska.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Tomáš Malina",
     "hours": "Mon-Fri 8-12,16-19",
@@ -4116,12 +4116,12 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "By phone arrangement, weekdays to 22h and weekends/holidays; priority to regular clients, fee applies",
-    "emergency_cs": "",
+    "emergency_en": "Emergencies on weekends and public holidays from mornings until 21:00; surcharges apply",
+    "emergency_cs": "Pohotovostní služba funguje o víkendech a svátcích od rána do 21:00; účtován příplatek",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 268,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -4197,7 +4197,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 41,
@@ -5889,10 +5889,10 @@
     "phone": "+420 734 113 388",
     "website": "http://nasveterinar.cz/",
     "top_pick": false,
-    "recommended_vet": "Only MVDr. Nikola Hanáková, per site listing",
+    "recommended_vet": "MVDr. Nikola Hanáková",
     "hours": "Mon-Fri 8-12,13-20; Sat 9-14; Sun 14-19",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBaLfK8uWC0cRsfedhKi_Dzs",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -5905,52 +5905,52 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.7,
+    "google_review_count": 276,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "09:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "09:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "09:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
-        "end1": "12",
-        "start2": "13",
-        "end2": "20",
+        "start1": "09:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
-        "end1": "12",
-        "start2": "13",
-        "end2": "20",
+        "start1": "09:00",
+        "end1": "12:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
@@ -5960,13 +5960,13 @@
         "end1": "14",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Saturdays with surcharge",
+        "note_cs": "Soboty s příplatkem"
       },
       "Sun": {
-        "closed": false,
-        "start1": "14",
-        "end1": "19",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -5982,37 +5982,37 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 58,
-    "name": "Vetcentrum Stodůlky (Praha 5)",
+    "name": "Vetcentrum Duchek (Praha 13)",
     "region": "Praha",
     "address": "K Hájům 2671/8, 155 00 Praha 13",
     "lat": 50.0572727,
     "lng": 14.3238876,
-    "phone": "+420 251 511 651 / 251 617 564 / 775 688 637",
+    "phone": "+420 251 511 651 / +420 251 617 564 / +420 775 688 637",
     "website": "http://www.vetcentrum.cz/",
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-21",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg8RrX_SVC0cRATDXDFTFNsA",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
-    "is_24_7": false,
+    "is_24_7": true,
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Evening 21-24 (1500 Kč), weekends 8-21 (1500 Kč), holidays 8-21 (1500 Kč), acute cases only",
-    "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "emergency_en": "Evening emergency 21:00 - 24:00; overnight emergency 24:00 - 8:00 (surchages apply)",
+    "emergency_cs": "Večerní pohotovost 21:00 - 24:00; noční pohotovost 24:00 - 8:00 (za extra příplatek)",
+    "facebook_url": "https://www.facebook.com/Vetcentrum.cz",
+    "instagram_url": "https://www.instagram.com/vetcentrum_cz/",
+    "google_rating": 4.6,
+    "google_review_count": 2321,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6065,7 +6065,7 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
+        "note_en": "Weekend emergency 8:00 - 21:00",
         "note_cs": ""
       },
       "Sun": {
@@ -6074,20 +6074,20 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
+        "note_en": "Weekend emergency 8:00 - 21:00",
         "note_cs": ""
       },
       "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Surcharges apply",
+        "note_cs": "Za extra příplatek"
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 59,
@@ -7036,12 +7036,12 @@
   },
   {
     "id": 68,
-    "name": "MVDr. Josef Pospíšilík (Přerov)",
+    "name": "Veterina Přerov - MVDr. Josef Pospíšilík (Přerov)",
     "region": "Přerov",
     "address": "Riedlova 679/9, 750 02 Přerov",
     "lat": 49.458461,
     "lng": 17.451496,
-    "phone": "+420 777 662 061 / 581 735 910",
+    "phone": "+420 777 662 061 / +420 581 735 910",
     "website": "http://www.veterinaprerov.cz/",
     "top_pick": false,
     "recommended_vet": "",
@@ -7058,61 +7058,61 @@
     "notes_cs": "",
     "emergency_en": "Outside hours on 777 662 061",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/veterinarprerov/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 347,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "12:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7137,7 +7137,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 69,
@@ -7690,50 +7690,50 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.7,
+    "google_review_count": 457,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "17:30",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "17:30",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "17:30",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "17:30",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7767,7 +7767,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 75,
