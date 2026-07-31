@@ -1281,76 +1281,76 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Weekdays to 20h, weekends 8-18h",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "emergency_en": "Phone emergency after opening hours on +420 733 583 337",
+    "emergency_cs": "Mimo ordinační dobu pohotovost po přechozí domluvě na +420 733 583 337",
+    "facebook_url": "https://www.facebook.com/people/HappyVet-Fry%C5%A1t%C3%A1k/61556687003701/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 5,
+    "google_review_count": 104,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "15:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only 11:00 - 18:00 after prior appointment",
+        "note_cs": "Pohotovost 11:00 - 18:00 po předchozí domluvě"
       },
       "Sun": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only 8:00 - 18:00 after prior appointment",
+        "note_cs": "Pohotovost 8:00 - 18:00 po předchozí domluvě"
       },
       "Holiday": {
         "closed": true,
@@ -1362,7 +1362,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 14,
@@ -5571,27 +5571,27 @@
     "address": "Lochotínská 699/21, 109 00 Praha 15",
     "lat": 50.0450425,
     "lng": 14.5576444,
-    "phone": "+420 271 961 092 / 739 423 671 / 601 270 007",
+    "phone": "+420 271 961 092 / +420 739 423 671 / +420 601 270 007",
     "website": "http://hvet.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Zdeněk Valeš, MVDr. Renata Mertová",
     "hours": "Mon-Fri 8-21, Sat-Sun 10-16",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcagSxYiNC0cRaGKmlvQx8MI",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavního město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "Does female spaying",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.6,
+    "google_review_count": 740,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -5645,8 +5645,8 @@
         "end1": "16",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergency surcharge for visits on weekends and public holidays",
+        "note_cs": "O víkendech a o svátcích platí pohotovostní příplatek"
       },
       "Sun": {
         "closed": false,
@@ -5658,16 +5658,16 @@
         "note_cs": ""
       },
       "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "10:00",
+        "end1": "16:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 55,
