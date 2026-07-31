@@ -6962,13 +6962,13 @@
     "address": "Jana Masaryka 457/1, 120 00 Praha 2",
     "lat": 50.0700362,
     "lng": 14.4347776,
-    "phone": "+420 725 917 117",
+    "phone": "+420 222 543 779 / +420 725 917 117",
     "website": "http://www.vetvin.com/",
     "top_pick": false,
     "recommended_vet": "MVDr. Veronika Kubíčková",
     "hours": "Mon-Fri 8-20, Sat-Sun 9-12",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX2DTEoiUC0cRaK1iT8u_RsQ",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -6977,12 +6977,12 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Weekday after-19:30 surcharge 500 Kč; weekend surcharge 800 Kč (excl. check-ups)",
-    "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "emergency_en": "Emergencies on weekdays after 19:30 (surcharges apply); weekend emergencies (surcharges apply)",
+    "emergency_cs": "Pohotovost ve všední dny po 19:30 (za příplatek); víkendová pohotovost (za příplatek)",
+    "facebook_url": "https://www.facebook.com/people/VetVin-Veterin%C3%A1rn%C3%AD-Klinika-Vinohrady/100067134488484/",
+    "instagram_url": "https://www.instagram.com/veterinavetvin/",
+    "google_rating": 4.8,
+    "google_review_count": 598,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -7058,7 +7058,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "info@vetvin.cz",
+    "english_communication": true
   },
   {
     "id": 68,
