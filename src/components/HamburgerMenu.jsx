@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useLanguage } from "../i18n/LanguageContext";
 import { siteConfig } from "../data/siteConfig";
 import { InstagramIcon } from "./SocialIcons";
@@ -52,6 +53,12 @@ export function HamburgerMenu() {
               ) : (
                 <span className="menu-placeholder">{siteConfig.contactEmail}</span>
               )}
+            </section>
+
+            <section>
+              <Link to="/friends" className="menu-friends-link" onClick={() => setOpen(false)}>
+                {t.menuFriends}
+              </Link>
             </section>
 
             <section className="menu-meta">

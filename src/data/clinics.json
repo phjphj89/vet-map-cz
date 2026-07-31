@@ -6117,25 +6117,25 @@
     "phone": "+420 720 365 001",
     "website": "http://www.veterinafenix.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Nikola Koller (Sádovská)",
+    "recommended_vet": "",
     "hours": "Mon-Fri 9-20, Sat 9-11",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN-Ahl52UC0cRtKIOvLucad8",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Trained at Tichá clinic (Hradec Králové) and Jekl & Hauptman (Brno)",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.6,
+    "google_review_count": 452,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6183,9 +6183,9 @@
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "9",
-        "end1": "11",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -6210,7 +6210,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "info@veterinafenix.cz"
   },
   {
     "id": 60,
@@ -6225,7 +6226,7 @@
     "recommended_vet": "MVDr. Marie Lietavcová",
     "hours": "Daily 8-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIZIJmTOXC0cRicZlrZ58RdA",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -6234,12 +6235,12 @@
     "has_weekend_emergency": true,
     "notes_en": "Vet round 13:45-14:15 weekdays (12:45-14:15 Thu), unbookable slot",
     "notes_cs": "",
-    "emergency_en": "Weekend/holiday surcharge 500 Kč",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "emergency_en": "Emergencies on working days until 22:00",
+    "emergency_cs": "Pro akutní případy v pracovní dny otevřeno do 22:00",
+    "facebook_url": "https://www.facebook.com/veterinazbraslav.cz/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.5,
+    "google_review_count": 1137,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -6306,16 +6307,17 @@
         "note_cs": ""
       },
       "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "info@veterinazbraslav.cz"
   },
   {
     "id": 61,
@@ -6324,28 +6326,28 @@
     "address": "Ke Kamýku 996/3, 140 00 Praha 4",
     "lat": 50.0157228,
     "lng": 14.4462823,
-    "phone": "+420 241 714 358 / 602 136 128",
+    "phone": "+420 241 714 358 / +420 602 136 128",
     "website": "https://www.veterinarni-klinika.net/",
     "top_pick": false,
     "recommended_vet": "MVDr. Zuzana Brodská",
     "hours": "Mon-Fri 8-19:30",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvVTNx1yRC0cRUO0nOuAdYkQ",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
-    "is_24_7": false,
+    "is_24_7": true,
     "has_weekend_emergency": true,
     "notes_en": "Prior phone arrangement requested during emergency periods",
-    "notes_cs": "",
-    "emergency_en": "Weeknights 19:30-8 (1200-2000 Kč), weekends 800 Kč (excl. planned check-ups)",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "notes_cs": "V době pohotovostní nutná předchozí telefonická domluva",
+    "emergency_en": "Weeknight emergencies 19:30 - 8:00, weekend emergencies 8:00 - 20:00",
+    "emergency_cs": "Pohotovost v pracovní dny 19:30 - 8:00, víkendová pohotovost 8:00 - 20:00",
+    "facebook_url": "https://www.facebook.com/veterinarni.klinika.IVET/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.1,
+    "google_review_count": 364,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6398,8 +6400,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pohotovost"
       },
       "Sun": {
         "closed": true,
@@ -6407,8 +6409,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pohotovost"
       },
       "Holiday": {
         "closed": true,
@@ -6420,7 +6422,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "ivet@ivet.cz"
   },
   {
     "id": 62,
@@ -6435,97 +6438,98 @@
     "recommended_vet": "MVDr. Veronika Mráčková, now primarily Mon & Fri",
     "hours": "Mon-Fri 8-21 (surgery block 12-15); Sat 9-13; Sun/holidays 16-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwT10ibCVC0cRUYGYvoYT7lY",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
-    "notes_en": "Mixed reviews",
-    "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
+    "has_weekend_emergency": true,
+    "notes_en": "Surgical operations on workdays 12:00 - 15:00 - longer waiting time",
+    "notes_cs": "Operační zákroky v pracovních dnech 12:00 - 15:00 - delší čekací doba",
+    "emergency_en": "Weekends and public holidays mainly for emergencies, surcharges apply; cannot book online",
+    "emergency_cs": "Víkendy a svátky přednostně pro pohotovostní případy, účtován příplatek; nelze rezervovat online",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.7,
+    "google_review_count": 517,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "21:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "13:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Mainly emergencies",
+        "note_cs": "Přednostně pohotovost"
       },
       "Sun": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "16:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Mainly emergencies",
+        "note_cs": "Přednostně pohotovost"
       },
       "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "16:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Mainly emergencies",
+        "note_cs": "Přednostně pohotovost"
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "info@jinvet.cz"
   },
   {
     "id": 63,
@@ -6534,7 +6538,7 @@
     "address": "Na Hrádku 1715/8, 128 00 Praha 2",
     "lat": 50.071707,
     "lng": 14.4195386,
-    "phone": "",
+    "phone": "+420 224 923 717 / +420 224 921 316",
     "website": "http://www.vet-klinika.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Roman Skala",
@@ -6548,73 +6552,73 @@
     "is_24_7": null,
     "has_weekend_emergency": null,
     "notes_en": "Not rabbit-focused but a top orthopedist; works with a rabbit/rodent rescue shelter",
-    "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
+    "notes_cs": "Doktor není specialista na králíky, ale skvělý ortoped; spolupracuje s azylem pro králíky/hlodavce",
+    "emergency_en": "Weekend visits subject to surcharge",
+    "emergency_cs": "O víkendech se účtuje příplatek",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.6,
+    "google_review_count": 543,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "14:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sun": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "14:00",
+        "end1": "19:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -6630,7 +6634,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false,
+    "internal_contact_email": "nahradku@centrum.cz"
   },
   {
     "id": 64,
