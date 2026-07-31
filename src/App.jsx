@@ -4,6 +4,7 @@ import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { HomePage } from "./components/HomePage";
 import { FriendsPage } from "./components/FriendsPage";
+import { CzechFlagIcon, UKFlagIcon } from "./components/FlagIcons";
 import "./App.css";
 
 function App() {
@@ -25,14 +26,16 @@ function App() {
               <button
                 className={language === "cs" ? "active" : ""}
                 onClick={() => setLanguage("cs")}
+                aria-label="Čeština"
               >
-                CZE
+                <CzechFlagIcon />
               </button>
               <button
                 className={language === "en" ? "active" : ""}
                 onClick={() => setLanguage("en")}
+                aria-label="English"
               >
-                ENG
+                <UKFlagIcon />
               </button>
             </div>
             <HamburgerMenu />

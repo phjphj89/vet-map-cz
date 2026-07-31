@@ -259,13 +259,13 @@
 }
 
 .language-toggle button {
-  padding: 6px 14px;
+  padding: 6px 10px;
   border: none;
   background: var(--color-card-bg);
   color: var(--color-accent);
   cursor: pointer;
-  font-weight: 700;
-  font-family: var(--font-body);
+  display: flex;
+  align-items: center;
 }
 
 .language-toggle button:last-child {

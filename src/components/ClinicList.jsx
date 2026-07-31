@@ -44,6 +44,26 @@ function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEme
   return passes247 || passesOpenWeekends || passesWeekendEmergency || passesHospitalization;
 }
 
+// Builds a comparator for the chosen sort option. "rating" and
+// "reviewCount" sort highest-first, with clinics that don't have a
+// value yet pushed to the end rather than jumbled in with real values.
+function buildComparator(sortBy, userLocation) {
+  if (sortBy === "distance" && userLocation) {
+    return (a, b) => {
+      const distanceA = calculateDistanceKm(userLocation.lat, userLocation.lng, a.lat, a.lng);
+      const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
+      return distanceA - distanceB;
+    };
+  }
+  if (sortBy === "rating") {
+    return (a, b) => (b.google_rating ?? -Infinity) - (a.google_rating ?? -Infinity);
+  }
+  if (sortBy === "reviewCount") {
+    return (a, b) => (b.google_review_count ?? -Infinity) - (a.google_review_count ?? -Infinity);
+  }
+  return null; // "none" - keep original order
+}
+
 export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
   const { t } = useLanguage();
   const [selectedRegion, setSelectedRegion] = useState("all");
@@ -51,6 +71,7 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
   const [showOpenWeekends, setShowOpenWeekends] = useState(false);
   const [showWeekendEmergency, setShowWeekendEmergency] = useState(false);
   const [showHospitalization, setShowHospitalization] = useState(false);
+  const [sortBy, setSortBy] = useState("distance");
 
   const regionOptions = useMemo(() => buildRegionOptions(clinics), [clinics]);
 
@@ -61,17 +82,9 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
         matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization)
     );
 
-    if (!userLocation) return filtered;
-
-    // With a known location, sort nearest-first. Distance is computed
-    // here (not stored on the clinic) since it depends on where the
-    // visitor currently is, not on the clinic itself.
-    return [...filtered].sort((a, b) => {
-      const distanceA = calculateDistanceKm(userLocation.lat, userLocation.lng, a.lat, a.lng);
-      const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
-      return distanceA - distanceB;
-    });
-  }, [clinics, selectedRegion, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, userLocation]);
+    const comparator = buildComparator(sortBy, userLocation);
+    return comparator ? [...filtered].sort(comparator) : filtered;
+  }, [clinics, selectedRegion, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, sortBy, userLocation]);
 
   return (
     <div className="clinic-list">
@@ -87,6 +100,16 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
               {option === "all" ? t.allRegions : option === "praha" ? "Praha" : option === "brno" ? "Brno" : option === "ostrava" ? "Ostrava" : option}
             </option>
           ))}
+        </select>
+        <select
+          id="sort-by"
+          value={sortBy}
+          onChange={(e) => setSortBy(e.target.value)}
+        >
+          <option value="none">{t.sortNone}</option>
+          <option value="distance">{t.sortDistance}</option>
+          <option value="rating">{t.sortRating}</option>
+          <option value="reviewCount">{t.sortReviewCount}</option>
         </select>
         <div className="special-filters">
           <button
