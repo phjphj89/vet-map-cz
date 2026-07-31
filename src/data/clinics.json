@@ -1295,8 +1295,8 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies until 19:00",
+        "note_cs": "Pohotovost do 19:00"
       },
       "Tue": {
         "closed": false,
@@ -1304,8 +1304,8 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies until 19:00",
+        "note_cs": "Pohotovost do 19:00"
       },
       "Wed": {
         "closed": false,
@@ -1313,8 +1313,8 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies until 19:00",
+        "note_cs": "Pohotovost do 19:00"
       },
       "Thu": {
         "closed": false,
@@ -1322,8 +1322,8 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies until 19:00",
+        "note_cs": "Pohotovost do 19:00"
       },
       "Fri": {
         "closed": false,
@@ -1331,8 +1331,8 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies until 19:00",
+        "note_cs": "Pohotovost do 19:00"
       },
       "Sat": {
         "closed": false,
@@ -1366,12 +1366,12 @@
   },
   {
     "id": 14,
-    "name": "MVDr. Jaromír Vaculík (Havířov-Šumbark)",
+    "name": "Veterinární ordinace Vaculíkovi (Havířov)",
     "region": "Havířov",
     "address": "Lidická 2b, 736 01 Havířov-Šumbark",
     "lat": 49.7993665,
     "lng": 18.4098344,
-    "phone": "+420 596 881 137 / 602 813 370",
+    "phone": "+420 596 881 137 / +420 606 836 709",
     "website": "https://www.vet-vaculikovi.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Jaromír Vaculík, MVDr. Dora Vaculíková",
@@ -1386,12 +1386,12 @@
     "has_weekend_emergency": null,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Mobile 602 813 370 / 606 836 709",
+    "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/VeterinarniordinaceVaculikoviHavirov",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 153,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -1467,7 +1467,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 15,
@@ -3781,13 +3781,13 @@
   },
   {
     "id": 37,
-    "name": "MVDr. Jaroslava Slováková / MVDr. Lucie Záhumenská (Most)",
+    "name": "Veterinární ordinace Most (Most)",
     "region": "Most",
     "address": "Žatecká 211/2438, 434 01 Most",
     "lat": 50.4944454,
     "lng": 13.6272539,
     "phone": "+420 773 997 695",
-    "website": "",
+    "website": "https://veterina-most.eu/",
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon,Wed,Fri 9-15; Tue,Thu 12-18",
@@ -3800,13 +3800,13 @@
     "is_24_7": null,
     "has_weekend_emergency": null,
     "notes_en": "Very good knowledge of small mammals, has X-ray, does surgery; refers serious cases to Prague",
-    "notes_cs": "",
+    "notes_cs": "Velmi dobrá znalost malých savců, má rentgen; pro vážnější případy doporučuje pražské kliniky",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/Veterin%C3%A1rn%C3%AD-ordinace-Most-107398991294607",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.1,
+    "google_review_count": 10,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -3882,7 +3882,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 38,
@@ -4306,7 +4306,7 @@
   },
   {
     "id": 42,
-    "name": "MVDr. Jitka Tesaříková (Olomouc-Hodolany)",
+    "name": "MVDr. Jitka Tesaříková (Olomouc)",
     "region": "Olomouc",
     "address": "Jungmannova 193/1, 779 00 Olomouc-Hodolany",
     "lat": 49.590667,
@@ -4323,79 +4323,79 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "Home visits offered. Check if accepting new patients and inhalation anesthesia availability; refers dental issues to a specialist.",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 581,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "13",
-        "end2": "18",
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "13:00",
+        "end2": "18:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "13",
-        "end2": "18",
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "13:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "13",
-        "end2": "18",
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "13:00",
+        "end2": "16:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "13",
-        "end2": "18",
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "13:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "13",
-        "end2": "18",
+        "start1": "08:00",
+        "end1": "11:00",
+        "start2": "13:00",
+        "end2": "16:00",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
-        "end1": "12",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Sun": {
-        "closed": true,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Appointments only",
+        "note_cs": "Jen objednaní pacienti"
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "Appointments only",
+        "note_cs": "Jen objednaní pacienti"
       },
       "Holiday": {
         "closed": true,
@@ -4407,7 +4407,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 43,
@@ -4734,57 +4734,57 @@
     "phone": "+420 731 922 130",
     "website": "http://www.mirivet.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Karolina Kramolišová",
+    "recommended_vet": "MVDr. Karolina Krčmářová",
     "hours": "Mon 15:30-18; Tue 9-18 (surgery); Wed 15:30-18; Thu 9-18; Fri closed",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP5WAslb7E0cR6J76uyMaBG0",
-    "district": "Ostrava-město",
+    "district": "Ostrava",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
     "is_brno": false,
     "is_ostrava": true,
     "is_24_7": false,
-    "has_weekend_emergency": true,
+    "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "Weekend contact via email/Facebook only, no weekend office hours",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/Mirivetcz",
+    "instagram_url": "https://www.instagram.com/mirivetcz/",
+    "google_rating": 4.8,
+    "google_review_count": 21,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "14:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "15:30",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "15:30",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -4827,7 +4827,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 47,
@@ -5682,22 +5682,22 @@
     "recommended_vet": "MVDr. Samuel Evinic",
     "hours": "Mon-Fri 8-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7Z3XAEftC0cRjgaaOpshQO0",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": false,
-    "has_weekend_emergency": true,
-    "notes_en": "Does female spaying. Mixed experiences reported.",
-    "notes_cs": "",
-    "emergency_en": "Sat-Sun 9-17",
+    "has_weekend_emergency": false,
+    "notes_en": "Offers hospitalization, max. 6 animals",
+    "notes_cs": "Nabízí možnost hospitalizace, kapacita max 6 zvířat",
+    "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.5,
+    "google_review_count": 397,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -5772,7 +5772,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 56,
@@ -5783,11 +5783,11 @@
     "lng": 14.625414,
     "phone": "+420 776 677 567",
     "website": "https://minoravet.cz/",
-    "top_pick": false,
+    "top_pick": true,
     "recommended_vet": "MVDr. Nikola Koller",
     "hours": "Mon 9-18; Tue 9-18; Wed 12-20; Thu 9-18; Fri 9-18",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN_xYCwDzC0cR55XwWKC8V4s",
-    "district": "území Hlavního města Prahy",
+    "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -5799,9 +5799,9 @@
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "instagram_url": "https://www.instagram.com/doktorka.kralickova",
+    "google_rating": 5,
+    "google_review_count": 16,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -5834,7 +5834,7 @@
       "Thu": {
         "closed": false,
         "start1": "9",
-        "end1": "18",
+        "end1": "16:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -5877,7 +5877,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 57,
@@ -7267,11 +7267,11 @@
     "notes_en": "Surgeries/checks outside these hours by prior arrangement only",
     "notes_cs": "",
     "emergency_en": "Weekend emergency on same phone for acute cases, prior call required, may not be near clinic. Closed public holidays (phone emergency available).",
-    "emergency_cs": "",
+    "emergency_cs": "Víkendová pohotovost na telefonu, přechozí domluva nutná. Ve státní svátky zavřeno",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.9,
-    "google_review_count": 54,
+    "google_rating": 4.5,
+    "google_review_count": 81,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -7320,22 +7320,22 @@
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
       },
       "Sun": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
       },
       "Holiday": {
         "closed": true,
@@ -7347,7 +7347,7 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": false
   },
   {
     "id": 71,
