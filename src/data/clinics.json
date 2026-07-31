@@ -8642,5 +8642,223 @@
       }
     },
     "hours_needs_review": false
+  },
+  {
+    "id": 83,
+    "name": "VETNEMO Veterinární nemocnice Libuš (Praha - Libuš)",
+    "region": "Praha",
+    "address": "Na Šejdru 238/45, 142 00 Praha 4 - Libuš",
+    "lat": 50.008420040554455,
+    "lng": 14.458767962630144,
+    "phone": "+420 244 470 704",
+    "website": "https://www.vetnemo.cz/",
+    "top_pick": false,
+    "recommended_vet": " MVDr. Zuzana Karabová, MVDr. Michala Kličková, MVDr. Barbora Olejárová",
+    "hours": "",
+    "google_maps_url": "https://maps.app.goo.gl/yMrp15nKxHWHzZqP7",
+    "district": "Hlavní město Praha",
+    "kraj": "Hlavní město Praha",
+    "is_prague": true,
+    "is_brno": false,
+    "is_ostrava": false,
+    "is_24_7": false,
+    "has_weekend_emergency": false,
+    "notes_en": "",
+    "notes_cs": "",
+    "emergency_en": "Emergencies on weekdays 22:00 - 8:00",
+    "emergency_cs": "Pohotovostní služba v pracovní dny 22:00 - 8:00",
+    "facebook_url": "https://www.facebook.com/Vetnemopraha#",
+    "instagram_url": "",
+    "internal_contact_email": "info@vetnemocnice.cz",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": "",
+    "google_rating": 3.7,
+    "google_review_count": 194,
+    "hospitalization": true,
+    "english_communication": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "22:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "08:00",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Holiday": {
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      }
+    },
+    "hours_needs_review": false
+  },
+  {
+    "id": 84,
+    "name": "Medicanima (Praha 8 - Palmovka)",
+    "region": "Praha",
+    "address": "Voctářova 18, 108 00 Praha 8-Palmovka",
+    "lat": 50.10445923110709,
+    "lng": 14.469951730958398,
+    "phone": "+420 252 252 111",
+    "website": "https://www.medicanima.cz/",
+    "top_pick": false,
+    "recommended_vet": "MVDr. Lenka Chylíková",
+    "hours": "",
+    "google_maps_url": "https://maps.app.goo.gl/Nbrus7X5Q5majSQW8",
+    "district": "Hlavní město Praha",
+    "kraj": "Hlavní město Praha",
+    "is_prague": true,
+    "is_brno": false,
+    "is_ostrava": false,
+    "is_24_7": true,
+    "has_weekend_emergency": true,
+    "notes_en": "",
+    "notes_cs": "",
+    "emergency_en": "Emergencies on weekdays 20:00 - 23:00, overnight emergencies 23:00 - 8:30 (surcharges apply)",
+    "emergency_cs": "Pohotovost ve všední dny 20:00 - 23:30, noční pohotovost 23:30 - 8:30 (pohotovostní příplatky)",
+    "facebook_url": "https://www.facebook.com/medicanima",
+    "instagram_url": "https://www.facebook.com/medicanima",
+    "internal_contact_email": "info@medicanima.cz",
+    "holiday_hours_en": "",
+    "holiday_hours_cs": "",
+    "google_rating": 4.6,
+    "google_review_count": 263,
+    "hospitalization": true,
+    "english_communication": false,
+    "weekly_hours": {
+      "Mon": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Tue": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Wed": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Thu": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "20:00",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Fri": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "",
+        "note_cs": ""
+      },
+      "Sat": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "23:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      },
+      "Sun": {
+        "closed": false,
+        "start1": "08:30",
+        "end1": "23:30",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      },
+      "Holiday": {
+        "closed": false,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
+        "note_en": "Emergencies only",
+        "note_cs": "Pouze pohotovost"
+      }
+    },
+    "hours_needs_review": false
   }
 ]
