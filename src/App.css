@@ -432,7 +432,6 @@
 .clinic-card-header h3 {
   font-size: 19px;
   font-weight: 700;
-  font-family: var(--font-accent);
   color: var(--color-clinic-name);
 }
 
