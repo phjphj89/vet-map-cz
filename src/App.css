@@ -816,8 +816,15 @@
 
 .summary-recommended {
   font-size: 13px;
-  color: var(--color-text-muted);
   margin: 0 0 18px;
+}
+
+.summary-recommended-label {
+  color: var(--color-clinic-name);
+}
+
+.summary-recommended-name {
+  color: var(--color-clinic-address);
 }
 
 .summary-card-actions {

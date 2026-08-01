@@ -85,7 +85,7 @@ export const translations = {
     detailsButton: "Podrobnosti",
     allClinicsLabel: "Všechny kliniky",
     openInMaps: "Otevřít v Mapách",
-    recommendedLabel: "Doporučeno",
+    recommendedLabel: "Doporučení",
     reviewsLabel: "recenzí",
     notes: "Poznámky",
     emergency: "Pohotovost",

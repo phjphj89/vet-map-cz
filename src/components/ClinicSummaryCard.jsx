@@ -3,7 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, BedIcon } from "./StatusIcons";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 // Picks the single most relevant badge for the summary card - the full
@@ -16,7 +16,7 @@ function getPriorityBadge(clinic, t) {
   }
   if (isOpenOnWeekends(clinic)) return { text: t.badgeOpenWeekends, variant: "weekend", icon: CalendarIcon };
   if (hasWeekendEmergencyNote(clinic)) return { text: t.badgeWeekendEmergencyOnly, variant: "weekend-emergency", icon: EmergencyLightIcon };
-  if (clinic.hospitalization === true) return { text: t.filterHospitalization, variant: "hospitalization" };
+  if (clinic.hospitalization === true) return { text: t.filterHospitalization, variant: "hospitalization", icon: BedIcon };
   return null;
 }
 
@@ -58,7 +58,8 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
 
       {clinic.recommended_vet && (
         <p className="summary-recommended">
-          {t.recommendedLabel}: {clinic.recommended_vet}
+          <span className="summary-recommended-label">{t.recommendedLabel}:</span>{" "}
+          <span className="summary-recommended-name">{clinic.recommended_vet}</span>
         </p>
       )}
 

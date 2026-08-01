@@ -4,7 +4,7 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, MapPinIcon, GlobeIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon } from "./StatusIcons";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 export function ClinicCard({ clinic, distanceKm }) {
@@ -34,7 +34,7 @@ export function ClinicCard({ clinic, distanceKm }) {
               <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />
             ) : null}
             {clinic.hospitalization === true && (
-              <Badge text={t.filterHospitalization} variant="hospitalization" />
+              <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />
             )}
           </div>
           {clinic.google_rating != null && (
