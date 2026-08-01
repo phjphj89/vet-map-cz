@@ -14,7 +14,7 @@ export function ClinicCard({ clinic, distanceKm }) {
   const emergency = clinic[`emergency_${language}`];
 
   return (
-    <div className="clinic-card" id={`clinic-${clinic.id}`}>
+    <div className="clinic-card">
       <div className="clinic-card-header">
         <div className="clinic-header-left">
           <h3>{clinic.name}</h3>
@@ -51,6 +51,24 @@ export function ClinicCard({ clinic, distanceKm }) {
             </div>
           )}
         </div>
+      </div>
+
+      <div className="clinic-action-buttons">
+        {clinic.phone && (
+          <a href={`tel:${clinic.phone}`} className="action-button action-button-primary">
+            {t.callButton}
+          </a>
+        )}
+        {clinic.google_maps_url && (
+          <a href={clinic.google_maps_url} target="_blank" rel="noopener noreferrer" className="action-button">
+            {t.openInMaps}
+          </a>
+        )}
+        {clinic.website && (
+          <a href={clinic.website} target="_blank" rel="noopener noreferrer" className="action-button">
+            {t.website}
+          </a>
+        )}
       </div>
 
       <div className="clinic-card-body">

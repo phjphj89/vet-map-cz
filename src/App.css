@@ -39,41 +39,6 @@
   box-shadow: var(--shadow-card);
 }
 
-.map-clinic-panel {
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  bottom: 16px;
-  max-height: 50%;
-  overflow-y: auto;
-  z-index: 1001;
-}
-
-.map-clinic-panel-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 1px solid var(--color-border);
-  background: var(--color-card-bg);
-  color: var(--color-text);
-  font-size: 18px;
-  line-height: 1;
-  cursor: pointer;
-}
-
-/* Extra clearance so the badges/rating/distance column (right-aligned
-   within the card) doesn't sit underneath the floating close button -
-   scoped to this context only, doesn't affect normal list cards. */
-.map-clinic-panel .clinic-card-header {
-  padding-right: 40px;
-}
-
 /* Leaflet's own stylesheet sets a hardcoded Arial/Helvetica font on
    the map container (including popups) - override it to match the
    rest of the site. */
@@ -815,4 +780,110 @@
   font-weight: 700;
   text-decoration: none;
   font-size: 14px;
+}
+
+/* --- Clinic summary card (list view) --- */
+
+.clinic-summary-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-card-border);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+}
+
+.summary-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.summary-card-header h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-clinic-name);
+}
+
+.summary-card-header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.summary-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.summary-recommended {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0 0 12px;
+}
+
+.summary-card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.summary-call-button,
+.summary-details-button {
+  flex: 1;
+  text-align: center;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.summary-call-button {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border: 1px solid var(--color-accent);
+}
+
+.summary-details-button {
+  background: var(--color-card-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-card-border);
+}
+
+/* --- Clinic detail page --- */
+
+.clinic-detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.clinic-action-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+
+.action-button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  background: var(--color-card-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-card-border);
+}
+
+.action-button-primary {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border: 1px solid var(--color-accent);
 }

@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
-import { ClinicCard } from "./ClinicCard";
+import { ClinicSummaryCard } from "./ClinicSummaryCard";
 import { BloodDonorButton } from "./BloodDonorButton";
 import { ViewModeToggle } from "./ViewModeToggle";
 import { calculateDistanceKm } from "../utils/distance";
@@ -147,7 +147,7 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
       </div>
 
       {filteredClinics.map((clinic) => (
-        <ClinicCard
+        <ClinicSummaryCard
           key={clinic.id}
           clinic={clinic}
           distanceKm={

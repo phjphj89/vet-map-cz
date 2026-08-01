@@ -4,6 +4,7 @@ import { RabbitEarsIcon } from "./components/RabbitEarsIcon";
 import { HamburgerMenu } from "./components/HamburgerMenu";
 import { HomePage } from "./components/HomePage";
 import { FriendsPage } from "./components/FriendsPage";
+import { ClinicDetailPage } from "./components/ClinicDetailPage";
 import { CzechFlagIcon, UKFlagIcon } from "./components/FlagIcons";
 import "./App.css";
 
@@ -45,6 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/friends" element={<FriendsPage />} />
+          <Route path="/clinic/:id" element={<ClinicDetailPage />} />
         </Routes>
       </div>
     </BrowserRouter>
