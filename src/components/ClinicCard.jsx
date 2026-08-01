@@ -4,7 +4,7 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, MapPinIcon, GlobeIcon } from "./StatusIcons";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 export function ClinicCard({ clinic, distanceKm }) {
@@ -62,12 +62,12 @@ export function ClinicCard({ clinic, distanceKm }) {
         )}
         {clinic.google_maps_url && (
           <a href={clinic.google_maps_url} target="_blank" rel="noopener noreferrer" className="action-button">
-            {t.openInMaps}
+            <MapPinIcon /> {t.openInMaps}
           </a>
         )}
         {clinic.website && (
           <a href={clinic.website} target="_blank" rel="noopener noreferrer" className="action-button">
-            {t.website}
+            <GlobeIcon /> {t.website}
           </a>
         )}
       </div>

@@ -31,7 +31,7 @@
   top: 16px;
   right: 16px;
   z-index: 1001;
-  border-radius: 6px;
+  border-radius: 10px;
   box-shadow: var(--shadow-card);
 }
 
@@ -142,7 +142,7 @@
   width: 38px;
   height: 38px;
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 10px;
   background: var(--color-card-bg);
   color: var(--color-text);
   cursor: pointer;
@@ -163,7 +163,7 @@
   max-width: calc(100vw - 32px);
   background: var(--color-card-bg);
   border: 1px solid var(--color-border);
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 18px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
@@ -208,7 +208,7 @@
 .language-toggle {
   display: flex;
   border: 1px solid var(--color-accent);
-  border-radius: 6px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -245,7 +245,7 @@
   z-index: 20;
   background: var(--color-card-bg);
   border: 1px solid var(--color-border);
-  border-radius: 10px;
+  border-radius: 16px;
   box-shadow: var(--shadow-card);
 }
 
@@ -304,7 +304,7 @@
 .view-mode-toggle {
   display: flex;
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -335,7 +335,7 @@
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 10px;
   background: #F6DEDB;
   border: 2px solid #A83B32;
   color: #7A2A22;
@@ -351,7 +351,7 @@
   font-size: 15px;
   font-family: var(--font-body);
   border: 1px solid var(--color-border);
-  border-radius: 6px;
+  border-radius: 10px;
   background: var(--color-card-bg);
   color: var(--color-text);
 }
@@ -382,7 +382,7 @@
 .clinic-card {
   background: var(--color-card-bg);
   border: 1px solid var(--color-card-border);
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 16px;
   box-shadow: var(--shadow-card);
 }
@@ -453,7 +453,7 @@
   flex-wrap: wrap;
   background: var(--color-card-bg);
   border: 1px solid var(--color-border);
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 14px 18px;
   margin-bottom: 16px;
   box-shadow: var(--shadow-card);
@@ -468,7 +468,7 @@
 .location-prompt button {
   flex-shrink: 0;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 10px;
   border: none;
   background: var(--color-accent);
   color: var(--color-accent-text);
@@ -704,7 +704,7 @@
 .friend-card {
   background: var(--color-card-bg);
   border: 1px solid var(--color-card-border);
-  border-radius: 10px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow-card);
 }
@@ -778,7 +778,7 @@
 .clinic-summary-card {
   background: var(--color-card-bg);
   border: 1px solid var(--color-card-border);
-  border-radius: 10px;
+  border-radius: 16px;
   padding: 16px;
   box-shadow: var(--shadow-card);
 }
@@ -830,7 +830,7 @@
   gap: 5px;
   text-align: center;
   padding: 6px 14px;
-  border-radius: 6px;
+  border-radius: 10px;
   font-weight: 700;
   font-size: 13px;
   text-decoration: none;
@@ -868,7 +868,7 @@
   align-items: center;
   gap: 6px;
   padding: 10px 18px;
-  border-radius: 6px;
+  border-radius: 10px;
   font-weight: 700;
   font-size: 14px;
   text-decoration: none;
