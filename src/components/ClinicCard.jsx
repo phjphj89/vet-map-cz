@@ -4,6 +4,7 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon } from "./StatusIcons";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 export function ClinicCard({ clinic, distanceKm }) {
@@ -24,13 +25,13 @@ export function ClinicCard({ clinic, distanceKm }) {
           <div className="badge-row">
             {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
             {clinic.is_24_7 === true ? (
-              <Badge text={t.badge247} variant="emergency" />
+              <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />
             ) : isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic) ? (
-              <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" />
+              <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" icon={EmergencyLightIcon} />
             ) : isOpenOnWeekends(clinic) ? (
-              <Badge text={t.badgeOpenWeekends} variant="weekend" />
+              <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />
             ) : hasWeekendEmergencyNote(clinic) ? (
-              <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" />
+              <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />
             ) : null}
             {clinic.hospitalization === true && (
               <Badge text={t.filterHospitalization} variant="hospitalization" />
@@ -40,10 +41,10 @@ export function ClinicCard({ clinic, distanceKm }) {
             <div className="clinic-rating">
               <span className="clinic-rating-star"><StarIcon /></span>
               {Number(clinic.google_rating).toFixed(1)}
-              {clinic.google_review_count != null && (
-                <span className="clinic-rating-count">({clinic.google_review_count})</span>
-              )}
             </div>
+          )}
+          {clinic.google_review_count != null && (
+            <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
           )}
           {distanceKm != null && (
             <div className="clinic-distance">
@@ -56,7 +57,7 @@ export function ClinicCard({ clinic, distanceKm }) {
       <div className="clinic-action-buttons">
         {clinic.phone && (
           <a href={`tel:${clinic.phone}`} className="action-button action-button-primary">
-            {t.callButton}
+            <PhoneIcon /> {t.callButton}
           </a>
         )}
         {clinic.google_maps_url && (

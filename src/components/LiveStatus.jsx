@@ -3,6 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { getLiveStatus, getNextOpening } from "../utils/liveStatus";
 import { dayAbbreviations } from "../i18n/translations";
 import { formatTime } from "../utils/formatTime";
+import { ClockIcon } from "./StatusIcons";
 
 export function LiveStatus({ clinic }) {
   const { t, language } = useLanguage();
@@ -36,7 +37,7 @@ export function LiveStatus({ clinic }) {
 
   return (
     <span className={`live-status ${className}`}>
-      <span className="live-status-dot" />
+      <ClockIcon />
       {displayLabel}
     </span>
   );
