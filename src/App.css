@@ -776,10 +776,12 @@
 /* --- Clinic summary card (list view) --- */
 
 .clinic-summary-card {
+  display: flex;
+  flex-direction: column;
   background: var(--color-card-bg);
   border: 1px solid var(--color-card-border);
   border-radius: 16px;
-  padding: 16px;
+  padding: 22px;
   box-shadow: var(--shadow-card);
 }
 
@@ -809,18 +811,20 @@
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
-  margin: 10px 0;
+  margin: 16px 0;
 }
 
 .summary-recommended {
   font-size: 13px;
   color: var(--color-text-muted);
-  margin: 0 0 12px;
+  margin: 0 0 18px;
 }
 
 .summary-card-actions {
   display: flex;
   gap: 8px;
+  margin-top: auto;
+  padding-top: 16px;
 }
 
 .summary-call-button,
