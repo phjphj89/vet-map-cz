@@ -435,6 +435,7 @@
 
 .clinic-rating-count {
   color: var(--color-rating-muted);
+  font-size: 13px;
   font-weight: 400;
 }
 
