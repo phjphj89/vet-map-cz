@@ -18,18 +18,16 @@ export function HomePage() {
   const goToClinic = (clinic) => navigate(`/clinic/${clinic.id}`);
 
   return viewMode === "list" ? (
-    <div className="main-layout">
-      <div className="map-column">
+    <div className="stacked-layout">
+      <div className="map-top-section">
         <ClinicMap clinics={clinicsData} onMarkerClick={goToClinic} />
       </div>
-      <div className="list-column">
-        <ClinicList
-          clinics={clinicsData}
-          viewMode={viewMode}
-          setViewMode={setViewMode}
-          userLocation={userLocation}
-        />
-      </div>
+      <ClinicList
+        clinics={clinicsData}
+        viewMode={viewMode}
+        setViewMode={setViewMode}
+        userLocation={userLocation}
+      />
     </div>
   ) : (
     <div className="map-only-layout">

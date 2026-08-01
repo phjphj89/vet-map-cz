@@ -102,7 +102,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 2,
@@ -207,7 +209,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 3,
@@ -313,7 +317,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@exocare.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 4,
@@ -418,7 +423,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 5,
@@ -523,7 +530,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 6,
@@ -628,7 +637,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 7,
@@ -734,7 +745,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@budvet.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 8,
@@ -839,7 +851,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 9,
@@ -944,7 +958,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 10,
@@ -1050,7 +1066,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": " cityvet@email.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 11,
@@ -1155,7 +1172,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 12,
@@ -1260,7 +1279,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 13,
@@ -1366,7 +1387,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "happyvet@seznam.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 14,
@@ -1472,7 +1494,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@vet-vaculikovi.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 15,
@@ -1577,7 +1600,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 16,
@@ -1683,7 +1708,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "zdenek.potocky@centrum.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 17,
@@ -1788,7 +1814,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 18,
@@ -1893,7 +1921,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 19,
@@ -1998,7 +2028,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 20,
@@ -2103,7 +2135,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 21,
@@ -2208,7 +2242,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 22,
@@ -2313,7 +2349,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 23,
@@ -2418,7 +2456,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 24,
@@ -2523,7 +2563,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 25,
@@ -2628,11 +2670,13 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 26,
-    "name": "Veterinární ordinace - MVDr. Martin Sobota (Karlovy Vary)",
+    "name": "MVDr. Martin Sobota (Karlovy Vary - Doubí)",
     "region": "Karlovy Vary",
     "address": "Jahodová 313/9a, 360 07 Karlovy Vary-Doubí",
     "lat": 50.2083822,
@@ -2656,52 +2700,52 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.8,
-    "google_review_count": 576,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "12:30",
-        "end2": "16:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "12:30",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "12:30",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "12:30",
-        "end2": "16:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "12:30",
-        "end2": "15:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
@@ -2733,8 +2777,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "martin.sobota@email.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 27,
@@ -2839,7 +2884,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 28,
@@ -2944,7 +2991,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 29,
@@ -3049,7 +3098,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 30,
@@ -3154,7 +3205,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 31,
@@ -3259,7 +3312,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 32,
@@ -3365,7 +3420,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@animalhelp.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 33,
@@ -3470,7 +3526,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 34,
@@ -3575,7 +3633,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 35,
@@ -3680,7 +3740,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 36,
@@ -3785,7 +3847,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 37,
@@ -3891,7 +3955,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "veterina-most@email.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 38,
@@ -3996,7 +4061,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 39,
@@ -4101,7 +4168,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 40,
@@ -4110,8 +4179,8 @@
     "address": "Anenská 367, 742 42 Šenov u Nového Jičína",
     "lat": 49.59969,
     "lng": 18.0006541,
-    "phone": "+420 556 703 995 / +420 603 462 984",
-    "website": "http://www.veterina-anenska.cz/",
+    "phone": "+420 556 703 995 / 603 462 984",
+    "website": "",
     "top_pick": false,
     "recommended_vet": "MVDr. Tomáš Malina",
     "hours": "Mon-Fri 8-12,16-19",
@@ -4125,12 +4194,12 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Emergencies on weekends and public holidays from mornings until 21:00; surcharges apply",
-    "emergency_cs": "Pohotovostní služba funguje o víkendech a svátcích od rána do 21:00; účtován příplatek",
+    "emergency_en": "By phone arrangement, weekdays to 22h and weekends/holidays; priority to regular clients, fee applies",
+    "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.8,
-    "google_review_count": 268,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -4206,8 +4275,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "tom.malina@tiscali.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 41,
@@ -4313,7 +4383,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "agivetcz@gmail.com"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 42,
@@ -4419,7 +4490,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "tesarikova.jitka@seznam.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 43,
@@ -4524,7 +4596,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 44,
@@ -4629,7 +4703,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 45,
@@ -4734,7 +4810,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 46,
@@ -4840,7 +4918,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@mirivet.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 47,
@@ -4945,7 +5024,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 48,
@@ -5050,7 +5131,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 49,
@@ -5155,7 +5238,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 50,
@@ -5260,7 +5345,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 51,
@@ -5365,7 +5452,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 52,
@@ -5470,7 +5559,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 53,
@@ -5575,7 +5666,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 54,
@@ -5681,7 +5774,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "klinika@hvet.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 55,
@@ -5787,7 +5881,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "metropolevet@gmail.com"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 56,
@@ -5893,7 +5988,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "info@minoravet.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 57,
@@ -5905,10 +6001,10 @@
     "phone": "+420 734 113 388",
     "website": "http://nasveterinar.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Nikola Hanáková",
+    "recommended_vet": "Only MVDr. Nikola Hanáková, per site listing",
     "hours": "Mon-Fri 8-12,13-20; Sat 9-14; Sun 14-19",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBaLfK8uWC0cRsfedhKi_Dzs",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -5921,52 +6017,52 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.7,
-    "google_review_count": 276,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "09:00",
+        "start1": "8",
         "end1": "12",
         "start2": "13",
-        "end2": "18:00",
+        "end2": "20",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
         "closed": false,
-        "start1": "09:00",
+        "start1": "8",
         "end1": "12",
         "start2": "13",
-        "end2": "18:00",
+        "end2": "20",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
         "closed": false,
-        "start1": "09:00",
+        "start1": "8",
         "end1": "12",
         "start2": "13",
-        "end2": "18:00",
+        "end2": "20",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
         "closed": false,
-        "start1": "09:00",
-        "end1": "12:00",
-        "start2": "13:00",
-        "end2": "18:00",
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
         "closed": false,
-        "start1": "09:00",
-        "end1": "12:00",
-        "start2": "13:00",
-        "end2": "18:00",
+        "start1": "8",
+        "end1": "12",
+        "start2": "13",
+        "end2": "20",
         "note_en": "",
         "note_cs": ""
       },
@@ -5976,13 +6072,13 @@
         "end1": "14",
         "start2": "",
         "end2": "",
-        "note_en": "Saturdays with surcharge",
-        "note_cs": "Soboty s příplatkem"
+        "note_en": "",
+        "note_cs": ""
       },
       "Sun": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "14",
+        "end1": "19",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -5998,38 +6094,39 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "info@nasveterinar.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 58,
-    "name": "Vetcentrum Duchek (Praha 13)",
+    "name": "Vetcentrum Stodůlky (Praha 5)",
     "region": "Praha",
     "address": "K Hájům 2671/8, 155 00 Praha 13",
     "lat": 50.0572727,
     "lng": 14.3238876,
-    "phone": "+420 251 511 651 / +420 251 617 564 / +420 775 688 637",
+    "phone": "+420 251 511 651 / 251 617 564 / 775 688 637",
     "website": "http://www.vetcentrum.cz/",
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-21",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg8RrX_SVC0cRATDXDFTFNsA",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
-    "is_24_7": true,
+    "is_24_7": false,
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Evening emergency 21:00 - 24:00; overnight emergency 24:00 - 8:00 (surchages apply)",
-    "emergency_cs": "Večerní pohotovost 21:00 - 24:00; noční pohotovost 24:00 - 8:00 (za extra příplatek)",
-    "facebook_url": "https://www.facebook.com/Vetcentrum.cz",
-    "instagram_url": "https://www.instagram.com/vetcentrum_cz/",
-    "google_rating": 4.6,
-    "google_review_count": 2321,
-    "hospitalization": true,
+    "emergency_en": "Evening 21-24 (1500 Kč), weekends 8-21 (1500 Kč), holidays 8-21 (1500 Kč), acute cases only",
+    "emergency_cs": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "google_rating": null,
+    "google_review_count": null,
+    "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6082,7 +6179,7 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Weekend emergency 8:00 - 21:00",
+        "note_en": "",
         "note_cs": ""
       },
       "Sun": {
@@ -6091,21 +6188,22 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Weekend emergency 8:00 - 21:00",
+        "note_en": "",
         "note_cs": ""
       },
       "Holiday": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Surcharges apply",
-        "note_cs": "Za extra příplatek"
+        "note_en": "",
+        "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "provoz@vetcentrum.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 59,
@@ -6117,25 +6215,25 @@
     "phone": "+420 720 365 001",
     "website": "http://www.veterinafenix.cz/",
     "top_pick": false,
-    "recommended_vet": "",
+    "recommended_vet": "MVDr. Nikola Koller (Sádovská)",
     "hours": "Mon-Fri 9-20, Sat 9-11",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN-Ahl52UC0cRtKIOvLucad8",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "",
+    "notes_en": "Trained at Tichá clinic (Hradec Králové) and Jekl & Hauptman (Brno)",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.6,
-    "google_review_count": 452,
-    "hospitalization": true,
+    "google_rating": null,
+    "google_review_count": null,
+    "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6183,9 +6281,9 @@
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "9",
+        "end1": "11",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -6210,8 +6308,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "info@veterinafenix.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 60,
@@ -6226,7 +6325,7 @@
     "recommended_vet": "MVDr. Marie Lietavcová",
     "hours": "Daily 8-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIZIJmTOXC0cRicZlrZ58RdA",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -6235,12 +6334,12 @@
     "has_weekend_emergency": true,
     "notes_en": "Vet round 13:45-14:15 weekdays (12:45-14:15 Thu), unbookable slot",
     "notes_cs": "",
-    "emergency_en": "Emergencies on working days until 22:00",
-    "emergency_cs": "Pro akutní případy v pracovní dny otevřeno do 22:00",
-    "facebook_url": "https://www.facebook.com/veterinazbraslav.cz/",
+    "emergency_en": "Weekend/holiday surcharge 500 Kč",
+    "emergency_cs": "",
+    "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.5,
-    "google_review_count": 1137,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -6307,17 +6406,18 @@
         "note_cs": ""
       },
       "Holiday": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "info@veterinazbraslav.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 61,
@@ -6326,28 +6426,28 @@
     "address": "Ke Kamýku 996/3, 140 00 Praha 4",
     "lat": 50.0157228,
     "lng": 14.4462823,
-    "phone": "+420 241 714 358 / +420 602 136 128",
+    "phone": "+420 241 714 358 / 602 136 128",
     "website": "https://www.veterinarni-klinika.net/",
     "top_pick": false,
     "recommended_vet": "MVDr. Zuzana Brodská",
     "hours": "Mon-Fri 8-19:30",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvVTNx1yRC0cRUO0nOuAdYkQ",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
-    "is_24_7": true,
+    "is_24_7": false,
     "has_weekend_emergency": true,
     "notes_en": "Prior phone arrangement requested during emergency periods",
-    "notes_cs": "V době pohotovostní nutná předchozí telefonická domluva",
-    "emergency_en": "Weeknight emergencies 19:30 - 8:00, weekend emergencies 8:00 - 20:00",
-    "emergency_cs": "Pohotovost v pracovní dny 19:30 - 8:00, víkendová pohotovost 8:00 - 20:00",
-    "facebook_url": "https://www.facebook.com/veterinarni.klinika.IVET/",
+    "notes_cs": "",
+    "emergency_en": "Weeknights 19:30-8 (1200-2000 Kč), weekends 800 Kč (excl. planned check-ups)",
+    "emergency_cs": "",
+    "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.1,
-    "google_review_count": 364,
-    "hospitalization": true,
+    "google_rating": null,
+    "google_review_count": null,
+    "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -6400,8 +6500,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pohotovost"
+        "note_en": "",
+        "note_cs": ""
       },
       "Sun": {
         "closed": true,
@@ -6409,8 +6509,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pohotovost"
+        "note_en": "",
+        "note_cs": ""
       },
       "Holiday": {
         "closed": true,
@@ -6422,8 +6522,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "ivet@ivet.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 62,
@@ -6438,98 +6539,99 @@
     "recommended_vet": "MVDr. Veronika Mráčková, now primarily Mon & Fri",
     "hours": "Mon-Fri 8-21 (surgery block 12-15); Sat 9-13; Sun/holidays 16-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwT10ibCVC0cRUYGYvoYT7lY",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": true,
-    "notes_en": "Surgical operations on workdays 12:00 - 15:00 - longer waiting time",
-    "notes_cs": "Operační zákroky v pracovních dnech 12:00 - 15:00 - delší čekací doba",
-    "emergency_en": "Weekends and public holidays mainly for emergencies, surcharges apply; cannot book online",
-    "emergency_cs": "Víkendy a svátky přednostně pro pohotovostní případy, účtován příplatek; nelze rezervovat online",
+    "has_weekend_emergency": null,
+    "notes_en": "Mixed reviews",
+    "notes_cs": "",
+    "emergency_en": "",
+    "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.7,
-    "google_review_count": 517,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "21:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "13:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Mainly emergencies",
-        "note_cs": "Přednostně pohotovost"
+        "note_en": "",
+        "note_cs": ""
       },
       "Sun": {
-        "closed": false,
-        "start1": "16:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Mainly emergencies",
-        "note_cs": "Přednostně pohotovost"
+        "note_en": "",
+        "note_cs": ""
       },
       "Holiday": {
-        "closed": false,
-        "start1": "16:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Mainly emergencies",
-        "note_cs": "Přednostně pohotovost"
+        "note_en": "",
+        "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "info@jinvet.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 63,
@@ -6538,7 +6640,7 @@
     "address": "Na Hrádku 1715/8, 128 00 Praha 2",
     "lat": 50.071707,
     "lng": 14.4195386,
-    "phone": "+420 224 923 717 / +420 224 921 316",
+    "phone": "",
     "website": "http://www.vet-klinika.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Roman Skala",
@@ -6552,73 +6654,73 @@
     "is_24_7": null,
     "has_weekend_emergency": null,
     "notes_en": "Not rabbit-focused but a top orthopedist; works with a rabbit/rodent rescue shelter",
-    "notes_cs": "Doktor není specialista na králíky, ale skvělý ortoped; spolupracuje s azylem pro králíky/hlodavce",
-    "emergency_en": "Weekend visits subject to surcharge",
-    "emergency_cs": "O víkendech se účtuje příplatek",
+    "notes_cs": "",
+    "emergency_en": "",
+    "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.6,
-    "google_review_count": 543,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "14:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sun": {
-        "closed": false,
-        "start1": "14:00",
-        "end1": "19:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -6634,8 +6736,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "nahradku@centrum.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 64,
@@ -6647,24 +6750,24 @@
     "phone": "+420 251 614 378",
     "website": "http://www.vets4pets.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Kateřina Sekyrová, MVDr. Andrea Mináriková, Ph.D.",
+    "recommended_vet": "MVDr. Kateřina Sekyrová, MVDr. Andrea Mináriková",
     "hours": "Mon-Fri 8-21",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCes12vGVC0cReVpvKxTkPcg",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "",
+    "notes_en": "Does female spaying. Well-equipped, higher price point.",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "https://www.facebook.com/people/Veterin%C3%A1rn%C3%AD-klinika-Na-H%C5%AFrce/100036310131153/#",
-    "instagram_url": "https://www.instagram.com/veterinarniklinikanahurce/",
-    "google_rating": 4.6,
-    "google_review_count": 703,
+    "facebook_url": "",
+    "instagram_url": "",
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -6740,9 +6843,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "vets4pets@seznam.cz",
-    "english_communication": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 65,
@@ -6751,27 +6854,27 @@
     "address": "Hostinského 1076/8, 155 00 Praha 5",
     "lat": 50.0474815,
     "lng": 14.3134127,
-    "phone": "+420 777 033 353 / +420 235 518 764",
+    "phone": "+420 777 033 353 / 235 518 764",
     "website": "http://veterinapaprsek.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. František Svozil",
     "hours": "Mon-Fri 15-21, Sat 9-12:30",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZyzUAgS-C0cRgEZKnwWIxhw",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Mixed reviews",
-    "notes_cs": "Smíšené recenze",
+    "notes_en": "Mixed reviews, one of the older clinics",
+    "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "https://www.facebook.com/people/Veterin%C3%A1rn%C3%AD-klinika-Paprsek/100028375399436/",
+    "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 3.7,
-    "google_review_count": 3,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -6847,13 +6950,15 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 66,
-    "name": "Veterina Svobodník MVDr. Igor Svobodník (Praha 8 - Kobylisy)",
+    "name": "Veterinární ordinace MVDr. Svobodníka (Praha 8 - Kobylisy)",
     "region": "Praha",
-    "address": "Náhorní 2, 182 00 Praha 8-Kobylisy",
+    "address": "Náhorní 2, 182 00 Praha 8-Kobylisy (also Praha 8-Libeň & Praha 9-Letňany)",
     "lat": 50.1249218,
     "lng": 14.4585734,
     "phone": "+420 284 687 850",
@@ -6862,81 +6967,81 @@
     "recommended_vet": "MVDr. Marie Salačová, MVDr. Tereza Šenkyřová, MVDr. Kristýna Hlinková, MVDr. Lucie Lehká",
     "hours": "Mon-Fri 9-20, Sat 9-12, Sun 17-20 (Kobylisy)",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJexe2w0PrC0cRBbYaPVZR934",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "",
+    "notes_en": "veterina.svobodnik@seznam.cz",
     "notes_cs": "",
-    "emergency_en": "Since 7 Feb 2026, emergency moved to Veterina Sokolníky, Trousilova 1064, Praha 8, +420 736 535 652",
-    "emergency_cs": "Od 7.2.2026 pohotovost přesunuta na Veterinu Sokolníky, Trousilova 1064, Praha 8, +420 736 535 652",
-    "facebook_url": "https://www.facebook.com/people/Veterina-Svobodn%C3%ADk/100046368776668/",
+    "emergency_en": "Since 7 Feb 2026, moved to Veterina Sokolníky, Trousilova 1064, Praha 8, tel. 736 535 652",
+    "emergency_cs": "",
+    "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.7,
-    "google_review_count": 434,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "12:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sun": {
-        "closed": false,
-        "start1": "17:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -6952,8 +7057,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": " veterina.svobodnik@seznam.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 67,
@@ -6962,13 +7068,13 @@
     "address": "Jana Masaryka 457/1, 120 00 Praha 2",
     "lat": 50.0700362,
     "lng": 14.4347776,
-    "phone": "+420 222 543 779 / +420 725 917 117",
+    "phone": "+420 725 917 117",
     "website": "http://www.vetvin.com/",
     "top_pick": false,
     "recommended_vet": "MVDr. Veronika Kubíčková",
     "hours": "Mon-Fri 8-20, Sat-Sun 9-12",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX2DTEoiUC0cRaK1iT8u_RsQ",
-    "district": "Hlavní město Praha",
+    "district": "území Hlavního města Prahy",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
     "is_brno": false,
@@ -6977,12 +7083,12 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Emergencies on weekdays after 19:30 (surcharges apply); weekend emergencies (surcharges apply)",
-    "emergency_cs": "Pohotovost ve všední dny po 19:30 (za příplatek); víkendová pohotovost (za příplatek)",
-    "facebook_url": "https://www.facebook.com/people/VetVin-Veterin%C3%A1rn%C3%AD-Klinika-Vinohrady/100067134488484/",
-    "instagram_url": "https://www.instagram.com/veterinavetvin/",
-    "google_rating": 4.8,
-    "google_review_count": 598,
+    "emergency_en": "Weekday after-19:30 surcharge 500 Kč; weekend surcharge 800 Kč (excl. check-ups)",
+    "emergency_cs": "",
+    "facebook_url": "",
+    "instagram_url": "",
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -7058,18 +7164,18 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "info@vetvin.cz",
-    "english_communication": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 68,
-    "name": "Veterina Přerov - MVDr. Josef Pospíšilík (Přerov)",
+    "name": "MVDr. Josef Pospíšilík (Přerov)",
     "region": "Přerov",
     "address": "Riedlova 679/9, 750 02 Přerov",
     "lat": 49.458461,
     "lng": 17.451496,
-    "phone": "+420 777 662 061 / +420 581 735 910",
+    "phone": "+420 777 662 061 / 581 735 910",
     "website": "http://www.veterinaprerov.cz/",
     "top_pick": false,
     "recommended_vet": "",
@@ -7086,61 +7192,61 @@
     "notes_cs": "",
     "emergency_en": "Outside hours on 777 662 061",
     "emergency_cs": "",
-    "facebook_url": "https://www.facebook.com/veterinarprerov/",
+    "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.9,
-    "google_review_count": 347,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "15:00",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "15:00",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "15:00",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "15:00",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "12:00",
-        "start2": "15:00",
-        "end2": "18:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "11:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7165,8 +7271,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false,
-    "internal_contact_email": "josef.pospisilik@seznam.cz"
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 69,
@@ -7271,7 +7378,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 70,
@@ -7281,7 +7390,7 @@
     "lat": 49.4713954,
     "lng": 17.1069926,
     "phone": "+420 604 360 319",
-    "website": "https://veterina-prostejov.cz/",
+    "website": "http://www.veterina-prostejov.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Bc. Michaela Hejlková",
     "hours": "Mon-Thu 9-11,13-18; Fri 9-11,13-16; Sat-Sun closed",
@@ -7377,7 +7486,8 @@
       }
     },
     "hours_needs_review": false,
-    "internal_contact_email": "m.hejlkova@seznam.cz"
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 71,
@@ -7482,7 +7592,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 72,
@@ -7587,7 +7699,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 73,
@@ -7692,7 +7806,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 74,
@@ -7720,50 +7836,50 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": 4.7,
-    "google_review_count": 457,
+    "google_rating": null,
+    "google_review_count": null,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "11:00",
-        "start2": "15:00",
-        "end2": "17:30",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "11:00",
-        "start2": "15:00",
-        "end2": "17:30",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "11:00",
-        "start2": "15:00",
-        "end2": "17:30",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "11:00",
-        "start2": "15:00",
-        "end2": "17:30",
+        "closed": true,
+        "start1": "",
+        "end1": "",
+        "start2": "",
+        "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": false,
-        "start1": "09:00",
-        "end1": "11:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7797,7 +7913,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": false
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 75,
@@ -7902,7 +8020,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 76,
@@ -8007,7 +8127,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 77,
@@ -8112,7 +8234,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 78,
@@ -8217,7 +8341,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 79,
@@ -8322,7 +8448,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 80,
@@ -8427,7 +8555,9 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   },
   {
     "id": 81,
@@ -8532,333 +8662,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
-  },
-  {
-    "id": 82,
-    "name": "Veterinární klinika Erika (Praha 7)",
-    "region": "Praha",
-    "address": "Dělnická 12, 170 00 Praha 7-Holešovice",
-    "lat": 50.102826377614555,
-    "lng": 14.44669687431519,
-    "phone": "+420 284 821 784",
-    "website": "https://vet-klin-erika.cz/",
-    "top_pick": false,
-    "recommended_vet": "MVDr. Aneta Kasanová",
-    "hours": "",
-    "google_maps_url": "https://maps.app.goo.gl/f1LbHZ4nvnPGUPpp9",
-    "district": "Hlavní město Praha",
-    "kraj": "Hlavní město Praha",
-    "is_prague": true,
-    "is_brno": false,
-    "is_ostrava": false,
-    "is_24_7": true,
-    "has_weekend_emergency": true,
-    "notes_en": "",
-    "notes_cs": "",
-    "emergency_en": "Emergencies on weekdays 18:00 - 8:00; whole day on weekends and on public holidays",
-    "emergency_cs": "Pohotovost ve všední dny 18:00 - 8:00; o víkendech a svátcích pohotovost celý den",
-    "facebook_url": "https://www.facebook.com/vkerika",
-    "instagram_url": "",
-    "internal_contact_email": "info@vet-klin-erika.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
-    "google_rating": 4.3,
-    "google_review_count": 1552,
-    "hospitalization": true,
-    "english_communication": false,
-    "weekly_hours": {
-      "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "18:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "18:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "18:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "18:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "18:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Sat": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      },
-      "Sun": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      },
-      "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      }
-    },
-    "hours_needs_review": false
-  },
-  {
-    "id": 83,
-    "name": "VETNEMO Veterinární nemocnice Libuš (Praha - Libuš)",
-    "region": "Praha",
-    "address": "Na Šejdru 238/45, 142 00 Praha 4 - Libuš",
-    "lat": 50.008420040554455,
-    "lng": 14.458767962630144,
-    "phone": "+420 244 470 704",
-    "website": "https://www.vetnemo.cz/",
-    "top_pick": false,
-    "recommended_vet": " MVDr. Zuzana Karabová, MVDr. Michala Kličková, MVDr. Barbora Olejárová",
-    "hours": "",
-    "google_maps_url": "https://maps.app.goo.gl/yMrp15nKxHWHzZqP7",
-    "district": "Hlavní město Praha",
-    "kraj": "Hlavní město Praha",
-    "is_prague": true,
-    "is_brno": false,
-    "is_ostrava": false,
-    "is_24_7": false,
-    "has_weekend_emergency": false,
-    "notes_en": "",
-    "notes_cs": "",
-    "emergency_en": "Emergencies on weekdays 22:00 - 8:00",
-    "emergency_cs": "Pohotovostní služba v pracovní dny 22:00 - 8:00",
-    "facebook_url": "https://www.facebook.com/Vetnemopraha#",
-    "instagram_url": "",
-    "internal_contact_email": "info@vetnemocnice.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
-    "google_rating": 3.7,
-    "google_review_count": 194,
-    "hospitalization": true,
-    "english_communication": false,
-    "weekly_hours": {
-      "Mon": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Tue": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Wed": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Thu": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Fri": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "22:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Sat": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Sun": {
-        "closed": false,
-        "start1": "08:00",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      }
-    },
-    "hours_needs_review": false
-  },
-  {
-    "id": 84,
-    "name": "Medicanima (Praha 8 - Palmovka)",
-    "region": "Praha",
-    "address": "Voctářova 18, 108 00 Praha 8-Palmovka",
-    "lat": 50.10445923110709,
-    "lng": 14.469951730958398,
-    "phone": "+420 252 252 111",
-    "website": "https://www.medicanima.cz/",
-    "top_pick": false,
-    "recommended_vet": "MVDr. Lenka Chylíková",
-    "hours": "",
-    "google_maps_url": "https://maps.app.goo.gl/Nbrus7X5Q5majSQW8",
-    "district": "Hlavní město Praha",
-    "kraj": "Hlavní město Praha",
-    "is_prague": true,
-    "is_brno": false,
-    "is_ostrava": false,
-    "is_24_7": true,
-    "has_weekend_emergency": true,
-    "notes_en": "",
-    "notes_cs": "",
-    "emergency_en": "Emergencies on weekdays 20:00 - 23:00, overnight emergencies 23:00 - 8:30 (surcharges apply)",
-    "emergency_cs": "Pohotovost ve všední dny 20:00 - 23:30, noční pohotovost 23:30 - 8:30 (pohotovostní příplatky)",
-    "facebook_url": "https://www.facebook.com/medicanima",
-    "instagram_url": "https://www.facebook.com/medicanima",
-    "internal_contact_email": "info@medicanima.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
-    "google_rating": 4.6,
-    "google_review_count": 263,
-    "hospitalization": true,
-    "english_communication": false,
-    "weekly_hours": {
-      "Mon": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Tue": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Wed": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Thu": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "20:00",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Fri": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "",
-        "note_cs": ""
-      },
-      "Sat": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "23:30",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      },
-      "Sun": {
-        "closed": false,
-        "start1": "08:30",
-        "end1": "23:30",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      },
-      "Holiday": {
-        "closed": false,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pouze pohotovost"
-      }
-    },
-    "hours_needs_review": false
+    "hours_needs_review": true,
+    "internal_contact_email": "",
+    "english_communication": false
   }
 ]

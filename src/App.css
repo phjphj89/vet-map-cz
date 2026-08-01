@@ -4,23 +4,19 @@
   padding: calc(var(--header-height) + 16px) 32px 16px;
 }
 
-/* --- Overall page layout: map (left) + filter/list (right) --- */
+/* --- Overall page layout: map on top, list below --- */
 
-.main-layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 24px;
-  align-items: start;
+.stacked-layout {
+  display: flex;
+  flex-direction: column;
 }
 
-.map-column {
-  position: sticky;
-  top: calc(var(--header-height) + 16px);
-  z-index: 10;
+.map-top-section {
+  margin-bottom: 20px;
 }
 
 .map-container {
-  height: calc(100vh - var(--header-height) - 32px);
+  height: 420px;
   width: 100%;
 }
 
@@ -53,16 +49,8 @@
    guessing a taller pixel value, letting the header scroll away
    normally sidesteps the whole problem. */
 @media (max-width: 900px) {
-  .main-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .map-column {
-    position: static;
-  }
-
   .map-container {
-    height: 400px;
+    height: 280px;
   }
 
   .app-header {
@@ -376,9 +364,19 @@
 /* --- Clinic cards --- */
 
 .clinic-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+  display: block;
+}
+
+.clinic-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 700px) {
+  .clinic-cards-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .clinic-card {
@@ -829,17 +827,16 @@
 
 .summary-card-actions {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .summary-call-button,
 .summary-details-button {
-  flex: 1;
   text-align: center;
-  padding: 8px 14px;
+  padding: 6px 14px;
   border-radius: 6px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
   cursor: pointer;
 }

@@ -146,17 +146,19 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
         </div>
       </div>
 
-      {filteredClinics.map((clinic) => (
-        <ClinicSummaryCard
-          key={clinic.id}
-          clinic={clinic}
-          distanceKm={
-            userLocation
-              ? calculateDistanceKm(userLocation.lat, userLocation.lng, clinic.lat, clinic.lng)
-              : null
-          }
-        />
-      ))}
+      <div className="clinic-cards-grid">
+        {filteredClinics.map((clinic) => (
+          <ClinicSummaryCard
+            key={clinic.id}
+            clinic={clinic}
+            distanceKm={
+              userLocation
+                ? calculateDistanceKm(userLocation.lat, userLocation.lng, clinic.lat, clinic.lng)
+                : null
+            }
+          />
+        ))}
+      </div>
     </div>
   );
 }
