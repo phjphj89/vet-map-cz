@@ -821,6 +821,7 @@
 
 .summary-recommended-label {
   color: var(--color-clinic-name);
+  font-weight: 700;
 }
 
 .summary-recommended-name {
