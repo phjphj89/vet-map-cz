@@ -59,10 +59,12 @@ export function GlobeIcon({ size = 14 }) {
 export function BedIcon({ size = 13 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M3 18v-7a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v3" />
-      <path d="M12 14h7a2 2 0 0 1 2 2v2" />
-      <path d="M3 18v3M21 18v3" />
-      <circle cx="7" cy="10.5" r="1.3" fill="currentColor" stroke="none" />
+      <line x1="4" y1="4" x2="4" y2="20" />
+      <path d="M4,4 A5,5 0 0,1 9,9" />
+      <line x1="4" y1="10" x2="20" y2="10" />
+      <line x1="4" y1="13" x2="20" y2="13" />
+      <line x1="20" y1="10" x2="20" y2="13" />
+      <line x1="19" y1="13" x2="19" y2="20" />
     </svg>
   );
 }

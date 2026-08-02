@@ -102,7 +102,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 553 662 467"
   },
   {
     "id": 2,
@@ -207,7 +208,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 601 524 604"
   },
   {
     "id": 3,
@@ -419,7 +421,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 546 221 174"
   },
   {
     "id": 5,
@@ -524,7 +527,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 603 103 377"
   },
   {
     "id": 6,
@@ -629,7 +633,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 541 562 368"
   },
   {
     "id": 7,
@@ -736,7 +741,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": "info@budvet.cz",
-    "call_phone": "+420 735 172 517"
+    "call_phone": "Trojická: 735 172 517, Rožnov: 775 662 484"
   },
   {
     "id": 8,
@@ -841,7 +846,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 385 346 033"
   },
   {
     "id": 9,
@@ -946,7 +952,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 725 146 205"
   },
   {
     "id": 10,
@@ -1053,7 +1060,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": " cityvet@email.cz",
-    "call_phone": "+420 720 565 826"
+    "call_phone": "+420 412 511 999"
   },
   {
     "id": 11,
@@ -1158,7 +1165,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 596 530 155"
   },
   {
     "id": 12,
@@ -1263,7 +1271,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 776 638 104"
   },
   {
     "id": 13,
@@ -1272,7 +1281,7 @@
     "address": "Dolnoveská 198, 763 16 Fryšták",
     "lat": 49.2789092,
     "lng": 17.6783822,
-    "phone": "+420 733 583 343",
+    "phone": "+420 733 583 343 (hours) / 733 583 337 (emergency)",
     "website": "http://www.happyvet-frystak.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Vendula Veselská",
@@ -1370,7 +1379,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": "happyvet@seznam.cz",
-    "call_phone": "+420 733 583 343"
+    "call_phone": "+420 733 583 343 (hours)"
   },
   {
     "id": 14,
@@ -1477,7 +1486,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": "info@vet-vaculikovi.cz",
-    "call_phone": "+420 606 836 709"
+    "call_phone": "+420 596 881 137"
   },
   {
     "id": 15,
@@ -1582,7 +1591,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 777 931 545"
   },
   {
     "id": 16,
@@ -1794,7 +1804,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 602 283 290"
   },
   {
     "id": 18,
@@ -1899,7 +1910,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 777 757 071"
   },
   {
     "id": 19,
@@ -2004,7 +2016,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 518 321 494"
   },
   {
     "id": 20,
@@ -2109,7 +2122,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 495 211 061"
   },
   {
     "id": 21,
@@ -2214,7 +2228,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 495 532 233"
   },
   {
     "id": 22,
@@ -2319,7 +2334,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 727 920 881"
   },
   {
     "id": 23,
@@ -2424,7 +2440,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 732 512 181"
   },
   {
     "id": 24,
@@ -2529,7 +2546,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 778 960 940"
   },
   {
     "id": 25,
@@ -2634,7 +2652,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 241 931 765"
   },
   {
     "id": 26,
@@ -2846,7 +2865,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 312 267 744"
   },
   {
     "id": 28,
@@ -2951,7 +2971,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 777 762 679"
   },
   {
     "id": 29,
@@ -3056,7 +3077,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 774 226 266"
   },
   {
     "id": 30,
@@ -3161,7 +3183,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 554 616 496"
   },
   {
     "id": 31,
@@ -3266,7 +3289,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 327 561 361"
   },
   {
     "id": 32,
@@ -3478,7 +3502,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 482 770 371"
   },
   {
     "id": 34,
@@ -3583,7 +3608,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 604 271 270"
   },
   {
     "id": 35,
@@ -3688,7 +3714,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 777 607 578"
   },
   {
     "id": 36,
@@ -3793,7 +3820,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 703 806 680"
   },
   {
     "id": 37,
@@ -4005,7 +4033,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 773 010 910"
   },
   {
     "id": 39,
@@ -4110,7 +4139,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 731 215 268"
   },
   {
     "id": 40,
@@ -4217,7 +4247,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": "tom.malina@tiscali.cz",
-    "call_phone": "+420 603 462 984"
+    "call_phone": "+420 556 703 995"
   },
   {
     "id": 41,
@@ -4536,7 +4566,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 608 112 217"
   },
   {
     "id": 44,
@@ -4641,7 +4672,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 608 037 733"
   },
   {
     "id": 45,
@@ -4746,7 +4778,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 585 751 808"
   },
   {
     "id": 46,
@@ -4958,7 +4991,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 596 621 677"
   },
   {
     "id": 48,
@@ -5063,7 +5097,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 596 788 646"
   },
   {
     "id": 49,
@@ -5168,7 +5203,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 725 772 038"
   },
   {
     "id": 50,
@@ -5273,7 +5309,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 737 288 321"
   },
   {
     "id": 51,
@@ -5378,7 +5415,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 377 262 114"
   },
   {
     "id": 52,
@@ -5483,7 +5521,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 722 300 004"
   },
   {
     "id": 53,
@@ -5588,7 +5627,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 732 573 317"
   },
   {
     "id": 54,
@@ -6444,7 +6484,7 @@
     },
     "hours_needs_review": false,
     "internal_contact_email": "ivet@ivet.cz",
-    "call_phone": "+420 602 136 128"
+    "call_phone": "+420 241 714 358"
   },
   {
     "id": 62,
@@ -6456,7 +6496,7 @@
     "phone": "+420 257 222 525",
     "website": "http://jinvet.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Veronika Mráčková",
+    "recommended_vet": "MVDr. Veronika Mráčková, now primarily Mon & Fri",
     "hours": "Mon-Fri 8-21 (surgery block 12-15); Sat 9-13; Sun/holidays 16-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwT10ibCVC0cRUYGYvoYT7lY",
     "district": "Hlavní město Praha",
@@ -7087,7 +7127,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@vetvin.cz",
     "english_communication": true,
-    "call_phone": "+420 725 917 117"
+    "call_phone": "+420 222 543 779"
   },
   {
     "id": 68,
@@ -7299,7 +7339,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": ""
   },
   {
     "id": 70,
@@ -7511,7 +7552,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 722 329 977"
   },
   {
     "id": 72,
@@ -7616,7 +7658,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+421 910 914 046"
   },
   {
     "id": 73,
@@ -7721,7 +7764,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 702 117 822"
   },
   {
     "id": 74,
@@ -7932,7 +7976,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 608 399 144"
   },
   {
     "id": 76,
@@ -8037,7 +8082,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 475 534 278"
   },
   {
     "id": 77,
@@ -8142,7 +8188,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 517 330 436 (consultations)"
   },
   {
     "id": 78,
@@ -8247,7 +8294,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 771 171 038"
   },
   {
     "id": 79,
@@ -8352,7 +8400,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 721 049 699"
   },
   {
     "id": 80,
@@ -8457,7 +8506,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 577 222 737"
   },
   {
     "id": 81,
@@ -8562,7 +8612,8 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true
+    "hours_needs_review": true,
+    "call_phone": "+420 724 751 990"
   },
   {
     "id": 82,
@@ -8591,8 +8642,6 @@
     "facebook_url": "https://www.facebook.com/vkerika",
     "instagram_url": "",
     "internal_contact_email": "info@vet-klin-erika.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 4.3,
     "google_review_count": 1552,
     "hospitalization": true,
@@ -8701,8 +8750,6 @@
     "facebook_url": "https://www.facebook.com/Vetnemopraha#",
     "instagram_url": "",
     "internal_contact_email": "info@vetnemocnice.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 3.7,
     "google_review_count": 194,
     "hospitalization": true,
@@ -8811,8 +8858,6 @@
     "facebook_url": "https://www.facebook.com/medicanima",
     "instagram_url": "https://www.facebook.com/medicanima",
     "internal_contact_email": "info@medicanima.cz",
-    "holiday_hours_en": "",
-    "holiday_hours_cs": "",
     "google_rating": 4.6,
     "google_review_count": 263,
     "hospitalization": true,
@@ -8857,7 +8902,7 @@
       "Fri": {
         "closed": false,
         "start1": "08:30",
-        "end1": "20:00",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
