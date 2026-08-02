@@ -423,7 +423,7 @@
 
 .detail-english-communication {
   font-size: 14px;
-  color: var(--color-text-muted);
+  color: var(--color-clinic-address);
   margin: 0 0 20px;
 }
 
@@ -440,7 +440,7 @@
 
 .detail-hours-note p {
   font-size: 13px;
-  color: var(--color-text-muted);
+  color: var(--color-clinic-name);
   margin: 0 0 4px;
 }
 
@@ -596,25 +596,37 @@
 }
 
 .hours-table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 14px;
   width: 100%;
+  border: 1px solid var(--color-card-border);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .hours-table td {
-  padding: 2px 0;
+  padding: 12px 16px;
   vertical-align: top;
 }
 
+.hours-table td:last-child {
+  text-align: right;
+}
+
+.hours-table tr:not(:last-child) td {
+  border-bottom: 1px solid var(--color-card-border);
+}
+
 .hours-day {
-  color: var(--color-hours-text);
+  color: var(--color-clinic-name);
   padding-right: 12px;
   white-space: nowrap;
 }
 
 .hours-time {
   font-weight: normal;
-  color: var(--color-hours-text);
+  color: var(--color-clinic-name);
 }
 
 .hours-note {
@@ -623,7 +635,7 @@
 }
 
 .hours-closed {
-  color: var(--color-hours-text);
+  color: var(--color-clinic-name);
 }
 
 .hours-fallback {
