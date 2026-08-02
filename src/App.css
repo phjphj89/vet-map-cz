@@ -610,7 +610,9 @@
   vertical-align: top;
 }
 
+.hours-table td:nth-child(2),
 .hours-table td:last-child,
+.hours-table th:nth-child(2),
 .hours-table th:last-child {
   text-align: right;
 }
