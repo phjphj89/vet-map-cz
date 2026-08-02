@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Králíčci srdcem",
-    "logo_url": "/src/images/friends/kralicci_srdcem.jpg",
+    "logo_url": "/public/images/friends/kralicci_srdcem.jpg",
     "website_url": "https://kraliccisrdcem.cz/",
     "tags_en": [
       "Cool web"
