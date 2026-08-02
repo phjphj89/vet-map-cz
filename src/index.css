@@ -97,10 +97,10 @@
 :root {
   --color-bg: #FFFFFF;           /* page background */
   --color-card-bg: #FFFFFF;      /* card background: white */
-  --color-border: #087A58;       /* darker green borders */
+  --color-border: #006662;       /* darker green borders */
   --color-text: #1F3325;         /* primary text: dark green */
   --color-text-muted: #5C7A61;   /* secondary/muted text: muted green */
-  --color-accent: #087A58;       /* primary accent: buttons, links, active states */
+  --color-accent: #006662;       /* primary accent: buttons, links, active states */
   --color-accent-text: #FFFFFF;  /* text placed on top of the accent color */
 
   --color-badge-top-pick-bg: #F3E6C6;

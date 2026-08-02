@@ -42,7 +42,7 @@ function buildPinIcon(fillColor) {
 
 // Three pin colors, one per category. Built once (not on every render).
 const PIN_ICONS = {
-  standard: buildPinIcon("#087A58"),   // green - default
+  standard: buildPinIcon("#006662"),   // green - default
   extended: buildPinIcon("#C97B4A"),   // terracotta - late evening or weekend emergency
   always: buildPinIcon("#A83B32"),     // red - open 24/7
 };
