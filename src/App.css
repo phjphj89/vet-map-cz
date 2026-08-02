@@ -610,8 +610,24 @@
   vertical-align: top;
 }
 
-.hours-table td:last-child {
+.hours-table td:last-child,
+.hours-table th:last-child {
   text-align: right;
+}
+
+.hours-col-heading {
+  padding: 10px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-card-border);
+}
+
+.hours-empty {
+  color: var(--color-text-muted);
 }
 
 .hours-table tr:not(:last-child) td {

@@ -8,9 +8,9 @@ function getTodayDayCode() {
   return DAY_CODES_BY_JS_WEEKDAY[new Date().getDay()];
 }
 
-// Builds the display text for a single day's entry, e.g.
-// "9:00 - 12:00, 13:00 - 18:00" or "Closed" or a mix with a note.
-function formatDayEntry(entry, closedLabel) {
+// Builds the display text for the regular-hours column, e.g.
+// "9:00 - 12:00, 13:00 - 18:00" or "Closed".
+function formatRegularHours(entry, closedLabel) {
   const ranges = [];
   if (entry.start1 && entry.end1) {
     ranges.push(`${formatTime(entry.start1)} - ${formatTime(entry.end1)}`);
@@ -18,8 +18,40 @@ function formatDayEntry(entry, closedLabel) {
   if (entry.start2 && entry.end2) {
     ranges.push(`${formatTime(entry.start2)} - ${formatTime(entry.end2)}`);
   }
-
   return entry.closed ? closedLabel : ranges.join(", ");
+}
+
+// Builds the display text for the emergency-hours column. Returns an
+// empty string if no emergency hours are set for that day - the
+// caller shows a muted dash in that case.
+function formatEmergencyHours(entry) {
+  const ranges = [];
+  if (entry.emergency_start1 && entry.emergency_end1) {
+    ranges.push(`${formatTime(entry.emergency_start1)} - ${formatTime(entry.emergency_end1)}`);
+  }
+  if (entry.emergency_start2 && entry.emergency_end2) {
+    ranges.push(`${formatTime(entry.emergency_start2)} - ${formatTime(entry.emergency_end2)}`);
+  }
+  return ranges.join(", ");
+}
+
+function DayRow({ dayCode, label, entry, language, t, isToday }) {
+  const note = entry[`note_${language}`];
+  const regularText = formatRegularHours(entry, t.closed);
+  const emergencyText = formatEmergencyHours(entry);
+
+  return (
+    <tr className={isToday ? "hours-today" : ""}>
+      <td className="hours-day">{label}</td>
+      <td className={entry.closed && !note ? "hours-closed" : "hours-time"}>
+        {regularText}
+        {note && <span className="hours-note"> ({note})</span>}
+      </td>
+      <td className={emergencyText ? "hours-time" : "hours-empty"}>
+        {emergencyText || "—"}
+      </td>
+    </tr>
+  );
 }
 
 export function OpeningHoursTable({ clinic }) {
@@ -42,39 +74,39 @@ export function OpeningHoursTable({ clinic }) {
 
   const holiday = clinic.weekly_hours.Holiday;
   const holidayNote = holiday ? holiday[`note_${language}`] : "";
-  const showHolidayRow = holiday && (!holiday.closed || holidayNote);
+  const holidayEmergency = holiday ? formatEmergencyHours(holiday) : "";
+  const showHolidayRow = holiday && (!holiday.closed || holidayNote || holidayEmergency);
 
   return (
     <table className="hours-table">
+      <thead>
+        <tr>
+          <th className="hours-col-heading"></th>
+          <th className="hours-col-heading">{t.regularHoursHeading}</th>
+          <th className="hours-col-heading">{t.emergencyHoursHeading}</th>
+        </tr>
+      </thead>
       <tbody>
-        {WEEKDAY_ORDER.map((dayCode) => {
-          const entry = clinic.weekly_hours[dayCode];
-          const note = entry[`note_${language}`];
-          const timeText = formatDayEntry(entry, t.closed);
-          return (
-            <tr key={dayCode} className={dayCode === todayCode ? "hours-today" : ""}>
-              <td className="hours-day">{weekdayNames[language][dayCode]}</td>
-              <td className={entry.closed && !note ? "hours-closed" : "hours-time"}>
-                {timeText}
-                {note && <span className="hours-note"> ({note})</span>}
-              </td>
-            </tr>
-          );
-        })}
+        {WEEKDAY_ORDER.map((dayCode) => (
+          <DayRow
+            key={dayCode}
+            dayCode={dayCode}
+            label={weekdayNames[language][dayCode]}
+            entry={clinic.weekly_hours[dayCode]}
+            language={language}
+            t={t}
+            isToday={dayCode === todayCode}
+          />
+        ))}
         {showHolidayRow && (
-          <tr>
-            <td className="hours-day">{t.publicHolidays}</td>
-            <td className={holiday.closed && !holidayNote ? "hours-closed" : "hours-time"}>
-              {holiday.closed && holidayNote ? (
-                holidayNote
-              ) : (
-                <>
-                  {formatDayEntry(holiday, t.closed)}
-                  {holidayNote && <span className="hours-note"> ({holidayNote})</span>}
-                </>
-              )}
-            </td>
-          </tr>
+          <DayRow
+            dayCode="Holiday"
+            label={t.publicHolidays}
+            entry={holiday}
+            language={language}
+            t={t}
+            isToday={false}
+          />
         )}
       </tbody>
     </table>

@@ -10,16 +10,18 @@ export function isOpenOnWeekends(clinic) {
   return Boolean((saturday && !saturday.closed) || (sunday && !sunday.closed));
 }
 
-// True if Saturday OR Sunday is marked closed (no regular hours) but
-// has a note explaining emergency-only availability (e.g. "For
-// emergencies, call..."). This is the day-level source of truth for
-// weekend emergency care - it replaces the older has_weekend_emergency
-// flag, which was a one-time parse of free text and can go stale once
-// a clinic's hours are re-entered through the day-by-day editor.
+// True if Saturday OR Sunday has structured emergency hours entered
+// (the new source of truth), or - for clinics not yet migrated to
+// that - a note on a closed day describing emergency availability.
+// This is what drives the "Weekend Emergency" badge/filter/pin.
 export function hasWeekendEmergencyNote(clinic) {
   if (clinic.hours_needs_review || !clinic.weekly_hours) return false;
   const saturday = clinic.weekly_hours.Sat;
   const sunday = clinic.weekly_hours.Sun;
+  const dayHasEmergencyHours = (entry) => entry && entry.emergency_start1;
   const dayHasNote = (entry) => entry && entry.closed && (entry.note_en || entry.note_cs);
-  return Boolean(dayHasNote(saturday) || dayHasNote(sunday));
+  return Boolean(
+    dayHasEmergencyHours(saturday) || dayHasEmergencyHours(sunday) ||
+    dayHasNote(saturday) || dayHasNote(sunday)
+  );
 }
