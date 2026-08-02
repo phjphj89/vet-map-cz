@@ -14,29 +14,24 @@ export function ClinicCard({ clinic, distanceKm }) {
   const notes = clinic[`notes_${language}`];
   const emergency = clinic[`emergency_${language}`];
 
+  // The data keeps recommended_vet as one plain-text field (e.g.
+  // "MVDr. Jekl, MVDr. Hauptman") rather than a structured list -
+  // splitting it here at display time gives us the boxed-per-vet look
+  // without needing to change how the data itself is edited/stored.
+  const recommendedVetNames = clinic.recommended_vet
+    ? clinic.recommended_vet.split(",").map((name) => name.trim()).filter(Boolean)
+    : [];
+
+  const phoneForCall = clinic.call_phone || clinic.phone;
+
   return (
     <div className="clinic-card">
-      <div className="clinic-card-header">
-        <div className="clinic-header-left">
+      <div className="detail-header">
+        <div className="detail-header-left">
           <h3>{clinic.name}</h3>
           <p className="clinic-address">{clinic.address}</p>
         </div>
-        <div className="clinic-header-right">
-          <div className="badge-row">
-            {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
-            {clinic.is_24_7 === true ? (
-              <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />
-            ) : isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic) ? (
-              <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" icon={EmergencyLightIcon} />
-            ) : isOpenOnWeekends(clinic) ? (
-              <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />
-            ) : hasWeekendEmergencyNote(clinic) ? (
-              <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />
-            ) : null}
-            {clinic.hospitalization === true && (
-              <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />
-            )}
-          </div>
+        <div className="detail-header-right">
           {clinic.google_rating != null && (
             <div className="clinic-rating">
               <span className="clinic-rating-star"><StarIcon /></span>
@@ -54,10 +49,31 @@ export function ClinicCard({ clinic, distanceKm }) {
         </div>
       </div>
 
+      <div className="detail-badge-row">
+        {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
+        {clinic.is_24_7 === true ? (
+          <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />
+        ) : isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic) ? (
+          <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" icon={EmergencyLightIcon} />
+        ) : isOpenOnWeekends(clinic) ? (
+          <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />
+        ) : hasWeekendEmergencyNote(clinic) ? (
+          <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />
+        ) : null}
+        {clinic.hospitalization === true && (
+          <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />
+        )}
+        <LiveStatus clinic={clinic} />
+      </div>
+
+      <p className="detail-english-communication">
+        {t.englishCommunication}: {clinic.english_communication ? t.yesLabel : t.noLabel}
+      </p>
+
       <div className="clinic-action-buttons">
-        {clinic.phone && (
-          <a href={`tel:${clinic.phone}`} className="action-button action-button-primary">
-            <PhoneIcon /> {t.callButton}
+        {phoneForCall && (
+          <a href={`tel:${phoneForCall}`} className="action-button action-button-primary">
+            <PhoneIcon /> {phoneForCall}
           </a>
         )}
         {clinic.google_maps_url && (
@@ -72,59 +88,26 @@ export function ClinicCard({ clinic, distanceKm }) {
         )}
       </div>
 
-      <div className="clinic-card-body">
-        <div className="clinic-left-column">
-          <dl className="clinic-facts">
-            <dt>{t.phone}</dt>
-            <dd className="clinic-phone">{clinic.phone || t.notAvailable}</dd>
-
-            <dt>{t.website}</dt>
-            <dd>
-              {clinic.website ? (
-                <a href={clinic.website} target="_blank" rel="noopener noreferrer">
-                  {clinic.website}
-                </a>
-              ) : (
-                t.notAvailable
-              )}
-            </dd>
-
-            {clinic.recommended_vet && (
-              <>
-                <dt>{t.recommendedVet}</dt>
-                <dd>{clinic.recommended_vet}</dd>
-              </>
-            )}
-
-            <dt>{t.englishCommunication}</dt>
-            <dd>{clinic.english_communication ? t.yesLabel : t.noLabel}</dd>
-          </dl>
-        </div>
-
-        <div className="clinic-hours-column">
-          <div className="clinic-hours-label-row">
-            <span className="clinic-hours-label">{t.hours}</span>
-            <LiveStatus clinic={clinic} />
-          </div>
-          <OpeningHoursTable clinic={clinic} />
-        </div>
-      </div>
-
+      <h4 className="detail-section-heading">{t.hours}</h4>
+      <OpeningHoursTable clinic={clinic} />
       {(emergency || notes) && (
-        <dl className="clinic-facts expanded-facts">
-          {emergency && (
-            <>
-              <dt>{t.emergency}</dt>
-              <dd>{emergency}</dd>
-            </>
-          )}
-          {notes && (
-            <>
-              <dt>{t.notes}</dt>
-              <dd>{notes}</dd>
-            </>
-          )}
-        </dl>
+        <div className="detail-hours-note">
+          {emergency && <p>{emergency}</p>}
+          {notes && <p>{notes}</p>}
+        </div>
+      )}
+
+      {recommendedVetNames.length > 0 && (
+        <>
+          <h4 className="detail-section-heading">{t.recommendedVetsHeading}</h4>
+          <div className="recommended-vets-grid">
+            {recommendedVetNames.map((name) => (
+              <div key={name} className="recommended-vet-box">
+                {name}
+              </div>
+            ))}
+          </div>
+        </>
       )}
 
       {(clinic.facebook_url || clinic.instagram_url) && (

@@ -2,6 +2,12 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { weekdayNames, WEEKDAY_ORDER, translateHours } from "../i18n/translations";
 import { formatTime } from "../utils/formatTime";
 
+const DAY_CODES_BY_JS_WEEKDAY = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function getTodayDayCode() {
+  return DAY_CODES_BY_JS_WEEKDAY[new Date().getDay()];
+}
+
 // Builds the display text for a single day's entry, e.g.
 // "9:00 - 12:00, 13:00 - 18:00" or "Closed" or a mix with a note.
 function formatDayEntry(entry, closedLabel) {
@@ -18,6 +24,7 @@ function formatDayEntry(entry, closedLabel) {
 
 export function OpeningHoursTable({ clinic }) {
   const { language, t } = useLanguage();
+  const todayCode = getTodayDayCode();
 
   // Irregular schedule that hasn't been manually re-entered yet in the
   // new day-by-day format - show the original text rather than a
@@ -45,7 +52,7 @@ export function OpeningHoursTable({ clinic }) {
           const note = entry[`note_${language}`];
           const timeText = formatDayEntry(entry, t.closed);
           return (
-            <tr key={dayCode}>
+            <tr key={dayCode} className={dayCode === todayCode ? "hours-today" : ""}>
               <td className="hours-day">{weekdayNames[language][dayCode]}</td>
               <td className={entry.closed && !note ? "hours-closed" : "hours-time"}>
                 {timeText}
