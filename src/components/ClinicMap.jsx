@@ -77,12 +77,13 @@ export function ClinicMap({ clinics, onMarkerClick }) {
       center={CZECH_REPUBLIC_CENTER}
       zoom={DEFAULT_ZOOM}
       className="map-container"
+      attributionControl={false}
     >
-      {/* The actual map imagery, from OpenStreetMap (free, no API key). */}
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
+      {/* The actual map imagery, from OpenStreetMap (free, no API key).
+          Attribution is shown in the hamburger menu instead of Leaflet's
+          default on-map control, which was getting hidden behind the
+          menu dropdown anyway. */}
+      <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       {clinics.map((clinic) => (
         <Marker

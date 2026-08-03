@@ -77,6 +77,11 @@ export function HamburgerMenu() {
                   Instagram
                 </a>
               )}
+              <p className="menu-map-credit">
+                <a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>
+                {" | © "}
+                <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors
+              </p>
             </section>
           </div>
         </>

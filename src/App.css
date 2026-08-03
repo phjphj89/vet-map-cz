@@ -18,6 +18,8 @@
 .map-container {
   height: 420px;
   width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 /* Leaflet's own stylesheet sets a hardcoded Arial/Helvetica font on
@@ -174,6 +176,10 @@
 .menu-meta p {
   color: var(--color-text-muted);
   font-size: 13px;
+}
+
+.menu-map-credit {
+  margin-top: 10px;
 }
 
 .menu-instagram-link {
