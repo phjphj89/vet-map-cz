@@ -20,21 +20,6 @@
   width: 100%;
 }
 
-/* --- Full-width map-only mode --- */
-
-.map-only-layout {
-  position: relative;
-}
-
-.map-floating-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  z-index: 1001;
-  border-radius: 10px;
-  box-shadow: var(--shadow-card);
-}
-
 /* Leaflet's own stylesheet sets a hardcoded Arial/Helvetica font on
    the map container (including popups) - override it to match the
    rest of the site. */
@@ -269,6 +254,38 @@
   color: var(--color-hours-text);
 }
 
+.distance-filters {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.distance-filters-label {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-right: 2px;
+}
+
+.distance-filter-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 2px solid var(--color-card-border);
+  font-weight: 700;
+  font-size: 13px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  background: var(--color-bg);
+  color: var(--color-hours-text);
+}
+
+.distance-filter-button.active {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border-color: var(--color-accent);
+}
+
 .filter-247.active {
   background: var(--color-badge-247-bg);
   color: var(--color-badge-247-text);
@@ -299,36 +316,6 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-}
-
-.view-mode-toggle {
-  display: flex;
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.view-mode-toggle button {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  border: none;
-  background: var(--color-card-bg);
-  color: var(--color-text);
-  font-weight: 700;
-  font-size: 14px;
-  font-family: var(--font-body);
-  cursor: pointer;
-}
-
-.view-mode-toggle button + button {
-  border-left: 1px solid var(--color-border);
-}
-
-.view-mode-toggle button.active {
-  background: var(--color-accent);
-  color: var(--color-accent-text);
 }
 
 .blood-donor-button {

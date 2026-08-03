@@ -2,9 +2,11 @@ import { useMemo, useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import { ClinicSummaryCard } from "./ClinicSummaryCard";
 import { BloodDonorButton } from "./BloodDonorButton";
-import { ViewModeToggle } from "./ViewModeToggle";
 import { calculateDistanceKm } from "../utils/distance";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
+import { getLiveStatus } from "../utils/liveStatus";
+
+const DISTANCE_OPTIONS = ["any", 5, 10, 25, 50];
 
 // Builds the filter dropdown options: Prague, Brno, Ostrava first
 // (since they're cities, not kraje), then the remaining kraje
@@ -35,56 +37,47 @@ function matchesRegion(clinic, region) {
 // If none of the special filters are checked, every clinic passes
 // (no restriction). Otherwise a clinic passes if it matches AT LEAST
 // ONE checked filter (broadens results, standard checkbox behavior).
-function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization) {
-  if (!show247 && !showOpenWeekends && !showWeekendEmergency && !showHospitalization) return true;
+function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, showOpenNow) {
+  if (!show247 && !showOpenWeekends && !showWeekendEmergency && !showHospitalization && !showOpenNow) return true;
   const passes247 = show247 && clinic.is_24_7 === true;
   const passesOpenWeekends = showOpenWeekends && isOpenOnWeekends(clinic);
   const passesWeekendEmergency = showWeekendEmergency && hasWeekendEmergencyNote(clinic);
   const passesHospitalization = showHospitalization && clinic.hospitalization === true;
-  return passes247 || passesOpenWeekends || passesWeekendEmergency || passesHospitalization;
+  const passesOpenNow = showOpenNow && getLiveStatus(clinic) === "open";
+  return passes247 || passesOpenWeekends || passesWeekendEmergency || passesHospitalization || passesOpenNow;
 }
 
-// Builds a comparator for the chosen sort option. "rating" and
-// "reviewCount" sort highest-first, with clinics that don't have a
-// value yet pushed to the end rather than jumbled in with real values.
-function buildComparator(sortBy, userLocation) {
-  if (sortBy === "distance" && userLocation) {
-    return (a, b) => {
-      const distanceA = calculateDistanceKm(userLocation.lat, userLocation.lng, a.lat, a.lng);
-      const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
-      return distanceA - distanceB;
-    };
-  }
-  if (sortBy === "rating") {
-    return (a, b) => (b.google_rating ?? -Infinity) - (a.google_rating ?? -Infinity);
-  }
-  if (sortBy === "reviewCount") {
-    return (a, b) => (b.google_review_count ?? -Infinity) - (a.google_review_count ?? -Infinity);
-  }
-  return null; // "none" - keep original order
-}
-
-export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
+export function ClinicList({ clinics, userLocation }) {
   const { t } = useLanguage();
   const [selectedRegion, setSelectedRegion] = useState("all");
+  const [selectedDistance, setSelectedDistance] = useState("any");
   const [show247, setShow247] = useState(false);
   const [showOpenWeekends, setShowOpenWeekends] = useState(false);
   const [showWeekendEmergency, setShowWeekendEmergency] = useState(false);
   const [showHospitalization, setShowHospitalization] = useState(false);
-  const [sortBy, setSortBy] = useState("distance");
+  const [showOpenNow, setShowOpenNow] = useState(false);
 
   const regionOptions = useMemo(() => buildRegionOptions(clinics), [clinics]);
 
   const filteredClinics = useMemo(() => {
-    const filtered = clinics.filter(
-      (clinic) =>
-        matchesRegion(clinic, selectedRegion) &&
-        matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization)
-    );
+    const filtered = clinics.filter((clinic) => {
+      if (!matchesRegion(clinic, selectedRegion)) return false;
+      if (!matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, showOpenNow)) return false;
+      if (selectedDistance !== "any" && userLocation) {
+        const distance = calculateDistanceKm(userLocation.lat, userLocation.lng, clinic.lat, clinic.lng);
+        if (distance > selectedDistance) return false;
+      }
+      return true;
+    });
 
-    const comparator = buildComparator(sortBy, userLocation);
-    return comparator ? [...filtered].sort(comparator) : filtered;
-  }, [clinics, selectedRegion, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, sortBy, userLocation]);
+    // Nearest-first by default whenever a location is available.
+    if (!userLocation) return filtered;
+    return [...filtered].sort((a, b) => {
+      const distanceA = calculateDistanceKm(userLocation.lat, userLocation.lng, a.lat, a.lng);
+      const distanceB = calculateDistanceKm(userLocation.lat, userLocation.lng, b.lat, b.lng);
+      return distanceA - distanceB;
+    });
+  }, [clinics, selectedRegion, selectedDistance, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, showOpenNow, userLocation]);
 
   return (
     <div className="clinic-list">
@@ -101,16 +94,20 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
             </option>
           ))}
         </select>
-        <select
-          id="sort-by"
-          value={sortBy}
-          onChange={(e) => setSortBy(e.target.value)}
-        >
-          <option value="none">{t.sortNone}</option>
-          <option value="distance">{t.sortDistance}</option>
-          <option value="rating">{t.sortRating}</option>
-          <option value="reviewCount">{t.sortReviewCount}</option>
-        </select>
+
+        <div className="distance-filters">
+          <span className="distance-filters-label">{t.distanceLabel}</span>
+          {DISTANCE_OPTIONS.map((option) => (
+            <button
+              key={option}
+              className={`distance-filter-button ${selectedDistance === option ? "active" : ""}`}
+              onClick={() => setSelectedDistance(option)}
+            >
+              {option === "any" ? t.distanceAny : `${option} km`}
+            </button>
+          ))}
+        </div>
+
         <div className="special-filters">
           <button
             className={`special-filter-button filter-247 ${show247 ? "active" : ""}`}
@@ -136,12 +133,17 @@ export function ClinicList({ clinics, viewMode, setViewMode, userLocation }) {
           >
             {t.filterHospitalization}
           </button>
+          <button
+            className={`special-filter-button filter-open-now ${showOpenNow ? "active" : ""}`}
+            onClick={() => setShowOpenNow(!showOpenNow)}
+          >
+            {t.openNowFilter}
+          </button>
         </div>
         <span className="result-count">
           {filteredClinics.length} {t.clinicsFound}
         </span>
         <div className="filter-row-actions">
-          <ViewModeToggle viewMode={viewMode} setViewMode={setViewMode} />
           <BloodDonorButton />
         </div>
       </div>
