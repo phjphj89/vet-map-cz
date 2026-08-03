@@ -307,6 +307,12 @@
   border-color: var(--color-badge-hospitalization-text);
 }
 
+.filter-open-now.active {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border-color: var(--color-accent);
+}
+
 .filter-row-actions {
   margin-left: auto;
   display: flex;
