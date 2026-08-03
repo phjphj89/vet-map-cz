@@ -1,16 +1,1 @@
-[
-  {
-    "id": 1,
-    "name": "Králíčci srdcem",
-    "logo_url": "/public/images/friends/kralicci_srdcem.jpg",
-    "website_url": "https://kraliccisrdcem.cz/",
-    "tags_en": [
-      "Cool web"
-    ],
-    "tags_cs": [
-      "Zajímavý web"
-    ],
-    "description_en": "",
-    "description_cs": ""
-  }
-]
+[]

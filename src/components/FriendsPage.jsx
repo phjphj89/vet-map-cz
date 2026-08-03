@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLanguage } from "../i18n/LanguageContext";
+import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import friendsData from "../data/friends.json";
 
 function FriendCard({ friend }) {
@@ -31,6 +32,20 @@ function FriendCard({ friend }) {
           >
             {t.visitWebsite} <span aria-hidden="true">↗</span>
           </a>
+        )}
+        {(friend.facebook_url || friend.instagram_url) && (
+          <div className="social-links">
+            {friend.facebook_url && (
+              <a href={friend.facebook_url} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <FacebookIcon />
+              </a>
+            )}
+            {friend.instagram_url && (
+              <a href={friend.instagram_url} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <InstagramIcon />
+              </a>
+            )}
+          </div>
         )}
       </div>
     </div>
