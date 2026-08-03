@@ -4,7 +4,7 @@
 
 export const translations = {
   en: {
-    siteTagline: "Rabbit-friendly vets in the Czech Republic",
+    siteTagline: "We understand rabbits",
     allRegions: "All regions",
     filterByRegion: "Filter by region",
     distanceLabel: "Distance",
@@ -64,7 +64,7 @@ export const translations = {
     locationUnsupported: "Your browser doesn't support location services.",
   },
   cs: {
-    siteTagline: "Veteriny s odborníky na králíky a jiné drobné savce v ČR",
+    siteTagline: "Rozumíme králíčkům",
     allRegions: "Všechny kraje",
     filterByRegion: "Filtrovat podle kraje",
     distanceLabel: "Vzdálenost",
@@ -110,7 +110,7 @@ export const translations = {
     visitWebsite: "Navštívit web",
     backToMap: "Zpět na mapu",
     menuAboutTitle: "O tomto webu",
-    menuAboutText: "Nevíte, kterému veterináři svěřit svého králíčka? Ať už jde o běžnou prohlídku, nebo váš králíček potřebuje neodkladnou péči, tento adresář vám pomůže najít veterináře, který králíkům opravdu rozumí — aby se vašemu malému kamarádovi dostalo péče, jakou si zaslouží.",
+    menuAboutText: "Nevíte, kterému veterináři svěřit svého králíka? Ať už jde o běžnou prohlídku, nebo váš králík potřebuje neodkladnou péči, tento adresář vám pomůže najít veterináře, který králíkům opravdu rozumí — aby se vašemu malému kamarádovi dostalo péče, jakou si zaslouží.",
     menuContactTitle: "Kontakt",
     menuContactText: "Našli jste chybu, nebo víte o klinice přátelské ke králíkům, která by zde měla být uvedena? Ozvěte se:",
     lastUpdatedLabel: "Data naposledy aktualizována",
