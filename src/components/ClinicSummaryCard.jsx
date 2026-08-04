@@ -20,6 +20,32 @@ function getPriorityBadge(clinic, t) {
   return null;
 }
 
+// Shared rating/review-count/distance values, rendered twice below
+// (once for the desktop corner layout, once for the mobile one-line
+// layout) since the two arrangements group the same values
+// differently - CSS shows only one at a time per screen size.
+function RatingBlock({ clinic, distanceKm }) {
+  const { t } = useLanguage();
+  return (
+    <>
+      {clinic.google_rating != null && (
+        <div className="clinic-rating">
+          <span className="clinic-rating-star"><StarIcon /></span>
+          {Number(clinic.google_rating).toFixed(1)}
+        </div>
+      )}
+      {clinic.google_review_count != null && (
+        <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
+      )}
+      {distanceKm != null && (
+        <div className="clinic-distance">
+          {Number(distanceKm) < 20 ? Number(distanceKm).toFixed(1) : Math.round(Number(distanceKm))} km
+        </div>
+      )}
+    </>
+  );
+}
+
 export function ClinicSummaryCard({ clinic, distanceKm }) {
   const { t } = useLanguage();
   const priorityBadge = getPriorityBadge(clinic, t);
@@ -28,24 +54,31 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
     <div className="clinic-summary-card">
       <div className="summary-card-header">
         <div>
-          <h3>{clinic.name}</h3>
+          <h3>
+            <Link to={`/clinic/${clinic.id}`} className="clinic-name-link">{clinic.name}</Link>
+          </h3>
           <p className="clinic-address">{clinic.address}</p>
+          <div className="summary-rating-row-mobile">
+            <div className="summary-rating-row-mobile-left">
+              {clinic.google_rating != null && (
+                <span className="clinic-rating">
+                  <span className="clinic-rating-star"><StarIcon /></span>
+                  {Number(clinic.google_rating).toFixed(1)}
+                </span>
+              )}
+              {clinic.google_review_count != null && (
+                <span className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</span>
+              )}
+            </div>
+            {distanceKm != null && (
+              <div className="clinic-distance">
+                {Number(distanceKm) < 20 ? Number(distanceKm).toFixed(1) : Math.round(Number(distanceKm))} km
+              </div>
+            )}
+          </div>
         </div>
         <div className="summary-card-header-right">
-          {clinic.google_rating != null && (
-            <div className="clinic-rating">
-              <span className="clinic-rating-star"><StarIcon /></span>
-              {Number(clinic.google_rating).toFixed(1)}
-            </div>
-          )}
-          {clinic.google_review_count != null && (
-            <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
-          )}
-          {distanceKm != null && (
-            <div className="clinic-distance">
-              {Number(distanceKm) < 20 ? Number(distanceKm).toFixed(1) : Math.round(Number(distanceKm))} km
-            </div>
-          )}
+          <RatingBlock clinic={clinic} distanceKm={distanceKm} />
         </div>
       </div>
 
