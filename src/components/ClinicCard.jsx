@@ -66,6 +66,34 @@ export function ClinicCard({ clinic, distanceKm }) {
         <LiveStatus clinic={clinic} />
       </div>
 
+      {/* Mobile only: badges stacked on the left (all that apply, not
+          just one priority pick), rating/reviews/distance stacked on
+          the right, side by side under the address. */}
+      <div className="summary-mobile-info-row">
+        <div className="summary-mobile-badges-stack">
+          <LiveStatus clinic={clinic} />
+          {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
+          {isOpenOnWeekends(clinic) && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
+          {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+        </div>
+        <div className="summary-mobile-rating-stack">
+          {clinic.google_rating != null && (
+            <div className="clinic-rating">
+              <span className="clinic-rating-star"><StarIcon /></span>
+              {Number(clinic.google_rating).toFixed(1)}
+            </div>
+          )}
+          {clinic.google_review_count != null && (
+            <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
+          )}
+          {distanceKm != null && (
+            <div className="clinic-distance">
+              {Number(distanceKm) < 20 ? Number(distanceKm).toFixed(1) : Math.round(Number(distanceKm))} km
+            </div>
+          )}
+        </div>
+      </div>
+
       <p className="detail-english-communication">
         {t.englishCommunication}: {clinic.english_communication ? t.yesLabel : t.noLabel}
       </p>

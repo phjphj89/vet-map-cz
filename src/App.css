@@ -961,4 +961,12 @@
     align-items: flex-start;
     margin: 10px 0 0;
   }
+
+  .detail-header-right {
+    display: none;
+  }
+
+  .detail-badge-row {
+    display: none;
+  }
 }
