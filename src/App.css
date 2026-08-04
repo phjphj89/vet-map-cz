@@ -35,31 +35,6 @@
    onto at every possible phone width/zoom level - rather than keep
    guessing a taller pixel value, letting the header scroll away
    normally sidesteps the whole problem. */
-@media (max-width: 900px) {
-  .map-container {
-    height: 280px;
-  }
-
-  .app-header {
-    position: static;
-    height: auto;
-    padding: 12px 16px;
-  }
-
-  .app {
-    padding: 16px;
-  }
-
-  .filter-row {
-    position: relative;
-    top: auto;
-  }
-
-  .blood-donor-button {
-    padding: 6px 10px;
-    font-size: 13px;
-  }
-}
 
 /* --- Header --- */
 
@@ -911,4 +886,38 @@
   background: var(--color-accent);
   color: var(--color-accent-text);
   border: 1px solid var(--color-accent);
+}
+
+/* --- Mobile overrides (max-width: 900px) ---
+   Placed at the end of the file on purpose: CSS resolves ties between
+   equal-specificity rules by source order, so a mobile override placed
+   EARLY in the file can be silently beaten by a later desktop rule
+   targeting the same selector, even though the media query correctly
+   matches. Keeping all mobile overrides last guarantees they win. */
+@media (max-width: 900px) {
+  .map-container {
+    height: 280px;
+  }
+
+  .app-header {
+    position: static;
+    height: auto;
+    padding: 12px 16px;
+  }
+
+  .app {
+    padding: 16px;
+  }
+
+  .filter-row {
+    position: static;
+    top: auto;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
+  .blood-donor-button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
 }
