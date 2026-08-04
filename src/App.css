@@ -134,6 +134,8 @@
 
 .menu-panel h3 {
   font-size: 15px;
+  font-weight: 700;
+  color: var(--color-clinic-name);
   margin-bottom: 6px;
 }
 
@@ -150,7 +152,7 @@
 }
 
 .menu-meta p {
-  color: var(--color-text-muted);
+  color: var(--color-clinic-address);
   font-size: 13px;
 }
 
