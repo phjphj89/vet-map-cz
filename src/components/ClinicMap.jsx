@@ -14,9 +14,9 @@ import { hasWeekendEmergencyNote } from "../utils/clinicChecks";
 // rather than a fixed string.
 function buildPinSvg(color) {
   return `
-    <svg width="32" height="30" viewBox="-1 -1 18 17" xmlns="http://www.w3.org/2000/svg">
+    <svg width="32" height="32" viewBox="-1 -1 18 18" xmlns="http://www.w3.org/2000/svg">
       <path d="M8 0C4.138 0 1 3.114 1 6.964a6.927 6.927 0 002.085 4.957l4.42 3.892a.75.75 0 00.99 0l4.42-3.892A6.927 6.927 0 0015 6.964C15 3.114 11.862 0 8 0z"
-            fill="none" stroke="${color}" stroke-width="1.1" stroke-linejoin="round"/>
+            fill="#FBFAF5" stroke="${color}" stroke-width="1.1" stroke-linejoin="round"/>
       <g transform="translate(2.8 3.0) scale(0.4)">
         <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="${color}"/>
         <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="${color}"/>
@@ -30,9 +30,9 @@ function buildPinIcon(fillColor) {
   return L.divIcon({
     html: buildPinSvg(fillColor),
     className: "rabbit-pin-icon", // replaces Leaflet's default icon styling (no box/border)
-    iconSize: [32, 30],
-    iconAnchor: [16, 28], // the pin's pointed tip marks the exact location
-    popupAnchor: [0, -26],
+    iconSize: [32, 32],
+    iconAnchor: [16, 30], // the pin's pointed tip marks the exact location
+    popupAnchor: [0, -28],
   });
 }
 
