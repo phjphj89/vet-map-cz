@@ -6,9 +6,9 @@ import { LiveStatus } from "./LiveStatus";
 import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, BedIcon } from "./StatusIcons";
 import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
-// Picks the single most relevant badge for the summary card - the full
-// card (detail page) can show everything, but the list view is
-// intentionally limited to one, so cards stay scannable.
+// Picks the single most relevant badge for the DESKTOP summary card -
+// the mobile layout below shows all applicable badges stacked, but
+// desktop keeps just one, to stay scannable in its single-line row.
 function getPriorityBadge(clinic, t) {
   if (clinic.is_24_7 === true) return { text: t.badge247, variant: "emergency", icon: ClockIcon };
   if (isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic)) {
@@ -21,9 +21,8 @@ function getPriorityBadge(clinic, t) {
 }
 
 // Shared rating/review-count/distance values, rendered twice below
-// (once for the desktop corner layout, once for the mobile one-line
-// layout) since the two arrangements group the same values
-// differently - CSS shows only one at a time per screen size.
+// (once for the desktop corner layout, once for the mobile column) -
+// CSS shows only one at a time per screen size.
 function RatingBlock({ clinic, distanceKm }) {
   const { t } = useLanguage();
   return (
@@ -58,35 +57,31 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
             <Link to={`/clinic/${clinic.id}`} className="clinic-name-link">{clinic.name}</Link>
           </h3>
           <p className="clinic-address">{clinic.address}</p>
-          <div className="summary-rating-row-mobile">
-            <div className="summary-rating-row-mobile-left">
-              {clinic.google_rating != null && (
-                <span className="clinic-rating">
-                  <span className="clinic-rating-star"><StarIcon /></span>
-                  {Number(clinic.google_rating).toFixed(1)}
-                </span>
-              )}
-              {clinic.google_review_count != null && (
-                <span className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</span>
-              )}
-            </div>
-            {distanceKm != null && (
-              <div className="clinic-distance">
-                {Number(distanceKm) < 20 ? Number(distanceKm).toFixed(1) : Math.round(Number(distanceKm))} km
-              </div>
-            )}
-          </div>
         </div>
         <div className="summary-card-header-right">
           <RatingBlock clinic={clinic} distanceKm={distanceKm} />
         </div>
       </div>
 
-      <div className="summary-badge-row">
+      {/* Desktop: single-line row with just the top-priority badge */}
+      <div className="summary-badge-row-desktop">
         <LiveStatus clinic={clinic} />
         {priorityBadge && (
           <Badge text={priorityBadge.text} variant={priorityBadge.variant} icon={priorityBadge.icon} />
         )}
+      </div>
+
+      {/* Mobile only: badges stacked on the left, rating/reviews/distance stacked on the right, side by side */}
+      <div className="summary-mobile-info-row">
+        <div className="summary-mobile-badges-stack">
+          <LiveStatus clinic={clinic} />
+          {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
+          {isOpenOnWeekends(clinic) && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
+          {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+        </div>
+        <div className="summary-mobile-rating-stack">
+          <RatingBlock clinic={clinic} distanceKm={distanceKm} />
+        </div>
       </div>
 
       {clinic.recommended_vet && (
