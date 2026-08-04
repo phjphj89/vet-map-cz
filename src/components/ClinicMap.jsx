@@ -47,9 +47,11 @@ const PIN_ICONS = {
   always: buildPinIcon("#A83B32"),     // red - open 24/7
 };
 
-// A day closing at or after this hour counts as "late evening".
+// A day closing after this time (in minutes since midnight) counts as
+// "late evening". Exactly 19:00 stays green/standard - only closing
+// times strictly later than that trigger the terracotta pin.
 // Adjustable - this is a judgment call, not a fixed rule.
-const LATE_EVENING_CUTOFF_HOUR = 19;
+const LATE_EVENING_CUTOFF_MINUTES = 19 * 60; // 19:00
 
 function closesLateOnAnyDay(clinic) {
   if (clinic.hours_needs_review || !clinic.weekly_hours) return false;
@@ -57,7 +59,10 @@ function closesLateOnAnyDay(clinic) {
   return regularDays.some((entry) => {
     if (entry.closed) return false;
     const closingTimes = [entry.end1, entry.end2].filter(Boolean);
-    return closingTimes.some((time) => parseInt(time.split(":")[0], 10) >= LATE_EVENING_CUTOFF_HOUR);
+    return closingTimes.some((time) => {
+      const [hour, minute] = time.split(":").map((n) => parseInt(n, 10) || 0);
+      return hour * 60 + minute > LATE_EVENING_CUTOFF_MINUTES;
+    });
   });
 }
 
