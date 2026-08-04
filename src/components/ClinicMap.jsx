@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, ZoomControl } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { WEEKDAY_ORDER } from "../i18n/translations";
@@ -78,7 +78,10 @@ export function ClinicMap({ clinics, onMarkerClick }) {
       zoom={DEFAULT_ZOOM}
       className="map-container"
       attributionControl={false}
+      zoomControl={false}
     >
+      <ZoomControl position="bottomright" />
+
       {/* The actual map imagery, from OpenStreetMap (free, no API key).
           Attribution is shown in the hamburger menu instead of Leaflet's
           default on-map control, which was getting hidden behind the
