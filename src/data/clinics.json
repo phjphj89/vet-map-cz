@@ -729,7 +729,7 @@
         "emergency_end1": "08:00"
       },
       "Sat": {
-        "closed": false,
+        "closed": true,
         "start1": "",
         "end1": "",
         "start2": "",
@@ -786,7 +786,7 @@
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "Emergency service by phone arrangement only, +420 605 866 733; surcharges apply",
-    "emergency_cs": "POhotovostní služba pouze po telefonické domluvě, +420 605 866 733; účtuje se příplatek",
+    "emergency_cs": "Pohotovostní služba pouze po telefonické domluvě, +420 605 866 733; účtuje se příplatek",
     "facebook_url": "https://cs-cz.facebook.com/pages/category/Veterinarian/Veterin%C3%A1rn%C3%AD-klinika-U-V%C3%BDstavi%C5%A1t%C4%9B-889871131094868/",
     "instagram_url": "",
     "google_rating": 4.8,
