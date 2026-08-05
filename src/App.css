@@ -970,3 +970,34 @@
     display: none;
   }
 }
+
+/* --- Back to top button --- */
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 480px) {
+  .back-to-top-button {
+    padding: 10px 12px;
+    font-size: 13px;
+    bottom: 16px;
+    right: 16px;
+  }
+}

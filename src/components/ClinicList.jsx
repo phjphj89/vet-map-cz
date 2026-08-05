@@ -82,7 +82,7 @@ export function ClinicList({ clinics, userLocation }) {
   return (
     <div className="clinic-list">
       <div className="filter-row">
-        <label htmlFor="region-filter">{t.filterByRegion}</label>
+        <label htmlFor="region-filter" className="distance-filters-label">{t.filterByRegion}</label>
         <select
           id="region-filter"
           value={selectedRegion}

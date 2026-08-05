@@ -6,6 +6,7 @@ import { HomePage } from "./components/HomePage";
 import { FriendsPage } from "./components/FriendsPage";
 import { ClinicDetailPage } from "./components/ClinicDetailPage";
 import { CzechFlagIcon, UKFlagIcon } from "./components/FlagIcons";
+import { BackToTopButton } from "./components/BackToTopButton";
 import "./App.css";
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
           <Route path="/friends" element={<FriendsPage />} />
           <Route path="/clinic/:id" element={<ClinicDetailPage />} />
         </Routes>
+
+        <BackToTopButton />
       </div>
     </BrowserRouter>
   );
