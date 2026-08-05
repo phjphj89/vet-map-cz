@@ -89,14 +89,22 @@ export function ClinicMap({ clinics, onMarkerClick }) {
           menu dropdown anyway. */}
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
-      {clinics.map((clinic) => (
-        <Marker
-          key={clinic.id}
-          position={[clinic.lat, clinic.lng]}
-          icon={getPinIcon(clinic)}
-          eventHandlers={{ click: () => onMarkerClick(clinic) }}
-        />
-      ))}
+      {/* Only render markers for clinics with real, usable coordinates.
+          A clinic with missing/invalid lat or lng (e.g. one added via
+          the editor but not yet filled in) would otherwise crash
+          Leaflet entirely, taking down the whole page rather than just
+          that one pin - this guards against that regardless of how
+          the bad data got there. */}
+      {clinics
+        .filter((clinic) => typeof clinic.lat === "number" && typeof clinic.lng === "number" && !Number.isNaN(clinic.lat) && !Number.isNaN(clinic.lng))
+        .map((clinic) => (
+          <Marker
+            key={clinic.id}
+            position={[clinic.lat, clinic.lng]}
+            icon={getPinIcon(clinic)}
+            eventHandlers={{ click: () => onMarkerClick(clinic) }}
+          />
+        ))}
     </MapContainer>
   );
 }
