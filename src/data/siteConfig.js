@@ -2,7 +2,7 @@
 // Edit these values directly and re-upload this file whenever they change.
 export const siteConfig = {
   // Update this whenever you do a pass over the clinic data.
-  lastUpdated: "2026-07-29",
+  lastUpdated: "06.08.2026",
 
   // Replace with a real email address when ready. Until then, this
   // placeholder is shown as plain text rather than a clickable link.

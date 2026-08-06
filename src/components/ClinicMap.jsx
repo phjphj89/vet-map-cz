@@ -2,7 +2,6 @@ import { MapContainer, TileLayer, Marker, ZoomControl } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { WEEKDAY_ORDER } from "../i18n/translations";
-import { hasWeekendEmergencyNote } from "../utils/clinicChecks";
 
 // A custom map pin: an outline-only teardrop shape (classic map-marker
 // silhouette) with a rabbit head+ears mark inside, colored to match
@@ -64,7 +63,14 @@ function closesLateOnAnyDay(clinic) {
 
 function getPinIcon(clinic) {
   if (clinic.is_24_7) return PIN_ICONS.always;
-  if (hasWeekendEmergencyNote(clinic) || closesLateOnAnyDay(clinic)) return PIN_ICONS.extended;
+  if (
+    clinic.has_weekend_emergency ||
+    clinic.after_hours_emergency ||
+    clinic.emergency_on_phone ||
+    closesLateOnAnyDay(clinic)
+  ) {
+    return PIN_ICONS.extended;
+  }
   return PIN_ICONS.standard;
 }
 

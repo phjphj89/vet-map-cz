@@ -4,8 +4,21 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon } from "./StatusIcons";
-import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, MoonIcon, PhoneAlertIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon } from "./StatusIcons";
+
+function AllBadges({ clinic, t }) {
+  return (
+    <>
+      {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
+      {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
+      {clinic.open_weekends_bookable === true && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
+      {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />}
+      {clinic.after_hours_emergency === true && <Badge text={t.badgeAfterHoursEmergency} variant="weekend-emergency" icon={MoonIcon} />}
+      {clinic.emergency_on_phone === true && <Badge text={t.badgeEmergencyOnPhone} variant="weekend-emergency" icon={PhoneAlertIcon} />}
+      {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+    </>
+  );
+}
 
 export function ClinicCard({ clinic, distanceKm }) {
   const { language, t } = useLanguage();
@@ -50,31 +63,17 @@ export function ClinicCard({ clinic, distanceKm }) {
       </div>
 
       <div className="detail-badge-row">
-        {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
-        {clinic.is_24_7 === true ? (
-          <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />
-        ) : isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic) ? (
-          <Badge text={t.badgeOpenWeekendsAndEmergency} variant="emergency" icon={EmergencyLightIcon} />
-        ) : isOpenOnWeekends(clinic) ? (
-          <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />
-        ) : hasWeekendEmergencyNote(clinic) ? (
-          <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />
-        ) : null}
-        {clinic.hospitalization === true && (
-          <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />
-        )}
+        <AllBadges clinic={clinic} t={t} />
         <LiveStatus clinic={clinic} />
       </div>
 
-      {/* Mobile only: badges stacked on the left (all that apply, not
-          just one priority pick), rating/reviews/distance stacked on
-          the right, side by side under the address. */}
+      {/* Mobile only: badges stacked on the left (all that apply),
+          rating/reviews/distance stacked on the right, side by side
+          under the address. */}
       <div className="summary-mobile-info-row">
         <div className="summary-mobile-badges-stack">
           <LiveStatus clinic={clinic} />
-          {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
-          {isOpenOnWeekends(clinic) && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
-          {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+          <AllBadges clinic={clinic} t={t} />
         </div>
         <div className="summary-mobile-rating-stack">
           {clinic.google_rating != null && (

@@ -3,21 +3,37 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, PhoneIcon, BedIcon } from "./StatusIcons";
-import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
+import { ClockIcon, CalendarIcon, EmergencyLightIcon, MoonIcon, PhoneAlertIcon, PhoneIcon, BedIcon } from "./StatusIcons";
 
 // Picks the single most relevant badge for the DESKTOP summary card -
 // the mobile layout below shows all applicable badges stacked, but
 // desktop keeps just one, to stay scannable in its single-line row.
 function getPriorityBadge(clinic, t) {
   if (clinic.is_24_7 === true) return { text: t.badge247, variant: "emergency", icon: ClockIcon };
-  if (isOpenOnWeekends(clinic) && hasWeekendEmergencyNote(clinic)) {
+  if (clinic.open_weekends_bookable === true && clinic.has_weekend_emergency === true) {
     return { text: t.badgeOpenWeekendsAndEmergency, variant: "emergency", icon: EmergencyLightIcon };
   }
-  if (isOpenOnWeekends(clinic)) return { text: t.badgeOpenWeekends, variant: "weekend", icon: CalendarIcon };
-  if (hasWeekendEmergencyNote(clinic)) return { text: t.badgeWeekendEmergencyOnly, variant: "weekend-emergency", icon: EmergencyLightIcon };
+  if (clinic.open_weekends_bookable === true) return { text: t.badgeOpenWeekends, variant: "weekend", icon: CalendarIcon };
+  if (clinic.has_weekend_emergency === true) return { text: t.badgeWeekendEmergencyOnly, variant: "weekend-emergency", icon: EmergencyLightIcon };
+  if (clinic.after_hours_emergency === true) return { text: t.badgeAfterHoursEmergency, variant: "weekend-emergency", icon: MoonIcon };
+  if (clinic.emergency_on_phone === true) return { text: t.badgeEmergencyOnPhone, variant: "weekend-emergency", icon: PhoneAlertIcon };
   if (clinic.hospitalization === true) return { text: t.filterHospitalization, variant: "hospitalization", icon: BedIcon };
   return null;
+}
+
+// All applicable badges, independent (not just one priority pick) -
+// used for the mobile stack and reused on the detail page.
+function AllBadges({ clinic, t }) {
+  return (
+    <>
+      {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
+      {clinic.open_weekends_bookable === true && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
+      {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />}
+      {clinic.after_hours_emergency === true && <Badge text={t.badgeAfterHoursEmergency} variant="weekend-emergency" icon={MoonIcon} />}
+      {clinic.emergency_on_phone === true && <Badge text={t.badgeEmergencyOnPhone} variant="weekend-emergency" icon={PhoneAlertIcon} />}
+      {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+    </>
+  );
 }
 
 // Shared rating/review-count/distance values, rendered twice below
@@ -75,9 +91,7 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
       <div className="summary-mobile-info-row">
         <div className="summary-mobile-badges-stack">
           <LiveStatus clinic={clinic} />
-          {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
-          {isOpenOnWeekends(clinic) && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
-          {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+          <AllBadges clinic={clinic} t={t} />
         </div>
         <div className="summary-mobile-rating-stack">
           <RatingBlock clinic={clinic} distanceKm={distanceKm} />

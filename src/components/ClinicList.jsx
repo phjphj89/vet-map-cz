@@ -3,7 +3,6 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { ClinicSummaryCard } from "./ClinicSummaryCard";
 import { BloodDonorButton } from "./BloodDonorButton";
 import { calculateDistanceKm } from "../utils/distance";
-import { isOpenOnWeekends, hasWeekendEmergencyNote } from "../utils/clinicChecks";
 import { getLiveStatus } from "../utils/liveStatus";
 
 const DISTANCE_OPTIONS = ["any", 5, 10, 25, 50];
@@ -40,8 +39,8 @@ function matchesRegion(clinic, region) {
 function matchesSpecialFilters(clinic, show247, showOpenWeekends, showWeekendEmergency, showHospitalization, showOpenNow) {
   if (!show247 && !showOpenWeekends && !showWeekendEmergency && !showHospitalization && !showOpenNow) return true;
   const passes247 = show247 && clinic.is_24_7 === true;
-  const passesOpenWeekends = showOpenWeekends && isOpenOnWeekends(clinic);
-  const passesWeekendEmergency = showWeekendEmergency && hasWeekendEmergencyNote(clinic);
+  const passesOpenWeekends = showOpenWeekends && clinic.open_weekends_bookable === true;
+  const passesWeekendEmergency = showWeekendEmergency && clinic.has_weekend_emergency === true;
   const passesHospitalization = showHospitalization && clinic.hospitalization === true;
   const passesOpenNow = showOpenNow && getLiveStatus(clinic) === "open";
   return passes247 || passesOpenWeekends || passesWeekendEmergency || passesHospitalization || passesOpenNow;
