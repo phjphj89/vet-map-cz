@@ -6217,7 +6217,7 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
@@ -6304,7 +6304,9 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@veterinafenix.cz",
     "call_phone": "+420 720 365 001",
-    "manually_checked": true
+    "manually_checked": true,
+    "emergency_on_phone": true,
+    "after_hours_emergency": true
   },
   {
     "id": 60,
