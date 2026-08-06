@@ -3,7 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, EmergencyLightIcon, MoonIcon, PhoneAlertIcon, PhoneIcon, BedIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon } from "./StatusIcons";
 
 // Picks the single most relevant badge for the DESKTOP summary card -
 // the mobile layout below shows all applicable badges stacked, but
@@ -11,10 +11,10 @@ import { ClockIcon, CalendarIcon, EmergencyLightIcon, MoonIcon, PhoneAlertIcon, 
 function getPriorityBadge(clinic, t) {
   if (clinic.is_24_7 === true) return { text: t.badge247, variant: "emergency", icon: ClockIcon };
   if (clinic.open_weekends_bookable === true && clinic.has_weekend_emergency === true) {
-    return { text: t.badgeOpenWeekendsAndEmergency, variant: "emergency", icon: EmergencyLightIcon };
+    return { text: t.badgeOpenWeekendsAndEmergency, variant: "emergency", icon: WeekendEmergencyIcon };
   }
   if (clinic.open_weekends_bookable === true) return { text: t.badgeOpenWeekends, variant: "weekend", icon: CalendarIcon };
-  if (clinic.has_weekend_emergency === true) return { text: t.badgeWeekendEmergencyOnly, variant: "weekend-emergency", icon: EmergencyLightIcon };
+  if (clinic.has_weekend_emergency === true) return { text: t.badgeWeekendEmergencyOnly, variant: "weekend-emergency", icon: WeekendEmergencyIcon };
   if (clinic.after_hours_emergency === true) return { text: t.badgeAfterHoursEmergency, variant: "weekend-emergency", icon: MoonIcon };
   if (clinic.emergency_on_phone === true) return { text: t.badgeEmergencyOnPhone, variant: "weekend-emergency", icon: PhoneAlertIcon };
   if (clinic.hospitalization === true) return { text: t.filterHospitalization, variant: "hospitalization", icon: BedIcon };
@@ -28,7 +28,7 @@ function AllBadges({ clinic, t }) {
     <>
       {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
       {clinic.open_weekends_bookable === true && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
-      {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={EmergencyLightIcon} />}
+      {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={WeekendEmergencyIcon} />}
       {clinic.after_hours_emergency === true && <Badge text={t.badgeAfterHoursEmergency} variant="weekend-emergency" icon={MoonIcon} />}
       {clinic.emergency_on_phone === true && <Badge text={t.badgeEmergencyOnPhone} variant="weekend-emergency" icon={PhoneAlertIcon} />}
       {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
