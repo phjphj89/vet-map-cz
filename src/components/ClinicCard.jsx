@@ -4,12 +4,12 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon, CrownIcon } from "./StatusIcons";
 
 function AllBadges({ clinic, t }) {
   return (
     <>
-      {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" />}
+      {clinic.top_pick && <Badge text={t.badgeTopPick} variant="top-pick" icon={CrownIcon} />}
       {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
       {clinic.open_weekends_bookable === true && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
       {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={WeekendEmergencyIcon} />}

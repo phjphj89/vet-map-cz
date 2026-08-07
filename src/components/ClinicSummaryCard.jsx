@@ -3,7 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon, CrownIcon } from "./StatusIcons";
 
 // Picks the single most relevant badge for the DESKTOP summary card -
 // the mobile layout below shows all applicable badges stacked, but
@@ -26,6 +26,7 @@ function getPriorityBadge(clinic, t) {
 function AllBadges({ clinic, t }) {
   return (
     <>
+      {clinic.top_pick === true && <Badge text={t.badgeTopPick} variant="top-pick" icon={CrownIcon} />}
       {clinic.is_24_7 === true && <Badge text={t.badge247} variant="emergency" icon={ClockIcon} />}
       {clinic.open_weekends_bookable === true && <Badge text={t.badgeOpenWeekends} variant="weekend" icon={CalendarIcon} />}
       {clinic.has_weekend_emergency === true && <Badge text={t.badgeWeekendEmergencyOnly} variant="weekend-emergency" icon={WeekendEmergencyIcon} />}
@@ -79,9 +80,10 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
         </div>
       </div>
 
-      {/* Desktop: single-line row with just the top-priority badge */}
+      {/* Desktop: single-line row - top pick always shows if applicable, plus one priority availability badge */}
       <div className="summary-badge-row-desktop">
         <LiveStatus clinic={clinic} />
+        {clinic.top_pick === true && <Badge text={t.badgeTopPick} variant="top-pick" icon={CrownIcon} />}
         {priorityBadge && (
           <Badge text={priorityBadge.text} variant={priorityBadge.variant} icon={priorityBadge.icon} />
         )}
