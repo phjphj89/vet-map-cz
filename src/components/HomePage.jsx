@@ -4,6 +4,11 @@ import { ClinicList } from "./ClinicList";
 import { TEMPORARY_FIXED_LOCATION } from "../utils/tempLocation";
 import clinicsData from "../data/clinics.json";
 
+// Clinics marked unpublished (e.g. incomplete records still being
+// filled in) are hidden from both the map and the list - this filter
+// runs once here so both always stay in sync with each other.
+const publishedClinics = clinicsData.filter((c) => c.published === true);
+
 export function HomePage() {
   const userLocation = TEMPORARY_FIXED_LOCATION;
   const navigate = useNavigate();
@@ -15,9 +20,9 @@ export function HomePage() {
   return (
     <div className="stacked-layout">
       <div className="map-top-section">
-        <ClinicMap clinics={clinicsData} onMarkerClick={goToClinic} />
+        <ClinicMap clinics={publishedClinics} onMarkerClick={goToClinic} />
       </div>
-      <ClinicList clinics={clinicsData} userLocation={userLocation} />
+      <ClinicList clinics={publishedClinics} userLocation={userLocation} />
     </div>
   );
 }

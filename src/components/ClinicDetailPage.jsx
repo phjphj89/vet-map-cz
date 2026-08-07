@@ -8,7 +8,7 @@ import clinicsData from "../data/clinics.json";
 export function ClinicDetailPage() {
   const { id } = useParams();
   const { t } = useLanguage();
-  const clinic = clinicsData.find((c) => String(c.id) === id);
+  const clinic = clinicsData.find((c) => String(c.id) === id && c.published === true);
 
   const distanceKm = clinic
     ? calculateDistanceKm(
