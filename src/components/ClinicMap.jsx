@@ -4,30 +4,30 @@ import "leaflet/dist/leaflet.css";
 import { WEEKDAY_ORDER } from "../i18n/translations";
 
 // A custom map pin: an outline-only teardrop shape (classic map-marker
-// silhouette) with a rabbit head+ears mark inside, colored to match
-// the pin's outline (not white, since the pin is hollow/transparent
-// now rather than solid-filled) - matching the mark used next to the
-// site title. Built as raw SVG (a "div icon") rather than an image
-// file, so it stays crisp at any zoom level. The fill/stroke color
-// varies by category (see PIN_ICONS below), so this is a function
-// rather than a fixed string.
-function buildPinSvg(color) {
+// silhouette), colored by category, optionally with a rabbit head+ears
+// mark inside - the rabbit icon only appears for clinics with a
+// confirmed rabbit/small mammal specialist, so an empty (outline-only)
+// pin signals "not confirmed" at a glance on the map itself.
+function buildPinSvg(color, showRabbit) {
+  const rabbitMark = showRabbit
+    ? `<g transform="translate(2.8 3.0) scale(0.4)">
+        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="${color}"/>
+        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="${color}"/>
+        <circle cx="13" cy="15.5" r="5.6" fill="${color}"/>
+      </g>`
+    : "";
   return `
     <svg width="32" height="32" viewBox="-1 -1 18 18" xmlns="http://www.w3.org/2000/svg">
       <path d="M8 0C4.138 0 1 3.114 1 6.964a6.927 6.927 0 002.085 4.957l4.42 3.892a.75.75 0 00.99 0l4.42-3.892A6.927 6.927 0 0015 6.964C15 3.114 11.862 0 8 0z"
             fill="#FBFAF5" stroke="${color}" stroke-width="1.1" stroke-linejoin="round"/>
-      <g transform="translate(2.8 3.0) scale(0.4)">
-        <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="${color}"/>
-        <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="${color}"/>
-        <circle cx="13" cy="15.5" r="5.6" fill="${color}"/>
-      </g>
+      ${rabbitMark}
     </svg>
   `;
 }
 
-function buildPinIcon(fillColor) {
+function buildPinIcon(fillColor, showRabbit) {
   return L.divIcon({
-    html: buildPinSvg(fillColor),
+    html: buildPinSvg(fillColor, showRabbit),
     className: "rabbit-pin-icon", // replaces Leaflet's default icon styling (no box/border)
     iconSize: [32, 32],
     iconAnchor: [16, 30], // the pin's pointed tip marks the exact location
@@ -35,11 +35,15 @@ function buildPinIcon(fillColor) {
   });
 }
 
-// Three pin colors, one per category. Built once (not on every render).
+// Three pin colors, each with a rabbit-icon and an empty-outline
+// variant. Built once (not on every render).
 const PIN_ICONS = {
-  standard: buildPinIcon("#006662"),   // green - default
-  extended: buildPinIcon("#C97B4A"),   // terracotta - late evening or weekend emergency
-  always: buildPinIcon("#A83B32"),     // red - open 24/7
+  standard: buildPinIcon("#006662", true),
+  standardEmpty: buildPinIcon("#006662", false),
+  extended: buildPinIcon("#C97B4A", true),
+  extendedEmpty: buildPinIcon("#C97B4A", false),
+  always: buildPinIcon("#A83B32", true),
+  alwaysEmpty: buildPinIcon("#A83B32", false),
 };
 
 // A day closing after this time (in minutes since midnight) counts as
@@ -62,16 +66,18 @@ function closesLateOnAnyDay(clinic) {
 }
 
 function getPinIcon(clinic) {
-  if (clinic.is_24_7) return PIN_ICONS.always;
+  const showRabbit = clinic.has_rabbit_specialist === true;
+
+  if (clinic.is_24_7) return showRabbit ? PIN_ICONS.always : PIN_ICONS.alwaysEmpty;
   if (
     clinic.has_weekend_emergency ||
     clinic.after_hours_emergency ||
     clinic.emergency_on_phone ||
     closesLateOnAnyDay(clinic)
   ) {
-    return PIN_ICONS.extended;
+    return showRabbit ? PIN_ICONS.extended : PIN_ICONS.extendedEmpty;
   }
-  return PIN_ICONS.standard;
+  return showRabbit ? PIN_ICONS.standard : PIN_ICONS.standardEmpty;
 }
 
 // Roughly the center of the Czech Republic, used as the map's starting view.

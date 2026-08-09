@@ -248,7 +248,8 @@
     "call_phone": "+420 601 524 604",
     "manually_checked": true,
     "internal_contact_email": "veterinarniklinikabrno@gmail.com",
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 3,
@@ -259,7 +260,7 @@
     "lng": 16.5749177,
     "phone": "+420 776 257 404",
     "website": "https://exocare.cz/",
-    "top_pick": false,
+    "top_pick": true,
     "recommended_vet": "MVDr. Kristýna Pouzar Pokrupová",
     "hours": "Mon 8-12,13-20; Tue 8-12,13-18; Wed-Thu 8-12,13-18; Fri 8-12,13-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgYI9C_OREkcRXMhIoDc-SlU",
@@ -357,7 +358,8 @@
     "internal_contact_email": "info@exocare.cz",
     "call_phone": "+420 776 257 404",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 4,
@@ -2000,7 +2002,8 @@
     "call_phone": "+420 777 757 071",
     "internal_contact_email": "veterina@petdoc.cz",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 19,
@@ -3495,7 +3498,8 @@
     "internal_contact_email": "info@animalhelp.cz",
     "call_phone": "+420 773 893 667",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 33,
@@ -4363,8 +4367,8 @@
     "lng": 17.1468808,
     "phone": "+420 605 333 959",
     "website": "https://agivet.cz/",
-    "top_pick": false,
-    "recommended_vet": "",
+    "top_pick": true,
+    "recommended_vet": "MVDr. et Bc. Agáta Nováková",
     "hours": "Mon,Thu 9-12,13-18; Tue 13-18; Fri 8-12,13-15",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn9ekkMBFEkcRrw5mA9RPf3s",
     "district": "Olomouc",
@@ -4376,8 +4380,8 @@
     "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
+    "emergency_en": "In case of emergency, call +420 605 333 959",
+    "emergency_cs": "Pro akutní případy volat +420 605 333 959",
     "facebook_url": "https://www.facebook.com/agivetcz",
     "instagram_url": "https://www.instagram.com/agivetcz/",
     "google_rating": 5,
@@ -4460,7 +4464,9 @@
     "hours_needs_review": false,
     "internal_contact_email": "agivetcz@gmail.com",
     "call_phone": "+420 605 333 959",
-    "published": false
+    "published": true,
+    "has_rabbit_specialist": true,
+    "manually_checked": true
   },
   {
     "id": 42,
@@ -4995,7 +5001,8 @@
     "internal_contact_email": "info@mirivet.cz",
     "call_phone": "+420 731 922 130",
     "published": true,
-    "manually_checked": true
+    "manually_checked": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 47,
@@ -5967,7 +5974,8 @@
     "internal_contact_email": "metropolevet@gmail.com",
     "call_phone": "+420 775 562 710",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 56,
@@ -6076,7 +6084,8 @@
     "internal_contact_email": "info@minoravet.cz",
     "call_phone": "+420 776 677 567",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 57,
@@ -6324,7 +6333,8 @@
     "internal_contact_email": "provoz@vetcentrum.cz",
     "call_phone": "+420 251 511 651",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 59,
@@ -8308,7 +8318,7 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": false,
-    "has_weekend_emergency": true,
+    "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "+420 602 835 564 non-stop emergency",
@@ -8317,7 +8327,7 @@
     "instagram_url": "",
     "google_rating": 4.4,
     "google_review_count": 112,
-    "hospitalization": false,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -8395,7 +8405,11 @@
     "hours_needs_review": false,
     "internal_contact_email": "klinikavyvet@seznam.cz",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "call_phone": "+420 517 330 436",
+    "has_rabbit_specialist": true,
+    "emergency_on_phone": true,
+    "open_weekends_bookable": true
   },
   {
     "id": 78,
@@ -8947,7 +8961,8 @@
     "hours_needs_review": false,
     "call_phone": "+420 284 821 784",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 83,
