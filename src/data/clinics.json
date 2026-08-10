@@ -18,92 +18,128 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "Outside hours for extra fee",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/VeterinarniNemocnice",
     "instagram_url": "",
     "google_rating": 4.5,
-    "google_review_count": 423,
-    "hospitalization": false,
+    "google_review_count": 427,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_end2": "21:00",
+        "emergency_start2": "18:30"
       },
       "Tue": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_end2": "21:00",
+        "emergency_start2": "18:30"
       },
       "Wed": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_end2": "21:00",
+        "emergency_start2": "18:30"
       },
       "Thu": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_end2": "21:00",
+        "emergency_start2": "18:30"
       },
       "Fri": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_end2": "21:00",
+        "emergency_start2": "18:30"
       },
       "Sat": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "11:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_start2": "11:30",
+        "emergency_end2": "21:00"
       },
       "Sun": {
         "closed": false,
-        "start1": "9:00",
+        "start1": "09:00",
         "end1": "11:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_start2": "11:30",
+        "emergency_end2": "21:00"
       },
       "Holiday": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:30",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "07:00",
+        "emergency_end1": "09:00",
+        "emergency_start2": "11:30",
+        "emergency_end2": "21:00"
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 553 662 467",
+    "open_weekends_bookable": true,
+    "after_hours_emergency": true,
+    "manually_checked": true
   },
   {
     "id": 2,
@@ -212,7 +248,8 @@
     "call_phone": "+420 601 524 604",
     "manually_checked": true,
     "internal_contact_email": "veterinarniklinikabrno@gmail.com",
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 3,
@@ -223,7 +260,7 @@
     "lng": 16.5749177,
     "phone": "+420 776 257 404",
     "website": "https://exocare.cz/",
-    "top_pick": false,
+    "top_pick": true,
     "recommended_vet": "MVDr. Kristýna Pouzar Pokrupová",
     "hours": "Mon 8-12,13-20; Tue 8-12,13-18; Wed-Thu 8-12,13-18; Fri 8-12,13-20",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgYI9C_OREkcRXMhIoDc-SlU",
@@ -321,7 +358,8 @@
     "internal_contact_email": "info@exocare.cz",
     "call_phone": "+420 776 257 404",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 4,
@@ -1115,20 +1153,20 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": false,
-    "has_weekend_emergency": true,
+    "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "18-22 (weekends/holidays 12-22), regular clients only",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "emergency_en": "Emergencies after working hours until 22:00 upon previous consultation on +420 776 015 533",
+    "emergency_cs": "Pohotovostní ošetření mimo ordinační hodiny do 22:00 po telefonické domluvě na čísle +420 776 015 533",
+    "facebook_url": "https://www.facebook.com/klinikaveticea",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 388,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -1137,7 +1175,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -1146,7 +1184,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -1155,7 +1193,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -1164,7 +1202,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -1173,7 +1211,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -1182,7 +1220,7 @@
       },
       "Sun": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -1199,8 +1237,13 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 596 530 155",
+    "internal_contact_email": "info@veticea.cz",
+    "after_hours_emergency": true,
+    "open_weekends_bookable": true,
+    "manually_checked": true
   },
   {
     "id": 12,
@@ -1212,7 +1255,7 @@
     "phone": "+420 776 638 104",
     "website": "https://www.liskovka.com/",
     "top_pick": false,
-    "recommended_vet": "",
+    "recommended_vet": "MVDr. Alexandra Genčúrová",
     "hours": "Mon-Fri 9-18, Sat-Sun 9-11",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp7PqiP73E0cRa4d73UknTow",
     "district": "Frýdek-Místek",
@@ -1222,19 +1265,19 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Complex cases consulted with MVDr. Kramolišová (former staff)",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/klinikaLISKOVKA",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.6,
+    "google_review_count": 561,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -1243,7 +1286,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -1252,7 +1295,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -1261,7 +1304,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -1270,7 +1313,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -1279,7 +1322,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -1288,7 +1331,7 @@
       },
       "Sun": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -1305,8 +1348,12 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 776 638 104",
+    "internal_contact_email": "info@liskovka.com",
+    "internal_notes": "Complex cases consulted with MVDr. Kramolišová (former staff)",
+    "manually_checked": true
   },
   {
     "id": 13,
@@ -1522,7 +1569,8 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@vet-vaculikovi.cz",
     "call_phone": "+420 606 836 709",
-    "published": false
+    "published": true,
+    "manually_checked": true
   },
   {
     "id": 15,
@@ -1548,52 +1596,52 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/people/Veterin%C3%A1rn%C3%AD-ordinace-Terra-Vet/100063961638047/#",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 101,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "15:30",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -1627,8 +1675,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 777 931 545",
+    "internal_contact_email": "terravet.info@gmail.com",
+    "manually_checked": true
   },
   {
     "id": 16,
@@ -1951,7 +2002,8 @@
     "call_phone": "+420 777 757 071",
     "internal_contact_email": "veterina@petdoc.cz",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 19,
@@ -3131,8 +3183,8 @@
     "address": "Ježnická 34, 794 01 Krnov",
     "lat": 50.097318,
     "lng": 17.6719956,
-    "phone": "+420 554 616 496 / 720 555 443",
-    "website": "",
+    "phone": "+420 554 616 496 / +420 720 555 443",
+    "website": "https://www.veterinakrnov.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Pavel Krzystek",
     "hours": "Mon-Fri 9-12,14:30-18; Sat 9-11",
@@ -3146,17 +3198,17 @@
     "has_weekend_emergency": null,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "See clinic website",
+    "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/veterinakrnov",
+    "instagram_url": "https://www.instagram.com/veterinakrnov",
+    "google_rating": 4.3,
+    "google_review_count": 6,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "14:30",
         "end2": "18",
@@ -3165,7 +3217,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "14:30",
         "end2": "18",
@@ -3174,7 +3226,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "14:30",
         "end2": "18",
@@ -3183,7 +3235,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "14:30",
         "end2": "18",
@@ -3192,7 +3244,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "14:30",
         "end2": "18",
@@ -3201,12 +3253,12 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "11",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Saturday only upon previous agreement",
+        "note_cs": "Sobota pouze po předchozí domluvě"
       },
       "Sun": {
         "closed": true,
@@ -3227,8 +3279,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 720 555 443",
+    "internal_contact_email": "info@veterinakrnov.cz",
+    "manually_checked": true
   },
   {
     "id": 31,
@@ -3443,7 +3498,8 @@
     "internal_contact_email": "info@animalhelp.cz",
     "call_phone": "+420 773 893 667",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 33,
@@ -4091,7 +4147,7 @@
     "lat": 49.5950487,
     "lng": 18.0065066,
     "phone": "+420 731 215 268",
-    "website": "",
+    "website": "https://veterina-nj.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Tomáš Fidra",
     "hours": "Mon-Fri 8-11,13-18; Sat 8-10",
@@ -4102,20 +4158,20 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": false,
-    "has_weekend_emergency": true,
+    "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "Same hours; home visits possible; closed public holidays",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 170,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -4124,7 +4180,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -4133,7 +4189,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -4142,7 +4198,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -4151,7 +4207,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "13",
         "end2": "18",
@@ -4160,7 +4216,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "10",
         "start2": "",
         "end2": "",
@@ -4186,8 +4242,12 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 731 215 268",
+    "internal_contact_email": "ordinace@veterina-nj.cz",
+    "open_weekends_bookable": true,
+    "manually_checked": true
   },
   {
     "id": 40,
@@ -4295,7 +4355,8 @@
     "hours_needs_review": false,
     "internal_contact_email": "tom.malina@tiscali.cz",
     "call_phone": "+420 603 462 984",
-    "published": false
+    "published": true,
+    "manually_checked": true
   },
   {
     "id": 41,
@@ -4306,8 +4367,8 @@
     "lng": 17.1468808,
     "phone": "+420 605 333 959",
     "website": "https://agivet.cz/",
-    "top_pick": false,
-    "recommended_vet": "",
+    "top_pick": true,
+    "recommended_vet": "MVDr. et Bc. Agáta Nováková",
     "hours": "Mon,Thu 9-12,13-18; Tue 13-18; Fri 8-12,13-15",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn9ekkMBFEkcRrw5mA9RPf3s",
     "district": "Olomouc",
@@ -4319,8 +4380,8 @@
     "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
+    "emergency_en": "In case of emergency, call +420 605 333 959",
+    "emergency_cs": "Pro akutní případy volat +420 605 333 959",
     "facebook_url": "https://www.facebook.com/agivetcz",
     "instagram_url": "https://www.instagram.com/agivetcz/",
     "google_rating": 5,
@@ -4403,7 +4464,9 @@
     "hours_needs_review": false,
     "internal_contact_email": "agivetcz@gmail.com",
     "call_phone": "+420 605 333 959",
-    "published": false
+    "published": true,
+    "has_rabbit_specialist": true,
+    "manually_checked": true
   },
   {
     "id": 42,
@@ -4858,7 +4921,7 @@
     "facebook_url": "https://www.facebook.com/Mirivetcz",
     "instagram_url": "https://www.instagram.com/mirivetcz/",
     "google_rating": 4.8,
-    "google_review_count": 21,
+    "google_review_count": 22,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -4937,7 +5000,9 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@mirivet.cz",
     "call_phone": "+420 731 922 130",
-    "published": false
+    "published": true,
+    "manually_checked": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 47,
@@ -4946,7 +5011,7 @@
     "address": "Hynaisova 12, 709 00 Ostrava-Mariánské Hory",
     "lat": 49.8293621,
     "lng": 18.2611223,
-    "phone": "+420 596 621 677 / 736 438 238",
+    "phone": "+420 596 621 677 / +420 736 438 238",
     "website": "http://www.vetmed.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Vítězslav Raška, MVDr. Irena Boščíková",
@@ -4960,18 +5025,18 @@
     "is_24_7": null,
     "has_weekend_emergency": null,
     "notes_en": "Mixed reviews, one of the older established clinics",
-    "notes_cs": "",
+    "notes_cs": "Smíšené recenze, jedna ze starších a zavedených klinik",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "instagram_url": "https://www.instagram.com/vetmed_ostrava/",
+    "google_rating": 4.5,
+    "google_review_count": 465,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "14",
         "end2": "19",
@@ -4980,7 +5045,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "14",
         "end2": "19",
@@ -4989,7 +5054,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "14",
         "end2": "19",
@@ -4998,7 +5063,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "14",
         "end2": "19",
@@ -5007,7 +5072,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "14",
         "end2": "19",
@@ -5016,8 +5081,8 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
-        "end1": "9",
+        "start1": "08:00",
+        "end1": "09:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -5042,8 +5107,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 596 621 677",
+    "internal_contact_email": "vraska@vetmed.cz",
+    "manually_checked": true
   },
   {
     "id": 48,
@@ -5064,79 +5132,83 @@
     "is_brno": false,
     "is_ostrava": true,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
+    "emergency_en": "Emergencies on weekends; surcharges apply",
+    "emergency_cs": "Pohotovost o víkendu; platí se příplatek",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.5,
+    "google_review_count": 389,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sat": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "08:00",
+        "emergency_end1": "12:00"
       },
       "Sun": {
-        "closed": true,
+        "closed": false,
         "start1": "",
         "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "08:00",
+        "emergency_end1": "12:00"
       },
       "Holiday": {
         "closed": true,
@@ -5148,8 +5220,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 596 788 646",
+    "internal_contact_email": "veterina@veterinavitkovice.cz",
+    "manually_checked": true
   },
   {
     "id": 49,
@@ -5177,50 +5252,50 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 93,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
-        "start2": "",
-        "end2": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "11:00",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "14:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "14:00",
+        "end1": "17:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -5254,8 +5329,10 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 725 772 038",
+    "manually_checked": true
   },
   {
     "id": 50,
@@ -5897,7 +5974,8 @@
     "internal_contact_email": "metropolevet@gmail.com",
     "call_phone": "+420 775 562 710",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 56,
@@ -6006,7 +6084,8 @@
     "internal_contact_email": "info@minoravet.cz",
     "call_phone": "+420 776 677 567",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 57,
@@ -6254,7 +6333,8 @@
     "internal_contact_email": "provoz@vetcentrum.cz",
     "call_phone": "+420 251 511 651",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 59,
@@ -7799,7 +7879,7 @@
     "phone": "+420 702 117 822",
     "website": "http://www.veterinastudenka.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Anna Šenková",
+    "recommended_vet": "",
     "hours": "Mon-Fri 8-9 (lab/meds only), 9-13 walk-ins & surgery, 14-16 booked only, 16-18 walk-ins",
     "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1xIRoRrpE0cRfK15BChoHJM",
     "district": "Nový Jičín",
@@ -7808,57 +7888,57 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "",
-    "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "emergency_en": "For emergencies cooperates with the clinic of MVDr. Tomáš Malina (see the clinic's card for details)",
+    "emergency_cs": "Pro případy pohotovosti spolurpacuje s klinikou MVDr. Tomáše Maliny (vizte kartu kliniky pro kontaktní informace)",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61558143066238#",
+    "instagram_url": "https://www.instagram.com/veterinaupotoka/",
+    "google_rating": 4.9,
+    "google_review_count": 358,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Wed": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Fri": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "09:00",
+        "end1": "18:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7892,8 +7972,10 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false
+    "hours_needs_review": false,
+    "published": true,
+    "call_phone": "+420 702 117 822",
+    "manually_checked": true
   },
   {
     "id": 74,
@@ -8236,7 +8318,7 @@
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": false,
-    "has_weekend_emergency": true,
+    "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
     "emergency_en": "+420 602 835 564 non-stop emergency",
@@ -8245,7 +8327,7 @@
     "instagram_url": "",
     "google_rating": 4.4,
     "google_review_count": 112,
-    "hospitalization": false,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -8323,7 +8405,11 @@
     "hours_needs_review": false,
     "internal_contact_email": "klinikavyvet@seznam.cz",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "call_phone": "+420 517 330 436",
+    "has_rabbit_specialist": true,
+    "emergency_on_phone": true,
+    "open_weekends_bookable": true
   },
   {
     "id": 78,
@@ -8875,7 +8961,8 @@
     "hours_needs_review": false,
     "call_phone": "+420 284 821 784",
     "manually_checked": true,
-    "published": true
+    "published": true,
+    "has_rabbit_specialist": true
   },
   {
     "id": 83,
