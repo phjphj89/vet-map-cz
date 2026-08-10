@@ -4,23 +4,23 @@ import "leaflet/dist/leaflet.css";
 import { WEEKDAY_ORDER } from "../i18n/translations";
 
 // A custom map pin: an outline-only teardrop shape (classic map-marker
-// silhouette), colored by category, optionally with a rabbit head+ears
-// mark inside - the rabbit icon only appears for clinics with a
-// confirmed rabbit/small mammal specialist, so an empty (outline-only)
-// pin signals "not confirmed" at a glance on the map itself.
+// silhouette), colored by category, with either a rabbit head+ears
+// mark inside (confirmed specialist) or a small plain filled circle
+// (not confirmed) - so the map still shows a clear "something's here"
+// mark either way, just without claiming specialist status.
 function buildPinSvg(color, showRabbit) {
-  const rabbitMark = showRabbit
+  const centerMark = showRabbit
     ? `<g transform="translate(2.8 3.0) scale(0.4)">
         <ellipse cx="9" cy="7" rx="3.1" ry="6.8" transform="rotate(-18 9 7)" fill="${color}"/>
         <ellipse cx="17" cy="7" rx="3.1" ry="6.8" transform="rotate(18 17 7)" fill="${color}"/>
         <circle cx="13" cy="15.5" r="5.6" fill="${color}"/>
       </g>`
-    : "";
+    : `<circle cx="8" cy="7" r="2.2" fill="${color}"/>`;
   return `
     <svg width="32" height="32" viewBox="-1 -1 18 18" xmlns="http://www.w3.org/2000/svg">
       <path d="M8 0C4.138 0 1 3.114 1 6.964a6.927 6.927 0 002.085 4.957l4.42 3.892a.75.75 0 00.99 0l4.42-3.892A6.927 6.927 0 0015 6.964C15 3.114 11.862 0 8 0z"
             fill="#FBFAF5" stroke="${color}" stroke-width="1.1" stroke-linejoin="round"/>
-      ${rabbitMark}
+      ${centerMark}
     </svg>
   `;
 }
