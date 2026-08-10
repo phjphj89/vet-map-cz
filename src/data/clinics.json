@@ -11,7 +11,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Radomír Hynar",
     "hours": "Mon-Fri 9:00-18:30, Sat-Sun 9:00-11:30",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20nemocnice%20%28Opava%29&query_place_id=ChIJmTYR4PrXE0cRSB6rukrHED0",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmTYR4PrXE0cRSB6rukrHED0",
     "district": "Opava",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -103,12 +103,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 2,
@@ -122,14 +117,14 @@
     "top_pick": true,
     "recommended_vet": "MVDr. Vladimír Jekl, MVDr. Karel Hauptman",
     "hours": "Mon-Tue 9-11:30 & 12:30-18; Wed-Thu 8-11:30 & 12:30-19; Fri 8-13",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Jekl%20%26%20Hauptman%20%28Brno%29&query_place_id=ChIJr6bC3wuUEkcRZs7RMoBFeD0",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr6bC3wuUEkcRZs7RMoBFeD0",
     "district": "Brno-město",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
     "is_brno": true,
     "is_ostrava": false,
-    "is_24_7": true,
-    "has_weekend_emergency": true,
+    "is_24_7": false,
+    "has_weekend_emergency": false,
     "notes_en": "The clinic specializes in small mammals",
     "notes_cs": "Klinika specializovaná na drobné savce",
     "emergency_en": "In emergency cases outisde of opening hours, refer to MVDr. Robet Just at www.vet-just.cz",
@@ -138,7 +133,7 @@
     "instagram_url": "",
     "google_rating": 4.7,
     "google_review_count": 443,
-    "hospitalization": false,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -217,12 +212,7 @@
     "call_phone": "+420 601 524 604",
     "manually_checked": true,
     "internal_contact_email": "veterinarniklinikabrno@gmail.com",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 3,
@@ -236,7 +226,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Kristýna Pouzar Pokrupová",
     "hours": "Mon 8-12,13-20; Tue 8-12,13-18; Wed-Thu 8-12,13-18; Fri 8-12,13-20",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=ExoCare%20%28Brno%29&query_place_id=ChIJgYI9C_OREkcRXMhIoDc-SlU",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgYI9C_OREkcRXMhIoDc-SlU",
     "district": "Brno-město",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -252,7 +242,7 @@
     "instagram_url": "https://www.instagram.com/exocare.brno",
     "google_rating": 4.9,
     "google_review_count": 54,
-    "hospitalization": false,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -331,12 +321,7 @@
     "internal_contact_email": "info@exocare.cz",
     "call_phone": "+420 776 257 404",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 4,
@@ -350,7 +335,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Markéta Anděrová",
     "hours": "Mon-Fri 8-12,14-18; Sat 8-9; Sun 18-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20U%20Zoo%20%28Brno%29&query_place_id=ChIJUwGJ98-WEkcRBmioppw913o",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUwGJ98-WEkcRBmioppw913o",
     "district": "Brno-město",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -445,12 +430,7 @@
     "call_phone": "+420 546 221 174",
     "manually_checked": true,
     "internal_contact_email": "N/A",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 5,
@@ -464,7 +444,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-10,14-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20s%20pohotovost%C3%AD%20Ho%C5%A1ek%20%28Brno%29&query_place_id=ChIJ_-NGt5uWEkcRqNZM9CmIqsI",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_-NGt5uWEkcRqNZM9CmIqsI",
     "district": "Brno-město",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -559,12 +539,7 @@
     "call_phone": "+420 603 103 377",
     "manually_checked": true,
     "internal_contact_email": "hosek.vet@volny.cz",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 6,
@@ -578,7 +553,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Černochová, MVDr. Kasalová",
     "hours": "Mon-Fri 8-12,13-15",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=VFU%20-%20Veterinary%20University%20Small%20Animal%20Clinic%20%28Brno%29&query_place_id=ChIJRZcFWxKUEkcRu_Qh1ugEh6E",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJRZcFWxKUEkcRu_Qh1ugEh6E",
     "district": "Brno-město",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -672,26 +647,21 @@
     "hours_needs_review": false,
     "call_phone": "+420 541 562 368",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 7,
     "name": "BUDvet - U Trojice (České Budějovice)",
     "region": "České Budějovice",
-    "address": "U trojice 511/8a, 370 04 České Budějovice (2nd location: J. R. Schustera, Rožnov)",
+    "address": "U trojice 511/8a, 370 04 České Budějovice",
     "lat": 48.9872127,
     "lng": 14.4701344,
-    "phone": "Trojická: 735 172 517, Rožnov: 775 662 484",
+    "phone": "+420 735 172 517",
     "website": "http://www.budvet.cz/",
     "top_pick": false,
     "recommended_vet": "MVDr. Anna Hundáková (na mateřské), zastupuje MVDr. Pavlína Turková",
     "hours": "Trojická: Mon,Tue,Thu 10-18, Wed,Fri 8-16; Rožnov: Mon-Fri 8-18, Sat 8-10",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=BUDvet%20-%20U%20Trojice%20%28%C4%8Cesk%C3%A9%20Bud%C4%9Bjovice%29&query_place_id=ChIJMZc69StOc0cRb9cX4Yv6wKQ",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJMZc69StOc0cRb9cX4Yv6wKQ",
     "district": "České Budějovice",
     "kraj": "Jihočeský kraj",
     "is_prague": false,
@@ -715,8 +685,10 @@
         "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "18:00 - 20:00 emergencies",
-        "note_cs": "18:00 - 20:00 pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "08:00"
       },
       "Tue": {
         "closed": false,
@@ -724,8 +696,10 @@
         "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "18:00 - 20:00 emergencies",
-        "note_cs": "18:00 - 20:00 pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "08:00"
       },
       "Wed": {
         "closed": false,
@@ -733,8 +707,10 @@
         "end1": "16:00",
         "start2": "",
         "end2": "",
-        "note_en": "18:00 - 20:00 emergencies",
-        "note_cs": "18:00 - 20:00 pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "08:00"
       },
       "Thu": {
         "closed": false,
@@ -742,8 +718,10 @@
         "end1": "18:00",
         "start2": "",
         "end2": "",
-        "note_en": "18:00 - 20:00 emergencies",
-        "note_cs": "18:00 - 20:00 pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "08:00"
       },
       "Fri": {
         "closed": false,
@@ -751,17 +729,21 @@
         "end1": "16:00",
         "start2": "",
         "end2": "",
-        "note_en": "18:00 - 20:00 emergencies",
-        "note_cs": "18:00 - 20:00 pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "08:00"
       },
       "Sat": {
-        "closed": false,
-        "start1": "10:00",
-        "end1": "20:00",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergencies only",
-        "note_cs": "Pohotovost"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "10:00",
+        "emergency_end1": "20:00"
       },
       "Sun": {
         "closed": false,
@@ -785,26 +767,22 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@budvet.cz",
     "call_phone": "+420 735 172 517",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "manually_checked": true,
+    "published": true
   },
   {
     "id": 8,
     "name": "Veterinární klinika U Výstaviště (České Budějovice)",
     "region": "České Budějovice",
-    "address": "U Výstaviště 23, 370 05 České Budějovice",
+    "address": "U Výstaviště 479/23, 370 05 České Budějovice",
     "lat": 48.9838588,
     "lng": 14.4559303,
     "phone": "+420 385 346 033",
-    "website": "",
+    "website": "https://lapacek.cz/",
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-20, Sat-Sun 9-13,17-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20U%20V%C3%BDstavi%C5%A1t%C4%9B%20%28%C4%8Cesk%C3%A9%20Bud%C4%9Bjovice%29&query_place_id=ChIJ3YElQCtQc0cR-wBq9f5XwbE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3YElQCtQc0cR-wBq9f5XwbE",
     "district": "České Budějovice",
     "kraj": "Jihočeský kraj",
     "is_prague": false,
@@ -814,18 +792,18 @@
     "has_weekend_emergency": null,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "By phone arrangement only, 605 866 733, acute/life-threatening cases only, surcharge 2000 Kč + 50%",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "emergency_en": "Emergency service by phone arrangement only, +420 605 866 733; surcharges apply",
+    "emergency_cs": "Pohotovostní služba pouze po telefonické domluvě, +420 605 866 733; účtuje se příplatek",
+    "facebook_url": "https://cs-cz.facebook.com/pages/category/Veterinarian/Veterin%C3%A1rn%C3%AD-klinika-U-V%C3%BDstavi%C5%A1t%C4%9B-889871131094868/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 119,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
-        "end1": "20",
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -833,8 +811,8 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
-        "end1": "20",
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -842,8 +820,8 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
-        "end1": "20",
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -851,8 +829,8 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
-        "end1": "20",
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -860,8 +838,8 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
-        "end1": "20",
+        "start1": "08:00",
+        "end1": "20:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -869,19 +847,20 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
-        "end1": "13",
-        "start2": "17",
-        "end2": "19",
+        "start1": "09:00",
+        "end1": "13:00",
+        "start2": "17:00",
+        "end2": "19:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": ""
       },
       "Sun": {
         "closed": false,
-        "start1": "9",
-        "end1": "13",
-        "start2": "17",
-        "end2": "19",
+        "start1": "09:00",
+        "end1": "13:00",
+        "start2": "17:00",
+        "end2": "19:00",
         "note_en": "",
         "note_cs": ""
       },
@@ -895,13 +874,10 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "hours_needs_review": false,
+    "call_phone": "+420 385 346 033",
+    "manually_checked": true,
+    "published": true
   },
   {
     "id": 9,
@@ -915,7 +891,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Dominika Warcholová",
     "hours": "Mon,Wed,Fri 9-11,15-18; Tue,Thu 16-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Chval%C5%A1iny&query_place_id=ChIJ7UuCYU1fc0cRYrqyAmiz5xc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7UuCYU1fc0cRYrqyAmiz5xc",
     "district": "Český Krumlov",
     "kraj": "Jihočeský kraj",
     "is_prague": false,
@@ -925,27 +901,27 @@
     "has_weekend_emergency": true,
     "notes_en": "Priority given to booked & acute patients",
     "notes_cs": "",
-    "emergency_en": "Weekend/holiday emergency by mobile",
-    "emergency_cs": "",
-    "facebook_url": "",
+    "emergency_en": "Weekend and holiday emergency on mobile",
+    "emergency_cs": "Víkendy a svátky pohotovost na telefonu",
+    "facebook_url": "https://www.facebook.com/veterinachvalsiny",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 22,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
+        "start1": "10:00",
         "end1": "11",
-        "start2": "15",
-        "end2": "18",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Tue": {
         "closed": false,
-        "start1": "16",
-        "end1": "18",
+        "start1": "15:00",
+        "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -953,17 +929,17 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "9",
+        "start1": "10:00",
         "end1": "11",
-        "start2": "15",
-        "end2": "18",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
       "Thu": {
         "closed": false,
-        "start1": "16",
-        "end1": "18",
+        "start1": "15:00",
+        "end1": "18:30",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -971,10 +947,10 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "9",
+        "start1": "10:00",
         "end1": "11",
-        "start2": "15",
-        "end2": "18",
+        "start2": "14:00",
+        "end2": "17:00",
         "note_en": "",
         "note_cs": ""
       },
@@ -1006,13 +982,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "hours_needs_review": false,
+    "call_phone": "+420 725 146 205",
+    "internal_contact_email": "d.warcholova@gmail.com",
+    "manually_checked": true,
+    "published": true
   },
   {
     "id": 10,
@@ -1026,7 +1000,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon,Tue,Thu,Fri 9-11,14:30-17; Wed 13-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=cityVET%20%28D%C4%9B%C4%8D%C3%ADn%29&query_place_id=ChIJr3eWqoJ1CUcR_bP3Uh6wYzo",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr3eWqoJ1CUcR_bP3Uh6wYzo",
     "district": "Děčín",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -1120,12 +1094,7 @@
     "hours_needs_review": false,
     "internal_contact_email": " cityvet@email.cz",
     "call_phone": "+420 720 565 826",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 11,
@@ -1139,7 +1108,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Karina Cienciala-Jaworska",
     "hours": "Mon-Fri 8-11,13-18; Sat 8-12; Sun 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Veticea%20%28Doln%C3%AD%20Lutyn%C4%9B%29&query_place_id=ChIJ_29Nyj9WEUcR6sl-JU1Dip4",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_29Nyj9WEUcR6sl-JU1Dip4",
     "district": "Karviná",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -1231,12 +1200,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 12,
@@ -1250,7 +1214,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-18, Sat-Sun 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20L%C3%ADskovka%20%28Fr%C3%BDdek-M%C3%ADstek%29&query_place_id=ChIJp7PqiP73E0cRa4d73UknTow",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp7PqiP73E0cRa4d73UknTow",
     "district": "Frýdek-Místek",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -1342,12 +1306,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 13,
@@ -1361,7 +1320,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Vendula Veselská",
     "hours": "Mon-Fri 8-11,15-18; Sat 8-11 then phone emergency to 18; Sun by prior arrangement 8-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=HappyVet%20%28Fry%C5%A1t%C3%A1k%29&query_place_id=ChIJTfr4TZH1LYYRguatX55fTIw",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTfr4TZH1LYYRguatX55fTIw",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -1455,12 +1414,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "happyvet@seznam.cz",
     "call_phone": "+420 733 583 343",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 14,
@@ -1474,7 +1428,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Jaromír Vaculík, MVDr. Dora Vaculíková",
     "hours": "Mon,Tue,Thu,Fri 8:30-12,15-18; Wed 8:30-11,13-16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Vacul%C3%ADkovi%20%28Hav%C3%AD%C5%99ov%29&query_place_id=ChIJnVD4WKb-E0cRh4VVyfn-_cE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnVD4WKb-E0cRh4VVyfn-_cE",
     "district": "Karviná",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -1568,12 +1522,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@vet-vaculikovi.cz",
     "call_phone": "+420 606 836 709",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 15,
@@ -1587,7 +1536,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tereza Kalová",
     "hours": "Mon 8-17:30; Tue 8-15:45; Wed 8-15:45; Thu 8-17:30; Fri 8-15:45 (lunch 12-13)",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TERRAVET%20%28Hav%C3%AD%C5%99ov%29&query_place_id=ChIJ2at2IOX5E0cRf2UgOUTxeKc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ2at2IOX5E0cRf2UgOUTxeKc",
     "district": "Karviná",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -1679,12 +1628,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 16,
@@ -1698,7 +1642,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Zdeněk Potocký",
     "hours": "Mon,Wed,Fri 7:30-9,16:30-18:30; Tue,Thu 14-16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Anivet%20-%20MVDr.%20Zden%C4%9Bk%20Potock%C3%BD%20%28Havl%C3%AD%C4%8Dk%C5%AFv%20Brod%29&query_place_id=ChIJr8C2FusADUcRmFHt82mmpuk",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJr8C2FusADUcRmFHt82mmpuk",
     "district": "Havlíčkův Brod",
     "kraj": "Kraj Vysočina",
     "is_prague": false,
@@ -1792,12 +1736,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "zdenek.potocky@centrum.cz",
     "call_phone": "+420 731 533 348",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 17,
@@ -1811,7 +1750,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Barbora Mikolášiková, MVDr. Jan Šťastný",
     "hours": "Mon-Fri 9-12,15-18; Sat 10-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20Ambulance%20HB%20%28Chot%C4%9Bbo%C5%99%29&query_place_id=ChIJzSa79SKsDUcRk5kGuSKWkQw",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzSa79SKsDUcRk5kGuSKWkQw",
     "district": "Havlíčkův Brod",
     "kraj": "Kraj Vysočina",
     "is_prague": false,
@@ -1903,12 +1842,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 18,
@@ -1922,7 +1856,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Lenka Teterová",
     "hours": "Mon-Fri 8:30-17, Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20PetDoc%20%28Hodon%C3%ADn%29&query_place_id=ChIJlYZthM0vE0cRg05sCkaQOUQ",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlYZthM0vE0cRg05sCkaQOUQ",
     "district": "Hodonín",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -2017,12 +1951,7 @@
     "call_phone": "+420 777 757 071",
     "internal_contact_email": "veterina@petdoc.cz",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 19,
@@ -2036,7 +1965,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-20, Sat 9-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20VH-VET%20%28Hodon%C3%ADn%29&query_place_id=ChIJ205UPlQuE0cR7bECW1bXFG4",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ205UPlQuE0cR7bECW1bXFG4",
     "district": "Hodonín",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -2131,12 +2060,7 @@
     "call_phone": "+420 518 321 494",
     "internal_contact_email": "hana.vicarova@tiscali.cz",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 20,
@@ -2150,7 +2074,7 @@
     "top_pick": true,
     "recommended_vet": "MVDr. Miroslav Suchaček; MVDr. Alena Truhlářová; MVDr. Radka Holíková",
     "hours": "Mon,Wed,Fri 8-12,14-17; Tue,Thu 8-12,13-15",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20V%C4%9Bko%C5%A1e%20%28Hradec%20Kr%C3%A1lov%C3%A9%29&query_place_id=ChIJQX8c69AqDEcR0zfEXwUAGZQ",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQX8c69AqDEcR0zfEXwUAGZQ",
     "district": "Hradec Králové",
     "kraj": "Královéhradecký kraj",
     "is_prague": false,
@@ -2242,12 +2166,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 21,
@@ -2261,7 +2180,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Vilma Hypská",
     "hours": "Mon,Tue,Thu,Fri 8-18; Wed 10-18; Sat-Sun & holidays 9-16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20centrum%20Viva%20%28Hradec%20Kr%C3%A1lov%C3%A9%29&query_place_id=ChIJIYVT5EYrDEcR_f6_0AtliXE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIYVT5EYrDEcR_f6_0AtliXE",
     "district": "Hradec Králové",
     "kraj": "Královéhradecký kraj",
     "is_prague": false,
@@ -2353,12 +2272,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 22,
@@ -2372,7 +2286,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Eva Vášová, MVDr. Hana Horáková",
     "hours": "Mon-Fri 8-20",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Hradec%20Kr%C3%A1lov%C3%A9%20Hanza&query_place_id=ChIJY8qESCwrDEcRl9n4Ob27NOU",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJY8qESCwrDEcRl9n4Ob27NOU",
     "district": "Hradec Králové",
     "kraj": "Královéhradecký kraj",
     "is_prague": false,
@@ -2464,12 +2378,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 23,
@@ -2483,7 +2392,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Václav Bartoš",
     "hours": "Mon-Fri 8-18, Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20ZooVET%20%28Hradec%20Kr%C3%A1lov%C3%A9%29&query_place_id=ChIJWaKNDazUDUcRNYddQUrsKyY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWaKNDazUDUcRNYddQUrsKyY",
     "district": "Hradec Králové",
     "kraj": "Královéhradecký kraj",
     "is_prague": false,
@@ -2575,12 +2484,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 24,
@@ -2594,7 +2498,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Barbora Kykalová, IPSAV",
     "hours": "Mon,Tue 9-12; Wed,Fri 16-19:30; Thu closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=VetNAC%20-%20MVDr.%20Barbora%20Kykalov%C3%A1%20%28Jablonec%20nad%20Nisou%29&query_place_id=ChIJ7f7nRHPLDkcRgWF-pt20LPY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7f7nRHPLDkcRgWF-pt20LPY",
     "district": "Jablonec nad Nisou",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -2686,12 +2590,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 25,
@@ -2705,7 +2604,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Adéla Marušáková",
     "hours": "Mon-Fri 8-21, Sat 9-14, Sun 13-17",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20MyVet%20%28Jesenice%29&query_place_id=ChIJuU-jKdaPC0cRjjOKBX24sHs",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuU-jKdaPC0cRjjOKBX24sHs",
     "district": "Praha-západ",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -2797,12 +2696,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 26,
@@ -2816,7 +2710,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Martin Sobota",
     "hours": "Mon-Fri roughly 8-12,12:30-15/17 (varies by day)",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20-%20MVDr.%20Martin%20Sobota%20%28Karlovy%20Vary%29&query_place_id=ChIJnUd_ATCaoEcREAoznZn6wBE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnUd_ATCaoEcREAoznZn6wBE",
     "district": "Karlovy Vary",
     "kraj": "Karlovarský kraj",
     "is_prague": false,
@@ -2910,12 +2804,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "martin.sobota@email.cz",
     "call_phone": "+420 732 942 857",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 27,
@@ -2929,7 +2818,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-19, Sun 9-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Bresson%20%28Kladno%29&query_place_id=ChIJq3LEoTK2C0cRlKWraaHWgps",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq3LEoTK2C0cRlKWraaHWgps",
     "district": "Kladno",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -3021,12 +2910,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 28,
@@ -3040,7 +2924,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Iva Librová",
     "hours": "Mon-Fri 9-21",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20VETLIFE%20%28Kladno-%C5%A0vermov%29&query_place_id=ChIJH-06vjnIC0cRGen0xrD7sgg",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJH-06vjnIC0cRGen0xrD7sgg",
     "district": "Kladno",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -3132,12 +3016,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 29,
@@ -3151,7 +3030,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 10-21, Sat 8-12, Sun 16-21",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Zv%C3%AD%C5%99ec%C3%AD%20doktor%20%28Kladno%29&query_place_id=ChIJS78RcgXIC0cRl3soBSuWKV8",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS78RcgXIC0cRl3soBSuWKV8",
     "district": "Kladno",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -3243,12 +3122,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 30,
@@ -3262,7 +3136,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Pavel Krzystek",
     "hours": "Mon-Fri 9-12,14:30-18; Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Krnov&query_place_id=ChIJ7fJ6T0qCEUcRgR0VWMZJTog",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7fJ6T0qCEUcRgR0VWMZJTog",
     "district": "Bruntál",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -3354,12 +3228,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 31,
@@ -3373,7 +3242,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Zbyněk Škrdlant",
     "hours": "16:30-22",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MVDr.%20Zbyn%C4%9Bk%20%C5%A0krdlant%20%28Kutn%C3%A1%20Hora%29&query_place_id=ChIJhe1zWABBDEcRCoeSiiBbYiE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhe1zWABBDEcRCoeSiiBbYiE",
     "district": "Kutná Hora",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -3465,12 +3334,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 32,
@@ -3484,7 +3348,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Karolína Staňková",
     "hours": "Mon-Thu 8-12,13-18; Fri 8-12,13-15; 1st Sat of month 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Animal%20Help%20veterin%C3%A1rn%C3%AD%20ordinace%20%28Kyjov%29&query_place_id=ChIJN3tjcvghE0cRQNr_7Lc5UgA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN3tjcvghE0cRQNr_7Lc5UgA",
     "district": "Hodonín",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -3579,12 +3443,7 @@
     "internal_contact_email": "info@animalhelp.cz",
     "call_phone": "+420 773 893 667",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 33,
@@ -3598,7 +3457,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tereza Tučaniová",
     "hours": "Mon-Fri 8-12,13-20; Sat 9-12; Sun 18-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Hanychov%20%28Liberec%29&query_place_id=ChIJDQlAww0tckEROvInGO0XgtM",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDQlAww0tckEROvInGO0XgtM",
     "district": "Liberec",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -3690,12 +3549,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 34,
@@ -3709,7 +3563,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Kateřina Kramerová",
     "hours": "Mon 8-11,15-18; Tue-Wed 15-18; Thu-Fri 8-11; Sat-Sun closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20U%20Fleka%20%28Liberec%29&query_place_id=ChIJATjDumk3CUcRk0_SzmFrS7A",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJATjDumk3CUcRk0_SzmFrS7A",
     "district": "Liberec",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -3801,12 +3655,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 35,
@@ -3820,7 +3669,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Petr Vaculín, MVDr. Eva Jakůbková",
     "hours": "Mon,Wed,Thu,Fri 9-12; Tue 16:30-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20pro%20mal%C3%A1%20zv%C3%AD%C5%99ata%20%28Litv%C3%ADnov%29&query_place_id=ChIJS0JVdvv0CUcRyNLkhqkSzLc",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJS0JVdvv0CUcRyNLkhqkSzLc",
     "district": "Most",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -3912,12 +3761,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 36,
@@ -3931,7 +3775,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tereza Huráková (Šindelářová)",
     "hours": "Daily 9-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Maradovi%20%28M%C4%9Bln%C3%ADk%29&query_place_id=ChIJC12WgkjnC0cRvk53N18zu8c",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJC12WgkjnC0cRvk53N18zu8c",
     "district": "Mělník",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -4023,12 +3867,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 37,
@@ -4042,7 +3881,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon,Wed,Fri 9-15; Tue,Thu 12-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Most%20%28Most%29&query_place_id=ChIJLwN4Lc0hCkcRTn-RkTCdgfs",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJLwN4Lc0hCkcRTn-RkTCdgfs",
     "district": "Most",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -4136,12 +3975,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "veterina-most@email.cz",
     "call_phone": "+420 773 997 695",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 38,
@@ -4155,7 +3989,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-12,13-17",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20Most%20-%20MVDr.%20Hasil%C3%ADk%20Ji%C5%99%C3%AD&query_place_id=ChIJW3SCK0ogCkcRVKSEYYgj0iA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW3SCK0ogCkcRVKSEYYgj0iA",
     "district": "Most",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -4247,12 +4081,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 39,
@@ -4266,7 +4095,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tomáš Fidra",
     "hours": "Mon-Fri 8-11,13-18; Sat 8-10",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Nov%C3%BD%20Ji%C4%8D%C3%ADn&query_place_id=ChIJWxu-vK2UE0cRMi-ku5mJR-M",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWxu-vK2UE0cRMi-ku5mJR-M",
     "district": "Nový Jičín",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -4358,12 +4187,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 40,
@@ -4377,7 +4201,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tomáš Malina",
     "hours": "Mon-Fri 8-12,16-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MVDr.%20Tom%C3%A1%C5%A1%20Malina%20%28%C5%A0enov%20u%20Nov%C3%A9ho%20Ji%C4%8D%C3%ADna%29&query_place_id=ChIJUQWKsUzrE0cR9FlDxOATxzs",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUQWKsUzrE0cR9FlDxOATxzs",
     "district": "Nový Jičín",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -4471,12 +4295,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "tom.malina@tiscali.cz",
     "call_phone": "+420 603 462 984",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 41,
@@ -4490,7 +4309,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon,Thu 9-12,13-18; Tue 13-18; Fri 8-12,13-15",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=AgiVet%20cz%20%28P%C5%99%C3%ADkazy%29&query_place_id=ChIJn9ekkMBFEkcRrw5mA9RPf3s",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn9ekkMBFEkcRrw5mA9RPf3s",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4584,12 +4403,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "agivetcz@gmail.com",
     "call_phone": "+420 605 333 959",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 42,
@@ -4603,7 +4417,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-12,13-18; Sat 9-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MVDr.%20Jitka%20Tesa%C5%99%C3%ADkov%C3%A1%20%28Olomouc%29&query_place_id=ChIJSdBjE4FOEkcRguiBuKTdWoU",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSdBjE4FOEkcRguiBuKTdWoU",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4697,12 +4511,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "tesarikova.jitka@seznam.cz",
     "call_phone": "+420 724 444 306",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 43,
@@ -4716,7 +4525,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Lucie Krupášová",
     "hours": "Mon-Fri 7:30-12,13-18; Sat 9-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20MVDr.%20Pavel%20Galko%20%28Olomouc-Slavon%C3%ADn%29&query_place_id=ChIJiYorB0FOEkcRCe5J2Di5trU",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiYorB0FOEkcRCe5J2Di5trU",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4808,12 +4617,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 44,
@@ -4827,7 +4631,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Jiří Homolka",
     "hours": "Mon-Fri 8-12,13-18; Sat 8-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20MVDr.%20Petr%20Proch%C3%A1zka%20%28Olomouc-Holice%29&query_place_id=ChIJUbBuXs5NEkcR8WfQFGjaKK8",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUbBuXs5NEkcR8WfQFGjaKK8",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4919,12 +4723,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 45,
@@ -4938,7 +4737,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-17",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20TOSA%20%28Olomouc%29&query_place_id=ChIJj8N3GGROEkcR3IycRD5V5Yg",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJj8N3GGROEkcR3IycRD5V5Yg",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -5030,12 +4829,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 46,
@@ -5049,7 +4843,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Karolina Krčmářová",
     "hours": "Mon 15:30-18; Tue 9-18 (surgery); Wed 15:30-18; Thu 9-18; Fri closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Mirivet%20%28Vratimov%29&query_place_id=ChIJP5WAslb7E0cR6J76uyMaBG0",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP5WAslb7E0cR6J76uyMaBG0",
     "district": "Ostrava",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -5143,12 +4937,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "info@mirivet.cz",
     "call_phone": "+420 731 922 130",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 47,
@@ -5162,7 +4951,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Vítězslav Raška, MVDr. Irena Boščíková",
     "hours": "Mon-Fri 8-11,14-19; Sat 8-9; Sun 18-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20MVDr.%20V%C3%ADt%C4%9Bzslav%20Ra%C5%A1ka%20%28Ostrava%29&query_place_id=ChIJxXhleWvjE0cR1_7NuSz25sM",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxXhleWvjE0cR1_7NuSz25sM",
     "district": "Ostrava-město",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -5254,12 +5043,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 48,
@@ -5273,7 +5057,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Nikola Škarpová",
     "hours": "",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20V%C3%ADtkovice%20%28Ostrava%29&query_place_id=ChIJ_0cUiK_kE0cRLhTtg4f-i1g",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_0cUiK_kE0cRLhTtg4f-i1g",
     "district": "Ostrava-město",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -5365,12 +5149,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 49,
@@ -5384,7 +5163,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Petra Kubešová",
     "hours": "Mon-Wed 9-11,14-17; Thu-Fri surgery/by appointment 14-17",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Vltava%20%28Ostrava%29&query_place_id=ChIJB4Q49YThE0cRvNLsuv3uckY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB4Q49YThE0cRvNLsuv3uckY",
     "district": "Ostrava-město",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -5476,12 +5255,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 50,
@@ -5495,7 +5269,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Miloslav Pleskot",
     "hours": "Mon,Tue,Thu,Fri 9-11,15-17; Wed,Sat,Sun closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20na%20Vi%C5%A1%C5%88ovce%20%28Pardubice%29&query_place_id=ChIJpfgUh5rMDUcR9hzclRSgn6o",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJpfgUh5rMDUcR9hzclRSgn6o",
     "district": "Pardubice",
     "kraj": "Pardubický kraj",
     "is_prague": false,
@@ -5587,12 +5361,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 51,
@@ -5606,7 +5375,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Romana Šourová",
     "hours": "Mon-Fri 8-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vedilab%20%28Plze%C5%88%29&query_place_id=ChIJmYZpb9LxCkcRB9h98cIOjR4",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmYZpb9LxCkcRB9h98cIOjR4",
     "district": "Plzeň-město",
     "kraj": "Plzeňský kraj",
     "is_prague": false,
@@ -5698,12 +5467,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 52,
@@ -5717,7 +5481,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon 15-20; Tue-Wed 15-19; Thu-Fri 10-14; Sat irregular 10-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20BoleVET%20%28Plze%C5%88%29&query_place_id=ChIJ-3IeEX7xCkcRaivjAJEcCwY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-3IeEX7xCkcRaivjAJEcCwY",
     "district": "Plzeň-město",
     "kraj": "Plzeňský kraj",
     "is_prague": false,
@@ -5809,12 +5573,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 53,
@@ -5828,7 +5587,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Jan Pokorný",
     "hours": "Mon-Fri 8-11,13:30-18, priority for booked patients",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20StarVet%20%28Star%C3%BD%20Plzenec%29&query_place_id=ChIJ_____2zlCkcRgZhFoHMfBRg",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_____2zlCkcRgZhFoHMfBRg",
     "district": "Plzeň-město",
     "kraj": "Plzeňský kraj",
     "is_prague": false,
@@ -5920,12 +5679,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 54,
@@ -5939,7 +5693,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Zdeněk Valeš, MVDr. Renata Mertová",
     "hours": "Mon-Fri 8-21, Sat-Sun 10-16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=H-VET%20%28Praha%2015%20-%20Horn%C3%AD%20M%C4%9Bcholupy%29&query_place_id=ChIJcagSxYiNC0cRaGKmlvQx8MI",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJcagSxYiNC0cRaGKmlvQx8MI",
     "district": "Hlavního město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6034,12 +5788,7 @@
     "internal_contact_email": "klinika@hvet.cz",
     "call_phone": "+420 271 961 092",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 55,
@@ -6053,7 +5802,7 @@
     "top_pick": true,
     "recommended_vet": "MVDr. Samuel Evinic",
     "hours": "Mon-Fri 8-20",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MetropoleVet%20%28Praha%209%29&query_place_id=ChIJ7Z3XAEftC0cRjgaaOpshQO0",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7Z3XAEftC0cRjgaaOpshQO0",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6148,12 +5897,7 @@
     "internal_contact_email": "metropolevet@gmail.com",
     "call_phone": "+420 775 562 710",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 56,
@@ -6167,7 +5911,7 @@
     "top_pick": true,
     "recommended_vet": "MVDr. Nikola Koller",
     "hours": "Mon 9-18; Tue 9-18; Wed 12-20; Thu 9-18; Fri 9-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MINORA%20vet%20%28Praha%209%20-%20Horn%C3%AD%20Po%C4%8Dernice%29&query_place_id=ChIJN_xYCwDzC0cR55XwWKC8V4s",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN_xYCwDzC0cR55XwWKC8V4s",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6262,12 +6006,7 @@
     "internal_contact_email": "info@minoravet.cz",
     "call_phone": "+420 776 677 567",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 57,
@@ -6281,7 +6020,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Nikola Hanáková",
     "hours": "Mon-Fri 8-12,13-20; Sat 9-14; Sun 14-19",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=N%C3%A1%C5%A1%20veterin%C3%A1%C5%99%20%28Praha%204%20-%20Mod%C5%99any%29&query_place_id=ChIJBaLfK8uWC0cRsfedhKi_Dzs",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBaLfK8uWC0cRsfedhKi_Dzs",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6376,12 +6115,7 @@
     "internal_contact_email": "info@nasveterinar.cz",
     "call_phone": "+420 734 113 388",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 58,
@@ -6395,7 +6129,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-21",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vetcentrum%20Duchek%20%28Praha%2013%29&query_place_id=ChIJg8RrX_SVC0cRATDXDFTFNsA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJg8RrX_SVC0cRATDXDFTFNsA",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6520,12 +6254,7 @@
     "internal_contact_email": "provoz@vetcentrum.cz",
     "call_phone": "+420 251 511 651",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 59,
@@ -6539,7 +6268,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-20, Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20F%C3%A9nix%20%28Praha%203%29&query_place_id=ChIJN-Ahl52UC0cRtKIOvLucad8",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJN-Ahl52UC0cRtKIOvLucad8",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6634,12 +6363,7 @@
     "internal_contact_email": "info@veterinafenix.cz",
     "call_phone": "+420 720 365 001",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 60,
@@ -6653,7 +6377,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Marie Lietavcová",
     "hours": "Daily 8-20",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%202.0%20%28Praha%20-%20Zbraslav%29&query_place_id=ChIJIZIJmTOXC0cRicZlrZ58RdA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIZIJmTOXC0cRicZlrZ58RdA",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6748,12 +6472,7 @@
     "internal_contact_email": "info@veterinazbraslav.cz",
     "call_phone": "+420 737 239 602",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 61,
@@ -6767,7 +6486,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Zuzana Brodská",
     "hours": "Mon-Fri 8-19:30",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20IVET%20%28Praha%204%29&query_place_id=ChIJvVTNx1yRC0cRUO0nOuAdYkQ",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvVTNx1yRC0cRUO0nOuAdYkQ",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6878,12 +6597,7 @@
     "internal_contact_email": "ivet@ivet.cz",
     "call_phone": "+420 241 714 358",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 62,
@@ -6897,7 +6611,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Veronika Mráčková",
     "hours": "Mon-Fri 8-21 (surgery block 12-15); Sat 9-13; Sun/holidays 16-20",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Jinvet%20Jinonice%20%28Praha%205%29&query_place_id=ChIJwT10ibCVC0cRUYGYvoYT7lY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwT10ibCVC0cRUYGYvoYT7lY",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -6992,12 +6706,7 @@
     "internal_contact_email": "info@jinvet.cz",
     "call_phone": "+420 257 222 525",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 63,
@@ -7011,7 +6720,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Roman Skala",
     "hours": "Mon-Fri 8-22, Sat 9-14, Sun 14-19, holidays closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Na%20Hr%C3%A1dku%20%28Praha%202%29&query_place_id=ChIJyUUTbPWUC0cRy5yFz7zsxKo",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJyUUTbPWUC0cRy5yFz7zsxKo",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -7106,12 +6815,7 @@
     "internal_contact_email": "nahradku@centrum.cz",
     "call_phone": "+420 224 921 316",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 64,
@@ -7125,7 +6829,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Kateřina Sekyrová, MVDr. Andrea Mináriková, Ph.D.",
     "hours": "Mon-Fri 8-21",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Na%20H%C5%AFrce%20%28Praha%205%20-%20Nov%C3%A9%20Butovice%29&query_place_id=ChIJCes12vGVC0cReVpvKxTkPcg",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJCes12vGVC0cReVpvKxTkPcg",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -7221,12 +6925,7 @@
     "english_communication": true,
     "call_phone": "+420 251 614 378",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 65,
@@ -7240,7 +6939,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. František Svozil",
     "hours": "Mon-Fri 15-21, Sat 9-12:30",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Paprsek%20%28Praha%205%29&query_place_id=ChIJZyzUAgS-C0cRgEZKnwWIxhw",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZyzUAgS-C0cRgEZKnwWIxhw",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -7335,12 +7034,7 @@
     "call_phone": "+420 777 033 353",
     "manually_checked": true,
     "internal_contact_email": "ordinace@veterinapaprsek.cz",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 66,
@@ -7354,7 +7048,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Marie Salačová, MVDr. Tereza Šenkyřová, MVDr. Kristýna Hlinková, MVDr. Lucie Lehká",
     "hours": "Mon-Fri 9-20, Sat 9-12, Sun 17-20 (Kobylisy)",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20Svobodn%C3%ADk%20MVDr.%20Igor%20Svobodn%C3%ADk%20%28Praha%208%20-%20Kobylisy%29&query_place_id=ChIJexe2w0PrC0cRBbYaPVZR934",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJexe2w0PrC0cRBbYaPVZR934",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -7449,12 +7143,7 @@
     "internal_contact_email": " veterina.svobodnik@seznam.cz",
     "call_phone": "+420 284 687 850",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 67,
@@ -7468,7 +7157,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Veronika Kubíčková",
     "hours": "Mon-Fri 8-20, Sat-Sun 9-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=VETVIN%20veterin%C3%A1rn%C3%AD%20klinika%20Vinohrady%20%28Praha%202%29&query_place_id=ChIJX2DTEoiUC0cRaK1iT8u_RsQ",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX2DTEoiUC0cRaK1iT8u_RsQ",
     "district": "Hlavní město Praha",
     "kraj": "Hlavní město Praha",
     "is_prague": true,
@@ -7564,12 +7253,7 @@
     "english_communication": true,
     "call_phone": "+420 222 543 779",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 68,
@@ -7583,7 +7267,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-12,15-18; Sat 8-11; Sun closed. Surgery hours Mon-Fri 12-15",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20P%C5%99erov%20-%20MVDr.%20Josef%20Posp%C3%AD%C5%A1il%C3%ADk%20%28P%C5%99erov%29&query_place_id=ChIJ_fo_EZmuE0cRrSxdfmlIHdE",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_fo_EZmuE0cRrSxdfmlIHdE",
     "district": "Přerov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -7677,12 +7361,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "josef.pospisilik@seznam.cz",
     "call_phone": "+420 777 662 061",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 69,
@@ -7696,7 +7375,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Monika Šubrtová",
     "hours": "Mon-Fri 8-18, Sat 8-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Za%20Ml%C3%BDnem%20%28P%C5%99erov%29&query_place_id=ChIJ3Zmf85uuE0cRYPQKIlAng5E",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3Zmf85uuE0cRYPQKIlAng5E",
     "district": "Přerov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -7788,12 +7467,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 70,
@@ -7807,7 +7481,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Bc. Michaela Hejlková",
     "hours": "Mon-Thu 9-11,13-18; Fri 9-11,13-16; Sat-Sun closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MVDr.%20Bc.%20Michaela%20Hejlkov%C3%A1%20%28Prost%C4%9Bjov%29&query_place_id=ChIJccpkNEpXEkcRaEJZtFUM_NY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJccpkNEpXEkcRaEJZtFUM_NY",
     "district": "Prostějov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -7901,12 +7575,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "m.hejlkova@seznam.cz",
     "call_phone": "+420 604 360 319",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 71,
@@ -7920,7 +7589,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Michaela Bretšnajdrová",
     "hours": "Mon-Fri 8:30-13,13:30-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vetora%20%28Rakovn%C3%ADk%29&query_place_id=ChIJD6Zd-M5OCkcRBhQ0-_95FhA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJD6Zd-M5OCkcRBhQ0-_95FhA",
     "district": "Rakovník",
     "kraj": "Středočeský kraj",
     "is_prague": false,
@@ -8012,12 +7681,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 72,
@@ -8031,7 +7695,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Kateřina Nagy Tetourová",
     "hours": "Mon-Fri 9-13,14-18; Sat 8-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Medivet%20Veterin%C3%A1rn%C3%A1%20klinika%20%28Most%20pri%20Bratislave%2C%20Slovakia%29&query_place_id=ChIJP7NUyieEbEcRmgfBsunZbCw",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP7NUyieEbEcRmgfBsunZbCw",
     "district": null,
     "kraj": null,
     "is_prague": false,
@@ -8123,12 +7787,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 73,
@@ -8142,7 +7801,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Anna Šenková",
     "hours": "Mon-Fri 8-9 (lab/meds only), 9-13 walk-ins & surgery, 14-16 booked only, 16-18 walk-ins",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20U%20potoka%20%28Stud%C3%A9nka%29&query_place_id=ChIJ1xIRoRrpE0cRfK15BChoHJM",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1xIRoRrpE0cRfK15BChoHJM",
     "district": "Nový Jičín",
     "kraj": "Moravskoslezský kraj",
     "is_prague": false,
@@ -8234,12 +7893,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 74,
@@ -8253,7 +7907,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Thu 9-11,15-17:30 (may vary); Fri 9-11; Sat-Sun closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=MVDr.%20Lenka%20Vany%C3%B3ov%C3%A1%20%28Teplice%29&query_place_id=ChIJ94q2a5uOCUcRZrY-kl-R2yI",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ94q2a5uOCUcRZrY-kl-R2yI",
     "district": "Teplice",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -8346,12 +8000,7 @@
     },
     "hours_needs_review": false,
     "call_phone": "+420 606 844 228",
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 75,
@@ -8365,7 +8014,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Jaroslava Strusková",
     "hours": "Mon-Fri 8-18, Sat 9-12, Sun closed",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vetpoint%20%28T%C5%99ebo%C5%88%29&query_place_id=ChIJPy3nrzc0c0cR-ccmV7uyNdA",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPy3nrzc0c0cR-ccmV7uyNdA",
     "district": "Jindřichův Hradec",
     "kraj": "Jihočeský kraj",
     "is_prague": false,
@@ -8377,15 +8026,15 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://cs-cz.facebook.com/VETPOINTtrebon/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 390,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -8394,7 +8043,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -8403,7 +8052,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -8412,7 +8061,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -8421,7 +8070,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -8430,7 +8079,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -8456,13 +8105,11 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "hours_needs_review": false,
+    "call_phone": "+420 608 399 144",
+    "internal_contact_email": "info@vetpoint-trebon.cz",
+    "manually_checked": true,
+    "published": true
   },
   {
     "id": 76,
@@ -8476,7 +8123,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 7-9,14-19; Sat closed; Sun 15-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20St%C5%99ekov%20%28%C3%9Ast%C3%AD%20nad%20Labem%29&query_place_id=ChIJhZwiakSDCUcRc-u_xmqO384",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhZwiakSDCUcRc-u_xmqO384",
     "district": "Ústí nad Labem",
     "kraj": "Ústecký kraj",
     "is_prague": false,
@@ -8568,12 +8215,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 77,
@@ -8587,7 +8229,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Ivo Hylák",
     "hours": "Mon-Fri 8-19, Sat 8-11, Sun 8-10,16-18",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Vyvet%20%28Vy%C5%A1kov%29&query_place_id=ChIJWVXoSpD6EkcRMEHX0JqMEzs",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJWVXoSpD6EkcRMEHX0JqMEzs",
     "district": "Vyškov",
     "kraj": "Jihomoravský kraj",
     "is_prague": false,
@@ -8681,12 +8323,7 @@
     "hours_needs_review": false,
     "internal_contact_email": "klinikavyvet@seznam.cz",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 78,
@@ -8700,7 +8337,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon 15-18 (by appt); Tue 8-11; Wed 15-18 (by appt); Thu 8-11; Fri 15-18 (by appt); Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Polni%C4%8Dka%20%28%C5%BD%C4%8F%C3%A1r%20nad%20S%C3%A1zavou%29&query_place_id=ChIJB22fflegDUcRAl2pqt9Jono",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB22fflegDUcRAl2pqt9Jono",
     "district": "Žďár nad Sázavou",
     "kraj": "Kraj Vysočina",
     "is_prague": false,
@@ -8792,12 +8429,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 79,
@@ -8811,7 +8443,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon,Tue,Thu,Fri 8-11,15-18; Wed 8-14; Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterina%20Svahy%20%28Zl%C3%ADn%29&query_place_id=ChIJ0Wr3UKp0E0cRBqiK4CbnIHw",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ0Wr3UKp0E0cRBqiK4CbnIHw",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -8903,12 +8535,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 80,
@@ -8922,7 +8549,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Melanie Mošťková",
     "hours": "Mon-Fri 8-20, Sat-Sun 8-16",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20klinika%20Medipet%20Zl%C3%ADn&query_place_id=ChIJp3tjrmNzE0cRMsziyv62G1c",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp3tjrmNzE0cRMsziyv62G1c",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -9014,12 +8641,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 81,
@@ -9033,7 +8655,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Petra Pelcová",
     "hours": "Mon,Tue,Thu,Fri 9-11:30,14-18; Wed 15-20; Sat 10-12",
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Veterin%C3%A1rn%C3%AD%20ordinace%20Podho%C5%99%C3%AD%20%28Zl%C3%ADn%29&query_place_id=ChIJB3mAd7gME0cRjiLvrM1ZScY",
+    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB3mAd7gME0cRjiLvrM1ZScY",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -9125,12 +8747,7 @@
       }
     },
     "hours_needs_review": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": false
   },
   {
     "id": 82,
@@ -9258,12 +8875,7 @@
     "hours_needs_review": false,
     "call_phone": "+420 284 821 784",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 83,
@@ -9389,12 +9001,7 @@
     "hours_needs_review": false,
     "call_phone": "+420 244 470 704",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 84,
@@ -9524,12 +9131,7 @@
     "hours_needs_review": false,
     "call_phone": "+420 252 252 111",
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 85,
@@ -9671,12 +9273,7 @@
     },
     "hours_needs_review": false,
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 86,
@@ -9818,12 +9415,7 @@
     },
     "hours_needs_review": false,
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   },
   {
     "id": 87,
@@ -9965,11 +9557,6 @@
     },
     "hours_needs_review": false,
     "manually_checked": true,
-    "open_weekends_bookable": false,
-    "after_hours_emergency": false,
-    "emergency_on_phone": false,
-    "published": true,
-    "internal_notes": "",
-    "has_rabbit_specialist": true
+    "published": true
   }
 ]
