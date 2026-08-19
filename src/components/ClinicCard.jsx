@@ -45,13 +45,13 @@ export function ClinicCard({ clinic, distanceKm }) {
           <p className="clinic-address">{clinic.address}</p>
         </div>
         <div className="detail-header-right">
-          {clinic.google_rating != null && (
+          {clinic.show_reviews !== false && clinic.google_rating != null && (
             <div className="clinic-rating">
               <span className="clinic-rating-star"><StarIcon /></span>
               {Number(clinic.google_rating).toFixed(1)}
             </div>
           )}
-          {clinic.google_review_count != null && (
+          {clinic.show_reviews !== false && clinic.google_review_count != null && (
             <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
           )}
           {distanceKm != null && (
@@ -76,13 +76,13 @@ export function ClinicCard({ clinic, distanceKm }) {
           <AllBadges clinic={clinic} t={t} />
         </div>
         <div className="summary-mobile-rating-stack">
-          {clinic.google_rating != null && (
+          {clinic.show_reviews !== false && clinic.google_rating != null && (
             <div className="clinic-rating">
               <span className="clinic-rating-star"><StarIcon /></span>
               {Number(clinic.google_rating).toFixed(1)}
             </div>
           )}
-          {clinic.google_review_count != null && (
+          {clinic.show_reviews !== false && clinic.google_review_count != null && (
             <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
           )}
           {distanceKm != null && (

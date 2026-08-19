@@ -44,13 +44,13 @@ function RatingBlock({ clinic, distanceKm }) {
   const { t } = useLanguage();
   return (
     <>
-      {clinic.google_rating != null && (
+      {clinic.show_reviews !== false && clinic.google_rating != null && (
         <div className="clinic-rating">
           <span className="clinic-rating-star"><StarIcon /></span>
           {Number(clinic.google_rating).toFixed(1)}
         </div>
       )}
-      {clinic.google_review_count != null && (
+      {clinic.show_reviews !== false && clinic.google_review_count != null && (
         <div className="clinic-rating-count">{clinic.google_review_count} {t.reviewsLabel}</div>
       )}
       {distanceKm != null && (
