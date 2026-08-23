@@ -2622,7 +2622,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Barbora Kykalová, IPSAV",
     "hours": "Mon,Tue 9-12; Wed,Fri 16-19:30; Thu closed",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7f7nRHPLDkcRgWF-pt20LPY",
+    "google_maps_url": "https://maps.app.goo.gl/QkQpCwgFZhPiUtKp6",
     "district": "Jablonec nad Nisou",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -2635,14 +2635,14 @@
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "instagram_url": "https://www.instagram.com/zvireci_doktorka_bara/",
+    "google_rating": 4.9,
+    "google_review_count": 59,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -2651,7 +2651,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -2660,8 +2660,8 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "16",
-        "end1": "19:30",
+        "start1": "15:00",
+        "end1": "19:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -2678,12 +2678,12 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "16",
-        "end1": "19:30",
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Only booked apointments",
+        "note_cs": "Pouze objednaní"
       },
       "Sat": {
         "closed": true,
@@ -2713,9 +2713,12 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": true,
+    "internal_contact_email": "info@vetnac.cz",
+    "has_rabbit_specialist": true,
+    "manually_checked": true
   },
   {
     "id": 25,
@@ -3595,7 +3598,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Tereza Tučaniová",
     "hours": "Mon-Fri 8-12,13-20; Sat 9-12; Sun 18-19",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDQlAww0tckEROvInGO0XgtM",
+    "google_maps_url": "https://maps.app.goo.gl/37ABgy6TMxKC68Y47",
     "district": "Liberec",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -3605,62 +3608,72 @@
     "has_weekend_emergency": null,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "To 22h, tel. 736 175 107",
+    "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/veterinahanychov",
+    "instagram_url": "https://www.instagram.com/veterinarni.klinika.hanychov/",
+    "google_rating": 4.6,
+    "google_review_count": 551,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "20:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "20:00",
+        "emergency_end1": "22:00"
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "20:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "20:00",
+        "emergency_end1": "22:00"
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "20:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_end1": "22:00",
+        "emergency_start1": "20:00"
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "20:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_end1": "22:00",
+        "emergency_start1": "20:00"
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
-        "end2": "20",
+        "end2": "20:00",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_end1": "22:00",
+        "emergency_start1": "20:00"
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -3686,9 +3699,14 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 482 770 371",
+    "internal_contact_email": "info@veterina-liberec.cz",
+    "open_weekends_bookable": true,
+    "after_hours_emergency": true,
+    "manually_checked": true
   },
   {
     "id": 34,
@@ -3702,7 +3720,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Kateřina Kramerová",
     "hours": "Mon 8-11,15-18; Tue-Wed 15-18; Thu-Fri 8-11; Sat-Sun closed",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJATjDumk3CUcRk0_SzmFrS7A",
+    "google_maps_url": "https://maps.app.goo.gl/QdJt4EpwbBKaGFnm9",
     "district": "Liberec",
     "kraj": "Liberecký kraj",
     "is_prague": false,
@@ -3716,13 +3734,13 @@
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.9,
+    "google_review_count": 62,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "15",
         "end2": "18",
@@ -3749,7 +3767,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -3758,7 +3776,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -3793,9 +3811,12 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 604 271 270",
+    "internal_contact_email": "ordinace@veterinaufleka.cz",
+    "manually_checked": true
   },
   {
     "id": 35,
@@ -4571,7 +4592,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-12,13-18; Sat 9-12",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSdBjE4FOEkcRguiBuKTdWoU",
+    "google_maps_url": "https://maps.app.goo.gl/FSLvCeLcNRW6dEtJA",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4579,7 +4600,7 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": true,
-    "notes_en": "Home visits offered. Check if accepting new patients and inhalation anesthesia availability; refers dental issues to a specialist.",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
@@ -4665,12 +4686,14 @@
     "hours_needs_review": false,
     "internal_contact_email": "tesarikova.jitka@seznam.cz",
     "call_phone": "+420 724 444 306",
-    "published": false,
-    "show_reviews": true
+    "published": true,
+    "show_reviews": false,
+    "manually_checked": true,
+    "internal_notes": "Home visits offered. Check if accepting new patients and inhalation anesthesia availability; refers dental issues to a specialist."
   },
   {
     "id": 43,
-    "name": "Veterinární klinika MVDr. Pavel Galko (Olomouc-Slavonín)",
+    "name": "Veterinární klinika MVDr. Pavel Galko (Olomouc)",
     "region": "Olomouc",
     "address": "Arbesova 477, 783 01 Olomouc-Slavonín",
     "lat": 49.5748233,
@@ -4680,7 +4703,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Lucie Krupášová",
     "hours": "Mon-Fri 7:30-12,13-18; Sat 9-12",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJiYorB0FOEkcRCe5J2Di5trU",
+    "google_maps_url": "https://maps.app.goo.gl/MWdDDk39nLqZYyPe9",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4690,12 +4713,12 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Weekends only, by phone arrangement 8-20, surcharge 1000 Kč; no weekday after-hours emergency",
-    "emergency_cs": "",
+    "emergency_en": "Emergency on weekends and public holidays, by prior phone arrangement only; surcharges apply. No weekday after-hours emergency",
+    "emergency_cs": "Pohotovost o víkendech a svátcích pouze po předchozí telefonické domluvě; platí se příplatek. V pracovní dny po pracovní době pohotovost není",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 584,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -4745,12 +4768,14 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "12",
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "12:00",
+        "emergency_end1": "20:00"
       },
       "Sun": {
         "closed": true,
@@ -4759,7 +4784,9 @@
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "08:00",
+        "emergency_end1": "20:00"
       },
       "Holiday": {
         "closed": true,
@@ -4768,16 +4795,22 @@
         "start2": "",
         "end2": "",
         "note_en": "",
-        "note_cs": ""
+        "note_cs": "",
+        "emergency_start1": "08:00",
+        "emergency_end1": "20:00"
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "has_rabbit_specialist": true,
+    "internal_contact_email": "arbesova@seznam.cz",
+    "call_phone": "+420 608 112 217",
+    "manually_checked": true
   },
   {
     "id": 44,
-    "name": "Veterinární klinika MVDr. Petr Procházka (Olomouc-Holice)",
+    "name": "Veterinární klinika MVDr. Petr Procházka (Olomouc)",
     "region": "Olomouc",
     "address": "Sladkovského 202/57, 779 00 Olomouc-Holice",
     "lat": 49.5777606,
@@ -4787,7 +4820,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Jiří Homolka",
     "hours": "Mon-Fri 8-12,13-18; Sat 8-12",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJUbBuXs5NEkcR8WfQFGjaKK8",
+    "google_maps_url": "https://maps.app.goo.gl/2qxjWs3PfAjeRPQ47",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4795,19 +4828,19 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Consults with MVDr. Nováková (Sívková) on complex cases",
-    "notes_cs": "",
+    "notes_en": "Complex cases consulted with MVDr. Nováková from AgiVet",
+    "notes_cs": "Komplexní případy konzultuje s MVDr. Novákovou z AgiVet",
     "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 449,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
         "end2": "18",
@@ -4816,7 +4849,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
         "end2": "18",
@@ -4825,7 +4858,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
         "end2": "18",
@@ -4834,7 +4867,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
         "end2": "18",
@@ -4843,7 +4876,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "13",
         "end2": "18",
@@ -4852,7 +4885,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "12",
         "start2": "",
         "end2": "",
@@ -4878,9 +4911,14 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 608 037 733",
+    "internal_contact_email": "p.prochazka@veterinaolomouc.cz",
+    "internal_notes": "Consults with MVDr. Nováková (Sívková) on complex cases",
+    "open_weekends_bookable": true,
+    "manually_checked": true
   },
   {
     "id": 45,
@@ -4889,12 +4927,12 @@
     "address": "Českobratrská 145/32, 779 00 Olomouc",
     "lat": 49.58355,
     "lng": 17.25524,
-    "phone": "+420 585 751 808 / 602 705 159",
+    "phone": "+420 585 751 808 / +420 602 705 159",
     "website": "https://klinikatosa.cz/",
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 9-17",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJj8N3GGROEkcR3IycRD5V5Yg",
+    "google_maps_url": "https://maps.app.goo.gl/MJfwj9zgEq5XKjgf8",
     "district": "Olomouc",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -4902,19 +4940,19 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Well-equipped, pleasant vet with some rabbit knowledge",
+    "notes_en": "",
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/share/1BKzzHhstH/?mibextid=wwXIfr",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "google_rating": 4.8,
+    "google_review_count": 287,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "17",
         "start2": "",
         "end2": "",
@@ -4923,7 +4961,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "17",
         "start2": "",
         "end2": "",
@@ -4932,7 +4970,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "17",
         "start2": "",
         "end2": "",
@@ -4941,7 +4979,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "17",
         "start2": "",
         "end2": "",
@@ -4950,7 +4988,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "9",
+        "start1": "09:00",
         "end1": "17",
         "start2": "",
         "end2": "",
@@ -4985,9 +5023,13 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 585 751 808",
+    "internal_contact_email": "info@klinikatosa.cz",
+    "internal_notes": "klinikatosa@volny.cz\nWell-equipped, pleasant vet with some rabbit knowledge",
+    "manually_checked": true
   },
   {
     "id": 46,
@@ -7467,7 +7509,7 @@
     "top_pick": false,
     "recommended_vet": "",
     "hours": "Mon-Fri 8-12,15-18; Sat 8-11; Sun closed. Surgery hours Mon-Fri 12-15",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ_fo_EZmuE0cRrSxdfmlIHdE",
+    "google_maps_url": "https://maps.app.goo.gl/qAEjzai8Rbv1aG5x5",
     "district": "Přerov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -7475,14 +7517,14 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Consults with MVDr. Nováková (Sívková)",
-    "notes_cs": "",
-    "emergency_en": "Outside hours on 777 662 061",
+    "notes_en": "Complex cases consulted with MVDr. Nováková from AgiVet",
+    "notes_cs": "Komplexní případy konzultuje s MVDr. Novákovou z AgiVet",
+    "emergency_en": "",
     "emergency_cs": "",
     "facebook_url": "https://www.facebook.com/veterinarprerov/",
     "instagram_url": "",
     "google_rating": 4.9,
-    "google_review_count": 347,
+    "google_review_count": 350,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -7561,8 +7603,10 @@
     "hours_needs_review": false,
     "internal_contact_email": "josef.pospisilik@seznam.cz",
     "call_phone": "+420 777 662 061",
-    "published": false,
-    "show_reviews": true
+    "published": true,
+    "show_reviews": false,
+    "internal_notes": "Consults with MVDr. Nováková (Sívková)\nOutside hours on 777 662 061",
+    "manually_checked": true
   },
   {
     "id": 69,
@@ -7571,32 +7615,32 @@
     "address": "Za Mlýnem 1223/55, 750 02 Přerov",
     "lat": 49.460634,
     "lng": 17.4526948,
-    "phone": "",
+    "phone": "+420 602 834 710",
     "website": "http://veterinar-prerov.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Monika Šubrtová",
+    "recommended_vet": "MVDr. Monika Otisková",
     "hours": "Mon-Fri 8-18, Sat 8-11",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3Zmf85uuE0cRYPQKIlAng5E",
+    "google_maps_url": "https://maps.app.goo.gl/zNbhZgyTpx19CaUt5",
     "district": "Přerov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
     "is_brno": false,
     "is_ostrava": false,
     "is_24_7": null,
-    "has_weekend_emergency": null,
+    "has_weekend_emergency": false,
     "notes_en": "Complex cases referred to AgiVet Příkazy or ExoCare Brno",
-    "notes_cs": "",
+    "notes_cs": "Komplexní případy referuje do AgiVet Příkazy nebo ExoCare Brno",
     "emergency_en": "602 834 710",
     "emergency_cs": "",
     "facebook_url": "",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.8,
+    "google_review_count": 181,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -7605,7 +7649,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -7614,7 +7658,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -7623,7 +7667,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -7632,7 +7676,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "18",
         "start2": "",
         "end2": "",
@@ -7641,7 +7685,7 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "",
         "end2": "",
@@ -7649,9 +7693,9 @@
         "note_cs": ""
       },
       "Sun": {
-        "closed": true,
-        "start1": "",
-        "end1": "",
+        "closed": false,
+        "start1": "08:00",
+        "end1": "11:00",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -7667,9 +7711,13 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": true,
+    "call_phone": "+420 602 834 710",
+    "internal_contact_email": "veterina.vystaviste@seznam.cz",
+    "internal_notes": "V případě naší nepřítomnosti kontaktujte např. veterinární kliniku Vyvet - Vyškov na telefonním čísle +420 602 835 564.",
+    "manually_checked": true
   },
   {
     "id": 70,
@@ -7683,7 +7731,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Bc. Michaela Hejlková",
     "hours": "Mon-Thu 9-11,13-18; Fri 9-11,13-16; Sat-Sun closed",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJccpkNEpXEkcRaEJZtFUM_NY",
+    "google_maps_url": "https://maps.app.goo.gl/qeS2iPuJQq52BvrK8",
     "district": "Prostějov",
     "kraj": "Olomoucký kraj",
     "is_prague": false,
@@ -7691,14 +7739,14 @@
     "is_ostrava": false,
     "is_24_7": false,
     "has_weekend_emergency": true,
-    "notes_en": "Surgeries/checks outside these hours by prior arrangement only",
+    "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Weekend emergency on same phone for acute cases, prior call required, may not be near clinic. Closed public holidays (phone emergency available).",
-    "emergency_cs": "Víkendová pohotovost na telefonu, přechozí domluva nutná. Ve státní svátky zavřeno",
+    "emergency_en": "Weekend emergency on the phone for acute cases, prior call required",
+    "emergency_cs": "Víkendová pohotovost pro akutní případy na telefonu, předchozí domluva nutná",
     "facebook_url": "",
     "instagram_url": "",
     "google_rating": 4.5,
-    "google_review_count": 81,
+    "google_review_count": 82,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
@@ -7777,8 +7825,10 @@
     "hours_needs_review": false,
     "internal_contact_email": "m.hejlkova@seznam.cz",
     "call_phone": "+420 604 360 319",
-    "published": false,
-    "show_reviews": true
+    "published": true,
+    "show_reviews": false,
+    "manually_checked": true,
+    "internal_notes": "Surgeries/checks outside these hours by prior arrangement only"
   },
   {
     "id": 71,
