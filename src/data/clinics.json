@@ -10489,7 +10489,7 @@
     "call_phone": "+420 731 323 743",
     "google_rating": 4.8,
     "google_review_count": 179,
-    "show_reviews": true,
+    "show_reviews": false,
     "hospitalization": false,
     "english_communication": false,
     "weekly_hours": {
