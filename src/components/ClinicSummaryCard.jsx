@@ -3,6 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
+import { UKFlagCircleIcon } from "./FlagIcons";
 import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon, CrownIcon } from "./StatusIcons";
 
 // Picks the single most relevant badge for the DESKTOP summary card -
@@ -116,6 +117,16 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
         <Link to={`/clinic/${clinic.id}`} className="summary-details-button">
           {t.detailsButton}
         </Link>
+        {clinic.english_communication === true && (
+          // Text is deliberately always "We speak" in English, regardless
+          // of the site's current language - it's demonstrating the
+          // clinic speaks English, not a translated UI label. Not a link -
+          // purely informational, so no href/onClick.
+          <div className="summary-language-tag">
+            <span>We speak</span>
+            <UKFlagCircleIcon size={16} />
+          </div>
+        )}
       </div>
     </div>
   );
