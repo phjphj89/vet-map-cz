@@ -6260,7 +6260,8 @@
     "manually_checked": true,
     "published": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false
+    "show_reviews": false,
+    "english_communication": true
   },
   {
     "id": 57,
@@ -10199,7 +10200,7 @@
     "call_phone": "+420 732 106 907",
     "google_rating": 4.8,
     "google_review_count": 400,
-    "show_reviews": true,
+    "show_reviews": false,
     "hospitalization": true,
     "english_communication": false,
     "weekly_hours": {
