@@ -5112,8 +5112,10 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergency on the phone",
+        "note_cs": "Pohotovost na telefonu",
+        "emergency_start1": "09:00",
+        "emergency_end1": "17:00"
       },
       "Sun": {
         "closed": true,
@@ -5121,8 +5123,11 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "",
-        "note_cs": ""
+        "note_en": "Emergency on the phone",
+        "note_cs": "Pohotovost na telefonu",
+        "emergency_start2": "",
+        "emergency_start1": "09:00",
+        "emergency_end1": "17:00"
       },
       "Holiday": {
         "closed": true,
@@ -5140,7 +5145,8 @@
     "published": true,
     "manually_checked": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false
+    "show_reviews": false,
+    "emergency_on_phone": true
   },
   {
     "id": 47,
