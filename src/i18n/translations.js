@@ -65,6 +65,8 @@ export const translations = {
     locationButton: "Use my location",
     locationDenied: "Location access was denied. You can enable it in your browser's site settings to see distances.",
     locationUnsupported: "Your browser doesn't support location services.",
+    footerRights: "All rights reserved.",
+    footerCreatedBy: "Created by",
   },
   cs: {
     siteTagline: "Rozumíme králíčkům",
@@ -128,6 +130,8 @@ export const translations = {
     locationButton: "Použít mou polohu",
     locationDenied: "Přístup k poloze byl odepřen. Můžete jej povolit v nastavení prohlížeče a zobrazit vzdálenosti.",
     locationUnsupported: "Váš prohlížeč nepodporuje zjišťování polohy.",
+    footerRights: "Všechna práva vyhrazena.",
+    footerCreatedBy: "Vytvořili",
   },
 };
 

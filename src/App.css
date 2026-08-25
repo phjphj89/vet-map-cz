@@ -1001,3 +1001,47 @@
     right: 16px;
   }
 }
+
+/* --- Site footer (shown on every page: home, friends, clinic detail) --- */
+
+.app-footer {
+  max-width: 1200px;
+  margin: 48px auto 0;
+  padding: 20px 20px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+  border-top: 1px solid var(--color-card-border);
+}
+
+.footer-copyright {
+  font-size: 13px;
+  color: var(--color-clinic-address);
+  margin: 0;
+}
+
+.footer-credit {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.footer-instagram-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 6px;
+  color: var(--color-text-muted);
+}
+
+.footer-instagram-link:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 480px) {
+  .app-footer {
+    margin-top: 32px;
+    padding: 16px 16px 90px; /* extra bottom room so the fixed back-to-top button doesn't overlap the footer text */
+  }
+}
