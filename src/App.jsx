@@ -8,6 +8,7 @@ import { ClinicDetailPage } from "./components/ClinicDetailPage";
 import { CzechFlagIcon, UKFlagIcon } from "./components/FlagIcons";
 import { BackToTopButton } from "./components/BackToTopButton";
 import { Footer } from "./components/Footer";
+import { ScrollToTop } from "./components/ScrollToTop";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="app">
         <header className="app-header">
           <div className="app-title">
