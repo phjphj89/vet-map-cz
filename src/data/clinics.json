@@ -251,7 +251,8 @@
     "internal_contact_email": "veterinarniklinikabrno@gmail.com",
     "published": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false
+    "show_reviews": false,
+    "petsestra": true
   },
   {
     "id": 3,
@@ -362,7 +363,8 @@
     "manually_checked": true,
     "published": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false
+    "show_reviews": false,
+    "petsestra": true
   },
   {
     "id": 4,
