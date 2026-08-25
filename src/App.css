@@ -1027,11 +1027,10 @@
   max-width: 1200px;
   margin: 48px auto 0;
   padding: 20px 20px 28px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  gap: 4px;
-  text-align: center;
+  gap: 16px;
   border-top: 1px solid var(--color-card-border);
 }
 
@@ -1039,23 +1038,46 @@
   font-size: 13px;
   color: var(--color-clinic-address);
   margin: 0;
+  text-align: left;
+  justify-self: start;
 }
 
 .footer-credit {
   font-size: 13px;
   color: var(--color-text-muted);
   margin: 0;
+  text-align: right;
+  justify-self: end;
 }
 
 .footer-instagram-link {
   display: inline-flex;
   align-items: center;
-  margin-top: 6px;
+  justify-self: center;
   color: var(--color-text-muted);
 }
 
 .footer-instagram-link:hover {
   color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .app-footer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 4px;
+  }
+
+  .footer-copyright,
+  .footer-credit {
+    text-align: center;
+    justify-self: center;
+  }
+
+  .footer-instagram-link {
+    margin-top: 6px;
+  }
 }
 
 @media (max-width: 480px) {
