@@ -2247,7 +2247,7 @@
     },
     "hours_needs_review": false,
     "published": true,
-    "show_reviews": true,
+    "show_reviews": false,
     "call_phone": "+420 604 108 540",
     "has_rabbit_specialist": true,
     "manually_checked": true
@@ -2717,7 +2717,7 @@
     },
     "hours_needs_review": false,
     "published": true,
-    "show_reviews": true,
+    "show_reviews": false,
     "internal_contact_email": "info@vetnac.cz",
     "has_rabbit_specialist": true,
     "manually_checked": true
@@ -7741,7 +7741,7 @@
     },
     "hours_needs_review": false,
     "published": true,
-    "show_reviews": true,
+    "show_reviews": false,
     "call_phone": "+420 602 834 710",
     "internal_contact_email": "veterina.vystaviste@seznam.cz",
     "internal_notes": "V případě naší nepřítomnosti kontaktujte např. veterinární kliniku Vyvet - Vyškov na telefonním čísle +420 602 835 564.",
