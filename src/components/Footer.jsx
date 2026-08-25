@@ -14,9 +14,6 @@ export function Footer() {
       <p className="footer-copyright">
         © {year} HopVet. {t.footerRights}
       </p>
-      <p className="footer-credit">
-        {t.footerCreatedBy} JP, JNN, MP
-      </p>
       {siteConfig.instagramUrl && (
         <a
           href={siteConfig.instagramUrl}
@@ -28,6 +25,9 @@ export function Footer() {
           <InstagramIcon size={18} />
         </a>
       )}
+      <p className="footer-credit">
+        {t.footerCreatedBy}: JP, JNN, MP
+      </p>
     </footer>
   );
 }
