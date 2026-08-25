@@ -4,7 +4,7 @@ import { OpeningHoursTable } from "./OpeningHoursTable";
 import { FacebookIcon, InstagramIcon } from "./SocialIcons";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
-import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon, CrownIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, MapPinIcon, GlobeIcon, BedIcon, CrownIcon, CrossIcon } from "./StatusIcons";
 
 function AllBadges({ clinic, t }) {
   return (
@@ -16,6 +16,7 @@ function AllBadges({ clinic, t }) {
       {clinic.after_hours_emergency === true && <Badge text={t.badgeAfterHoursEmergency} variant="weekend-emergency" icon={MoonIcon} />}
       {clinic.emergency_on_phone === true && <Badge text={t.badgeEmergencyOnPhone} variant="weekend-emergency" icon={PhoneAlertIcon} />}
       {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+      {clinic.petsestra === true && <Badge text={t.badgePetsestra} variant="petsestra" icon={CrossIcon} />}
     </>
   );
 }

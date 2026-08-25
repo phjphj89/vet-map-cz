@@ -544,6 +544,11 @@
   color: var(--color-badge-hospitalization-text);
 }
 
+.badge-petsestra {
+  background: var(--color-badge-petsestra-bg);
+  color: var(--color-badge-petsestra-text);
+}
+
 .live-status {
   display: inline-flex;
   align-items: center;

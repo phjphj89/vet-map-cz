@@ -4,7 +4,7 @@ import { Badge } from "./Badge";
 import { StarIcon } from "./StarIcon";
 import { LiveStatus } from "./LiveStatus";
 import { UKFlagCircleIcon } from "./FlagIcons";
-import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon, CrownIcon } from "./StatusIcons";
+import { ClockIcon, CalendarIcon, MoonIcon, WeekendEmergencyIcon, PhoneAlertIcon, PhoneIcon, BedIcon, CrownIcon, CrossIcon } from "./StatusIcons";
 
 // Picks the single most relevant badge for the DESKTOP summary card -
 // the mobile layout below shows all applicable badges stacked, but
@@ -34,6 +34,7 @@ function AllBadges({ clinic, t }) {
       {clinic.after_hours_emergency === true && <Badge text={t.badgeAfterHoursEmergency} variant="weekend-emergency" icon={MoonIcon} />}
       {clinic.emergency_on_phone === true && <Badge text={t.badgeEmergencyOnPhone} variant="weekend-emergency" icon={PhoneAlertIcon} />}
       {clinic.hospitalization === true && <Badge text={t.filterHospitalization} variant="hospitalization" icon={BedIcon} />}
+      {clinic.petsestra === true && <Badge text={t.badgePetsestra} variant="petsestra" icon={CrossIcon} />}
     </>
   );
 }
@@ -85,6 +86,7 @@ export function ClinicSummaryCard({ clinic, distanceKm }) {
       <div className="summary-badge-row-desktop">
         <LiveStatus clinic={clinic} />
         {clinic.top_pick === true && <Badge text={t.badgeTopPick} variant="top-pick" icon={CrownIcon} />}
+        {clinic.petsestra === true && <Badge text={t.badgePetsestra} variant="petsestra" icon={CrossIcon} />}
         {priorityBadge && (
           <Badge text={priorityBadge.text} variant={priorityBadge.variant} icon={priorityBadge.icon} />
         )}

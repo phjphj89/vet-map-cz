@@ -113,6 +113,10 @@
   --color-badge-weekend-emergency-text: #6B3D52;
   --color-badge-hospitalization-bg: #DCE8DD;
   --color-badge-hospitalization-text: #2C4530;
+  /* Extracted from the Petsestra logo (#3C9EBB); background is that same
+     hue toned down to a light pastel tint. */
+  --color-badge-petsestra-bg: #DCEEF3;
+  --color-badge-petsestra-text: #3C9EBB;
 
   /* Clinic card specific colors */
   --color-clinic-name: #2C2C26;

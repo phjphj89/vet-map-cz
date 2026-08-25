@@ -5053,8 +5053,8 @@
     "has_weekend_emergency": false,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Weekend emergency only on the phone",
-    "emergency_cs": "Víkendová pohotovost pouze na telefonu",
+    "emergency_en": "Weekend contact via email/Facebook only, no weekend office hours",
+    "emergency_cs": "",
     "facebook_url": "https://www.facebook.com/Mirivetcz",
     "instagram_url": "https://www.instagram.com/mirivetcz/",
     "google_rating": 4.8,
@@ -5112,10 +5112,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergency on the phone",
-        "note_cs": "Pohotovost na telefonu",
-        "emergency_start1": "09:00",
-        "emergency_end1": "17:00"
+        "note_en": "",
+        "note_cs": ""
       },
       "Sun": {
         "closed": true,
@@ -5123,11 +5121,8 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergency on the phone",
-        "note_cs": "Pohotovost na telefonu",
-        "emergency_start2": "",
-        "emergency_start1": "09:00",
-        "emergency_end1": "17:00"
+        "note_en": "",
+        "note_cs": ""
       },
       "Holiday": {
         "closed": true,
@@ -5145,8 +5140,7 @@
     "published": true,
     "manually_checked": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false,
-    "emergency_on_phone": true
+    "show_reviews": false
   },
   {
     "id": 47,
@@ -6260,8 +6254,7 @@
     "manually_checked": true,
     "published": true,
     "has_rabbit_specialist": true,
-    "show_reviews": false,
-    "english_communication": true
+    "show_reviews": false
   },
   {
     "id": 57,
@@ -10200,7 +10193,7 @@
     "call_phone": "+420 732 106 907",
     "google_rating": 4.8,
     "google_review_count": 400,
-    "show_reviews": false,
+    "show_reviews": true,
     "hospitalization": true,
     "english_communication": false,
     "weekly_hours": {
