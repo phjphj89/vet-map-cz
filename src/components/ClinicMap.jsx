@@ -80,6 +80,40 @@ function getPinIcon(clinic) {
   return showRabbit ? PIN_ICONS.standard : PIN_ICONS.standardEmpty;
 }
 
+// Controls draw order (which pin appears "in front" when pins overlap).
+// Leaflet's default behavior stacks markers purely by their vertical
+// screen position (lower on screen = in front) - nothing to do with
+// data order. zIndexOffset is added on top of that automatic value, so
+// large, well-separated tier values let us force a deliberate stacking
+// order across the whole map, while ties within a tier still fall back
+// naturally to the screen-position default (which is fine - there's no
+// preference between two clinics in the same tier).
+//
+// Tiers, front to back:
+//   5: rabbit specialist + open 24/7
+//   4: rabbit specialist + weekend or after-hours emergency
+//   3: rabbit specialist + closes after 19:00 on any day
+//   2: rabbit specialist + emergency reachable by phone only
+//   1: rabbit specialist, none of the above
+//   0: no confirmed rabbit specialist (always behind any specialist pin)
+const PIN_TIER_ZINDEX = {
+  always24_7: 50000,
+  emergencyOnSite: 40000,
+  closesLate: 30000,
+  emergencyOnPhone: 20000,
+  specialistOther: 10000,
+  nonSpecialist: 0,
+};
+
+function getPinZIndexOffset(clinic) {
+  if (clinic.has_rabbit_specialist !== true) return PIN_TIER_ZINDEX.nonSpecialist;
+  if (clinic.is_24_7) return PIN_TIER_ZINDEX.always24_7;
+  if (clinic.has_weekend_emergency || clinic.after_hours_emergency) return PIN_TIER_ZINDEX.emergencyOnSite;
+  if (closesLateOnAnyDay(clinic)) return PIN_TIER_ZINDEX.closesLate;
+  if (clinic.emergency_on_phone) return PIN_TIER_ZINDEX.emergencyOnPhone;
+  return PIN_TIER_ZINDEX.specialistOther;
+}
+
 // Roughly the center of the Czech Republic, used as the map's starting view.
 const CZECH_REPUBLIC_CENTER = [49.8, 15.5];
 const DEFAULT_ZOOM = 7;
@@ -114,6 +148,7 @@ export function ClinicMap({ clinics, onMarkerClick }) {
             key={clinic.id}
             position={[clinic.lat, clinic.lng]}
             icon={getPinIcon(clinic)}
+            zIndexOffset={getPinZIndexOffset(clinic)}
             eventHandlers={{ click: () => onMarkerClick(clinic) }}
           />
         ))}
