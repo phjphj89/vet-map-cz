@@ -26,7 +26,7 @@ export function Footer() {
         </a>
       )}
       <p className="footer-credit">
-        {t.footerCreatedBy}: JP, JNN, MP
+        {t.footerCreatedBy}: JP, PNN, MP
       </p>
     </footer>
   );
