@@ -1381,7 +1381,7 @@
     "top_pick": false,
     "recommended_vet": "MVDr. Vendula Veselská",
     "hours": "Mon-Fri 8-11,15-18; Sat 8-11 then phone emergency to 18; Sun by prior arrangement 8-18",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTfr4TZH1LYYRguatX55fTIw",
+    "google_maps_url": "https://maps.app.goo.gl/XC3EF4frKiCZaVUr5",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -1391,13 +1391,13 @@
     "has_weekend_emergency": true,
     "notes_en": "",
     "notes_cs": "",
-    "emergency_en": "Phone emergency after opening hours on +420 733 583 337",
-    "emergency_cs": "Mimo ordinační dobu pohotovost po přechozí domluvě na +420 733 583 337",
+    "emergency_en": "Phone emergency after opening hours and on weekends on +420 733 583 337",
+    "emergency_cs": "Mimo ordinační dobu a o víkendech pohotovost po přechozí domluvě na +420 733 583 337",
     "facebook_url": "https://www.facebook.com/people/HappyVet-Fry%C5%A1t%C3%A1k/61556687003701/",
     "instagram_url": "",
     "google_rating": 5,
-    "google_review_count": 104,
-    "hospitalization": false,
+    "google_review_count": 108,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
@@ -1405,8 +1405,10 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "Emergencies until 19:00",
-        "note_cs": "Pohotovost do 19:00"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "19:00"
       },
       "Tue": {
         "closed": false,
@@ -1414,8 +1416,10 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "Emergencies until 19:00",
-        "note_cs": "Pohotovost do 19:00"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "19:00"
       },
       "Wed": {
         "closed": false,
@@ -1423,8 +1427,10 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "Emergencies until 19:00",
-        "note_cs": "Pohotovost do 19:00"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "19:00"
       },
       "Thu": {
         "closed": false,
@@ -1432,8 +1438,10 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "Emergencies until 19:00",
-        "note_cs": "Pohotovost do 19:00"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "19:00"
       },
       "Fri": {
         "closed": false,
@@ -1441,8 +1449,10 @@
         "end1": "11:00",
         "start2": "15:00",
         "end2": "18:00",
-        "note_en": "Emergencies until 19:00",
-        "note_cs": "Pohotovost do 19:00"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "18:00",
+        "emergency_end1": "19:00"
       },
       "Sat": {
         "closed": false,
@@ -1450,8 +1460,10 @@
         "end1": "11:00",
         "start2": "",
         "end2": "",
-        "note_en": "Emergencies only 11:00 - 18:00 after prior appointment",
-        "note_cs": "Pohotovost 11:00 - 18:00 po předchozí domluvě"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "11:00",
+        "emergency_end1": "18:00"
       },
       "Sun": {
         "closed": false,
@@ -1459,8 +1471,10 @@
         "end1": "",
         "start2": "",
         "end2": "",
-        "note_en": "Emergencies only 8:00 - 18:00 after prior appointment",
-        "note_cs": "Pohotovost 8:00 - 18:00 po předchozí domluvě"
+        "note_en": "",
+        "note_cs": "",
+        "emergency_start1": "08:00",
+        "emergency_end1": "18:00"
       },
       "Holiday": {
         "closed": true,
@@ -1475,8 +1489,12 @@
     "hours_needs_review": false,
     "internal_contact_email": "happyvet@seznam.cz",
     "call_phone": "+420 733 583 343",
-    "published": false,
-    "show_reviews": true
+    "published": true,
+    "show_reviews": false,
+    "open_weekends_bookable": true,
+    "after_hours_emergency": true,
+    "has_rabbit_specialist": true,
+    "manually_checked": true
   },
   {
     "id": 14,
@@ -8740,12 +8758,12 @@
     "address": "Středová 5668, 760 05 Zlín",
     "lat": 49.2351738,
     "lng": 17.66643,
-    "phone": "+420 721 049 699 / 571 118 622",
+    "phone": "+420 721 049 699 / +420 571 118 622",
     "website": "http://www.veterina-svahy.cz/",
     "top_pick": false,
-    "recommended_vet": "",
+    "recommended_vet": "MVDr. Klára Navrátilová",
     "hours": "Mon,Tue,Thu,Fri 8-11,15-18; Wed 8-14; Sat 9-11",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ0Wr3UKp0E0cRBqiK4CbnIHw",
+    "google_maps_url": "https://maps.app.goo.gl/hcKkc5DVcN9tqT2C6",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -8753,19 +8771,19 @@
     "is_ostrava": false,
     "is_24_7": null,
     "has_weekend_emergency": null,
-    "notes_en": "Surgeries referred to Brno (Jekl & Hauptman clinic)",
-    "notes_cs": "",
+    "notes_en": "Surgeries referred to Jekl & Hauptman clinic",
+    "notes_cs": "Chirurgické zákroky referují na kliniku Jekl & hauptman",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
+    "facebook_url": "https://www.facebook.com/people/Veterina-Svahy/100049515202415/",
     "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
-    "hospitalization": false,
+    "google_rating": 4.8,
+    "google_review_count": 327,
+    "hospitalization": true,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "15",
         "end2": "18",
@@ -8774,7 +8792,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "15",
         "end2": "18",
@@ -8783,7 +8801,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "14",
         "start2": "",
         "end2": "",
@@ -8792,7 +8810,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "15",
         "end2": "18",
@@ -8801,7 +8819,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "11",
         "start2": "15",
         "end2": "18",
@@ -8809,9 +8827,9 @@
         "note_cs": ""
       },
       "Sat": {
-        "closed": false,
-        "start1": "9",
-        "end1": "11",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -8836,9 +8854,15 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 721 049 699",
+    "internal_contact_email": "veterina-svahy@email.cz",
+    "petsestra": false,
+    "english_communication": false,
+    "has_rabbit_specialist": true,
+    "manually_checked": true
   },
   {
     "id": 80,
@@ -8847,12 +8871,12 @@
     "address": "Broučkova 5395, 760 01 Zlín",
     "lat": 49.2250161,
     "lng": 17.6973249,
-    "phone": "+420 577 222 737 / 602 716 839",
+    "phone": "+420 577 222 737 / +420 602 716 839",
     "website": "http://www.medipet.cz/",
     "top_pick": false,
-    "recommended_vet": "MVDr. Melanie Mošťková",
+    "recommended_vet": "",
     "hours": "Mon-Fri 8-20, Sat-Sun 8-16",
-    "google_maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJp3tjrmNzE0cRMsziyv62G1c",
+    "google_maps_url": "https://maps.app.goo.gl/zdQ6wkXAHpXTttre7",
     "district": "Zlín",
     "kraj": "Zlínský kraj",
     "is_prague": false,
@@ -8864,15 +8888,15 @@
     "notes_cs": "",
     "emergency_en": "",
     "emergency_cs": "",
-    "facebook_url": "",
-    "instagram_url": "",
-    "google_rating": null,
-    "google_review_count": null,
+    "facebook_url": "https://www.facebook.com/veterinarni.klinika.medipet",
+    "instagram_url": "https://www.instagram.com/medipetcz/",
+    "google_rating": 4.5,
+    "google_review_count": 140,
     "hospitalization": false,
     "weekly_hours": {
       "Mon": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "20",
         "start2": "",
         "end2": "",
@@ -8881,7 +8905,7 @@
       },
       "Tue": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "20",
         "start2": "",
         "end2": "",
@@ -8890,7 +8914,7 @@
       },
       "Wed": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "20",
         "start2": "",
         "end2": "",
@@ -8899,7 +8923,7 @@
       },
       "Thu": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "20",
         "start2": "",
         "end2": "",
@@ -8908,7 +8932,7 @@
       },
       "Fri": {
         "closed": false,
-        "start1": "8",
+        "start1": "08:00",
         "end1": "20",
         "start2": "",
         "end2": "",
@@ -8917,17 +8941,17 @@
       },
       "Sat": {
         "closed": false,
-        "start1": "8",
-        "end1": "16",
+        "start1": "08:00",
+        "end1": "14:00",
         "start2": "",
         "end2": "",
         "note_en": "",
         "note_cs": ""
       },
       "Sun": {
-        "closed": false,
-        "start1": "8",
-        "end1": "16",
+        "closed": true,
+        "start1": "",
+        "end1": "",
         "start2": "",
         "end2": "",
         "note_en": "",
@@ -8943,9 +8967,13 @@
         "note_cs": ""
       }
     },
-    "hours_needs_review": true,
-    "published": false,
-    "show_reviews": true
+    "hours_needs_review": false,
+    "published": true,
+    "show_reviews": false,
+    "call_phone": "+420 602 716 839",
+    "internal_contact_email": "info@medipet.cz",
+    "open_weekends_bookable": true,
+    "manually_checked": true
   },
   {
     "id": 81,
