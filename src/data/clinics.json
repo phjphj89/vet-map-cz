@@ -252,7 +252,7 @@
     "published": true,
     "has_rabbit_specialist": true,
     "show_reviews": false,
-    "petsestra": true
+    "petsestra": false
   },
   {
     "id": 3,
@@ -364,7 +364,7 @@
     "published": true,
     "has_rabbit_specialist": true,
     "show_reviews": false,
-    "petsestra": true
+    "petsestra": false
   },
   {
     "id": 4,
